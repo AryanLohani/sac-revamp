@@ -89,7 +89,7 @@
             <a class="dropdown-item" href="SAMP.php">SAMP</a>
             <a class="dropdown-item" href="sparc.php">SPARC</a>
             <a class="dropdown-item" href="myimprint.php">MYIMPRINT</a>
-            <a class="dropdown-item" href="acap.php">ACAP</a>
+            <a class="dropdown-item" href="ACAP.php">ACAP</a>
             <a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/">Alumni Blog</a>
             <a class="dropdown-item" href="affinity.php">Affinity Programme</a>
           </div>
