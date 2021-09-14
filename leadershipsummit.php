@@ -119,7 +119,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="card-img">
+                            <img src="https://assets.euromoneydigital.com/7b/5a/d1e30802cd77fe92548002c86814/socgen-sayan-das230px.jpg" class="card-img">
                             <div class="card-text">
                                 <p>Sayan Das</p>
                                 <a href="https://www.linkedin.com/in/sayan-das-a4982b7/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
@@ -181,7 +181,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="card-img">
+                            <img src="https://www.jimsindia.org/techbyte/images/Speakers/Inderjeet%20Singh.jpg" class="card-img">
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
                               Arunabh Kumar
