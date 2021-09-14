@@ -39,6 +39,7 @@
     }
 
     #footer {
+        margin-top:30px;
         background-color: #23232b;
          height: 19rem; 
     }
