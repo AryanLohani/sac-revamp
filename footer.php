@@ -123,19 +123,19 @@
                     <span class='bar'>|</span>
                 </div>
                 <div class="col-2">
-                    <i class="icon fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/iitkgp.alumnicell"><i class="icon fab fa-facebook"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/sac.iitkgp/?hl=en"><i class="icon fab fa-instagram"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-twitter-square"></i>
+                    <a href="https://twitter.com/IITKgpAlumni"><i class="icon fab fa-twitter-square"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-medium"></i>
+                    <a href="https://studentsalumnicell-iitkgp.medium.com/"><i class="icon fab fa-medium"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/company-beta/13273135/"><i class="icon fab fa-linkedin"></i></a>
                 </div>
 
             </div>

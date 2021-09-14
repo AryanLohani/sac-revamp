@@ -58,90 +58,192 @@
       </div>
     </section>
 
-    <section class="section-2">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12 col-12">
-            <div class="panel text-center">
-              <h1 class="x">Past Speakers</h1>
-              <div class="progress" style="height:0.4rem;">
-                <div id="two" class="progress-bar" role="progressbar" 
-				style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
-				aria-valuemax="100" style="height:0.4rem;"></div>
-              </div>
-              <br>
-              <!-- Photo Grid -->
-              <div id="gallery_row" class="row">
-                <div class="row justify-content-center px-4">
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
-                      <div class="card-text">
-                        <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
-                        <p>Arjun Malhotra</p>
-                        <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
-                      <div class="card-text">
-                        <p >Anjanrai Chaudhuri</p>
-                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
-                      <div class="card-text">
-                        <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
-                        Arunabh Kumar
-                        </a></p> -->
-                        <p >
-                        Arunabh Kumar
-                        </p>
-                        <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
-                      <div class="card-text">
-                        <p >Gopalraj Garhia</p>
+                    <br>
+                    <!-- Photo Grid -->
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Arjun Malhotra</p>
+                              <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Anjanrai Chaudhuri</p>
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Arunabh Kumar
+                              </p>
+                              <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Gopalraj Garhia</p>
 
-                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
-                      <div class="card-text">
-                          <p>Prasad Menon</p>
-                          <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
-                      <div class="card-text">
-                        <p>Sakyasinha Roy</p>
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
+                            <div class="card-text">
+                                <p>Prasad Menon</p>
+                                <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
+                            <div class="card-text">
+                              <p>Sakyasinha Roy</p>
 
 
-                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
+          </section>
+        </div>
 
-              </div>
-            </div>
-          </div>
-    </section>
+        <div class="carousel-item">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                    <br>
+                    <!-- Photo Grid -->
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Arjun Malhotra</p>
+                              <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Anjanrai Chaudhuri</p>
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Arunabh Kumar
+                              </p>
+                              <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Gopalraj Garhia</p>
+
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
+                            <div class="card-text">
+                                <p>Prasad Menon</p>
+                                <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
+                            <div class="card-text">
+                              <p>Sakyasinha Roy</p>
+
+
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+          </section>
+        </div>
+        
+      </div>
+      <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    
+
 
 
     <!-- 		Footer start -->
