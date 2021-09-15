@@ -22,35 +22,32 @@ border-radius:  2px;
 }
 .dropdown-menu{
     display: none;
-    transition: all 1s ease-in;
+    transition: all 2s ease-in;
 }
 .dropdown:hover .dropdown-menu {
 display: block;
 animation-name: delay;
-animation-duration:2s;
-transition: 1s ease-in;
+animation-duration: 1.2s;
+transition: 2s ease-in;
 }
 .dropdown:hover{
-    transition: 1s ease-in;
-    transition-delay:1s ;
+    transition: 2s ease-in;
+    transition-delay:2s ;
    
 }
 .dropdown-item{
 text-align: center !important;
 padding-bottom: 20px !important;
 }
-
 .dropdown-content a {
 color: black;
 padding: 12px 16px;
 text-decoration: none;
 display: block;
 }
-
 .dropdown-content a:hover {
 background-color: #ddd;
 }
-
 .dropdown:hover .dropdown-content {
 display: block;}
 
@@ -61,7 +58,6 @@ display: block;}
     30%{
         opacity: 0;
     }
-    
     100%{
         opacity: 1;
     }
