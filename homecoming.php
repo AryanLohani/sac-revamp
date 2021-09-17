@@ -7,21 +7,46 @@
   <title>SAC</title>
   <link rel="stylesheet" type="text/css" href="css/homecoming.css">
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
+  <style type="text/css">
+   .img{
+	   background-image:url(img/homecoming_poster.jpg);
+	   background-size:100% 100%;
+   }
+   .padding{
+	   padding:0 9rem;
+   }
+   .section-2{
+	   margin-top:5%;
+   }
+   @media only screen and (max-width:500px){
+	.padding{
+	   padding:0 3rem;
+   }
+   .img{
+	  height:330px;
+	  margin-bottom:0px;
+   }
+ 
+   .section-2{
+	   margin-top:-80%;
+   }
+   }
+  </style>
 </head>
 <body>
 <section class="section-1">
       <?php include'navbar.php' ?>
     <header>
-	<div class="container-fluid img">
+	<div class="img">
 	</div>
 	</header>
   </section>
   
-    <section class="section-2 pt-0" style="padding-bottom:10rem;">
-	<div class="container-fluid" style="padding:0 9rem;">
+    <section class="section-2" style="padding-bottom:10rem;">
+	<div class="padding" >
 		<div class="row">
 			<div class="col-md-7">
-				<h1 class="one">ABOUT US</h1>
+				<h2 class="one">ABOUT US</h2>
 				<div class="row">
 					<div class="col-md-10 justify-content-left">
 				<p class="pt-3 x">

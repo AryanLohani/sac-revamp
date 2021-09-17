@@ -3,8 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAC</title>
-    <link rel="stylesheet" type="text/css" href="css/homepage.css">
-    <link rel="stylesheet" type="text/css" href="css/homepage1.css">
+   
 
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -26,6 +25,8 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"
         integrity="sha256-cVd/tGoi+gMVBrq5xd20ZA447xChtJWaESiLQc5LB1c=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage1.css">
 
     <style>
     .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
@@ -37,6 +38,40 @@
         color:  #00416d !important;
         border-color:  white !important;
     }
+    .hero-carousel .carousel-item .carousel-image{
+        background-size:100% 100%;
+    }
+    .carousel-control-nexti,.carousel-control-previ{
+        background-color:none;
+        width:fit-content;
+        height:fit-content;
+        font-size: 2rem;
+        color:rgba(0, 0, 0, 0.74);
+        position:absolute;
+        top: 30%;
+        left: 2%;
+        opacity: 0.6;
+  
+    }
+    .carousel-control-nexti{
+        left: auto;
+        right: 2%;
+    } 
+    .carousel-control-nexti:hover,.carousel-control-previ:hover{
+        color:black;
+        transition: ease-in-out;
+    }
+    
+    @media only screen and (max-width:500px){
+        .hero-carousel .carousel-item{
+            height:350px;
+        }
+        .hero-carousel .carousel-item .carousel-image{
+        height:350px;
+        }
+
+    }
+
     </style>
 
 </head>
@@ -59,32 +94,25 @@
         </ol>
         <div class="carousel-inner" style="width:100%">
             <div class="carousel-item active">
-                <div class="carousel-image" style="background-image: url('img/indexslider/sac-logo.jpg'); width:100%">
-                </div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/sac-logo.jpg');"></div>
+            </div>
+            <div class="carousel-item" style>
+                <div class="carousel-image" style="background-image:url('img/indexslider/phonathon2019.jpg');"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image"
-                    style="background-image: url('img/indexslider/phonathon2019.jpg'); width:100%"></div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/alvida.jpg');" ></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image: url('img/indexslider/alvida.jpg'); width:100%">
-                </div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/convocation.jpg');"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image"
-                    style="background-image: url('img/indexslider/convocation.jpg'); width:100%"></div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/imprint.jpg');"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image: url('img/indexslider/imprint.jpg'); width:100%">
-                </div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/17th_aam.jpg');background-size:100% 100%"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image: url('img/indexslider/17th_aam.jpg'); width:100%">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-image" style="background-image: url('img/indexslider/homecoming.jpg'); width:100%">
-                </div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/homecoming.jpg')"></div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -213,7 +241,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false" >
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="container">
@@ -328,14 +356,17 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#inam" data-slide="prev">
-                        <i class="fas fa-chevron-circle-left fa-2x" style="color:black"></i>
-                        <span class="carousel-control-prev-icon" style="visibility:hidden"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#inam" data-slide="next" style="padding-left:20px">
-                        <i class="fas fa-chevron-circle-right fa-2x" style="color:black"></i>
-                        <span class="carousel-control-next-icon" style="visibility:hidden"></span>
-                    </a>
+                    <span  class="carousel-control-previ fas fa-chevron-circle-left fa-2x" data-target="#inam"
+                    data-slide="prev"></span>
+                    <span  class="carousel-control-nexti fas fa-chevron-circle-right fa-2x" data-target="#inam"
+                    data-slide="next"></span>
+             
+                        
+                       
+                   
+                      
+                       
+                   
 
                 </div>
 

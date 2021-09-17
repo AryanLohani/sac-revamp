@@ -23,7 +23,7 @@
     <?php include 'register_spons.php'; ?>
   <div class="_wrapper" style="overflow: hidden; background-color: white;">
   <div class="buttonSpons" style="margin:80px auto; width: 290px;border:none">
-    <button class="btn btn-outline-secondary" onClick="alumniMeet()">Alumni meet</button>
+    <button class="btn btn-outline-secondary" onClick="alumniMeet()">Alumni Meet</button>
     <button class="btn btn-secondary" onClick="LeadershipSummit()">Leadership Summit</button>
 
   </div>
@@ -902,6 +902,7 @@
          
             document.getElementsByClassName("LSspons")[0].style.display="none";
             document.getElementsByClassName("alumnimeetSpons")[0].style.display="block";
+            gsap.registerPlugin(ScrollTrigger);
             for (var i = 1; i < 29; i++) {
               gsap.from(".s-" + i + " h2", { scrollTrigger: ".s-" + i + " h2", x: -300, duration: 1.5, opacity: 0.2 });
               gsap.from(".s-" + i + " .col-sm-12", { scrollTrigger: ".s-" + i + " .col-sm-12", x: -300, duration: 1.5, opacity: 0.2 });

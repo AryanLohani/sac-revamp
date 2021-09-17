@@ -41,6 +41,20 @@
         border-color: #00416d !important;
         color:white !important;
     }
+    .img{
+	   background-image:url(img/dak.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+   }
     @media only screen and (max-width: 768px) {
     .panel img{
         padding-top: 30px;
@@ -56,15 +70,8 @@
     <?php include 'navbar.php' ?>
 
     <header>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12  text-white">
-
-                    <h1 style="text-align: left;"></h1>
-
-                </div>
-            </div>
-        </div>
+  
+    <div class="img"></div>
     </header>
 
     <main>

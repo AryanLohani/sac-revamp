@@ -14,7 +14,7 @@ body{
 	  z-index:-88;
 	  
 }
-header,section{
+section{
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
@@ -46,10 +46,10 @@ overflow-x:hidden;
 }	
 
 .img{
-	height:88vh;
+	height:40vh;
 	background:url(../img/align.png);
   background-position: center;
-    background-size: cover;
+  background-size: 100% 100%;
 }
 
 /*  
