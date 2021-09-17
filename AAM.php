@@ -14,7 +14,7 @@
 	   background-size:100% 100%;
    }
    .padding{
-	   padding:0 9rem;
+	   padding:5rem 9rem;
    }
    @media only screen and (max-width:500px){
 	.padding{
