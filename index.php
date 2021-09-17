@@ -328,7 +328,7 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#inam" data-slide="prev">
+                    <a class="carousel-control-prev " href="#inam" data-slide="prev" style="padding-right:20px">
                         <i class="fas fa-chevron-circle-left fa-2x" style="color:black"></i>
                         <span class="carousel-control-prev-icon" style="visibility:hidden"></span>
                     </a>
@@ -336,7 +336,6 @@
                         <i class="fas fa-chevron-circle-right fa-2x" style="color:black"></i>
                         <span class="carousel-control-next-icon" style="visibility:hidden"></span>
                     </a>
-
                 </div>
 
             </div>
