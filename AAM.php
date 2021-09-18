@@ -45,17 +45,10 @@
 	</header>
   </section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
-<<<<<<< HEAD
 	<div class="padding">
 		<div class="row">
 			<div class="col-md-7">
 				<h2 class="one">ABOUT US</h2>
-=======
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-7 col-11">
-				<h1 class="one">ABOUT US</h1>
->>>>>>> 3905efc121bd4b4eb94e02689333f0053d37dfbb
 				<div class="row">
 					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
 			           <p class="pt-2 x">
