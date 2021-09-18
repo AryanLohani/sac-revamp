@@ -45,21 +45,28 @@
 	</header>
   </section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
+<<<<<<< HEAD
 	<div class="padding">
 		<div class="row">
 			<div class="col-md-7">
 				<h2 class="one">ABOUT US</h2>
+=======
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-7 col-11">
+				<h1 class="one">ABOUT US</h1>
+>>>>>>> 3905efc121bd4b4eb94e02689333f0053d37dfbb
 				<div class="row">
-					<div class="col-md-10 justify-content-left">
-			<p class="pt-3 one">
-				We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
-				exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
-				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
-				brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
-				their college lives as they get a chance to visit all the locations they once frequented.
-            </p>
-			</div>
-			</div>
+					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
+			           <p class="pt-2 x">
+				       We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
+				       exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
+				       yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
+				       brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
+				       their college lives as they get a chance to visit all the locations they once frequented.
+                      </p>
+			        </div>
+			    </div>
 			</div>
 			<div class="col-md-5">
 			<div class="container">
@@ -73,9 +80,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
+		   </div>
+	   </div>
+   </div>
 </section>  
     <section class="section-3 pt-3">
 	<div class="container-fluid p-0">

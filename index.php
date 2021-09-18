@@ -356,6 +356,7 @@
                         </div>
 
                     </div>
+<<<<<<< HEAD
                     <span  class="carousel-control-previ fas fa-chevron-circle-left fa-2x" data-target="#inam"
                     data-slide="prev"></span>
                     <span  class="carousel-control-nexti fas fa-chevron-circle-right fa-2x" data-target="#inam"
@@ -368,6 +369,16 @@
                        
                    
 
+=======
+                    <a class="carousel-control-prev " href="#inam" data-slide="prev" style="padding-right:20px">
+                        <i class="fas fa-chevron-circle-left fa-2x" style="color:black"></i>
+                        <span class="carousel-control-prev-icon" style="visibility:hidden"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#inam" data-slide="next" style="padding-left:20px">
+                        <i class="fas fa-chevron-circle-right fa-2x" style="color:black"></i>
+                        <span class="carousel-control-next-icon" style="visibility:hidden"></span>
+                    </a>
+>>>>>>> 3905efc121bd4b4eb94e02689333f0053d37dfbb
                 </div>
 
             </div>
