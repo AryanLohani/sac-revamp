@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
   <style type="text/css">
    .img{
-	   background-image:url(img/homecoming_poster.jpg);
+	   background-image:url(img/homecomingc/compressed homecoming_poster.jpg);
 	   background-size:100% 100%;
 	   height:700px
    }
@@ -69,7 +69,7 @@
 						<div class="first"></div>
 						<div class="second"></div>
 						<div class="third">
-							<img src="img/homecoming/group2.jpg" class="img-2 x">
+							<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-2 x">
                         </div>							
 					</div>
 				</div>
@@ -90,19 +90,19 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-8 x">
 					<div class="image">
-					<img src="img/homecoming/netaji2.jpg" class="img-fluid image__img">
+					<img src="img/homecomingc/compressed homecoming/netaji2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				</div>			
 			<div class="col-md-4 x">
 						<div class="image">
-					<img  src="img/homecoming/award1.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/award1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
 							<p class="image__description"></p>	
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/homecoming/award2.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/award2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
 							<p class="image__description"></p>	
@@ -126,20 +126,20 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-3 x pr-0 pt-2">			
 				<div class="image pt-3 pb-3">
-					<img  src="img/homecoming/gala2.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/gala2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Gala Dinner</div>
 							<p class="image__description"></p>	
 				</div></div>
 					<div class="image pt-3 pb-3">
-					<img  src="img/homecoming/gala4.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
+					<img  src="img/homecomingc/compressed homecoming/gala4.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
 							<div class="image__title">Gala Dinner</div>
 							<p class="image__description"></p>	
 				</div></div>			
 			</div>
 			<div class="col-md-9 x pl-1">
 				<div class="image">
-					<img  src="img/homecoming/collage_homecoming.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/collage_homecoming.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Musical Night</div>
 							<p class="image__description">Taking a trip back to memory lane, Students' alumni cell presented Eastern Technology Music Society that took our alumni back, straight to 
@@ -168,7 +168,7 @@
 			<div class="col-md-4 x align-items-center">
 					
 				<div class="image">
-					<img  src="img/homecoming/group1.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/group1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
 							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
@@ -176,7 +176,7 @@
 				</div></div>
 				<div class="image pt-3">
 
-					<img  src="img/homecoming/campus_tour.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/campus_tour.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
 							<p class="image__description">Remember the place where we took our first picture in the campus</p>	
@@ -185,7 +185,7 @@
 			</div>
 			<div class="col-md-8 x">
 				<div class="image">
-					<img src="img/homecoming/group2.jpg" class="img-fluid image__img">
+					<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
 							<p class="image__description">In the progressive world we live in, there are a lot of changes and yet a lot of constants and it’s a pleasure to see the 
@@ -211,7 +211,7 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-6 x align-items-center">
 					<div class="image">
-					<img  src="img/homecoming/dept4.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/dept4.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Department Visit</div>
 							<p class="image__description">Departments are our own shrine of knowledge filled with
@@ -222,19 +222,19 @@
 			</div>
 			<div class="col-md-6 x">
 									<div class="image">
-					<img  src="img/homecoming/dept.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/dept.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">	
 				</div></div>
 			</div>
 			<div class="col-md-6 x">
 									<div class="image pt-3">
-					<img  src="img/homecoming/dept5.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/dept5.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">	
 				</div></div>
 			</div>
 			<div class="col-md-6 x">
 									<div class="image pt-3">
-					<img  src="img/homecoming/dept2.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/dept2.jpg" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">	
 				</div></div>
 			</div>
@@ -260,7 +260,7 @@
 			<div class="col-md-8 x">
 				<div class="image">
 
-					<img src="img/homecoming/comedian.jpg" class="img-fluid image__img">
+					<img src="img/homecomingc/compressed homecoming/comedian.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Stand-Up Comedy</div>
 							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
@@ -270,13 +270,13 @@
 					
 				<div class="image">
 
-					<img  src="img/homecoming/etms1.jpg" class="img-fluid image__img">
+					<img  src="img/homecomingc/compressed homecoming/etms1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
 							<p class="image__description"></p>	
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/homecoming/etms2.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
+					<img  src="img/homecomingc/compressed homecoming/etms2.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
 							<p class="image__description"></p>
 				</div></div>
@@ -301,7 +301,7 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-8 x">
 					<div class="image">
-					<img src="img/homecoming/lantern2.jpg" class="img-fluid image__img">
+					<img src="img/homecomingc/compressed homecoming/lantern2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Illumination</div>
 							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns creates 
