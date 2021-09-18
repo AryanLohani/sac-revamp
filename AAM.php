@@ -18,7 +18,7 @@
    }
    @media only screen and (max-width:500px){
 	.padding{
-	   padding:0 3rem;
+	   padding:0 2rem;
    }
    .img{
 	  height:350px;
@@ -48,7 +48,7 @@
 	<div class="padding">
 		<div class="row">
 			<div class="col-md-7">
-				<h2 class="one">ABOUT US</h2>
+				<h2 class="one" style="font-weight:800;">ABOUT US</h2>
 				<div class="row">
 					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
 			           <p class="pt-2 x">
@@ -81,7 +81,7 @@
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-3 d-flex justify-content-center">
+			<div class="col-md-3 d-flex justify-content-left">
 				<h1 class="gallery-h3 pt-5">Arena</h1>
 			</div>
 			<div class="col-md-9">

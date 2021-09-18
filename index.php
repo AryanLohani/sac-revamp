@@ -25,8 +25,8 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"
         integrity="sha256-cVd/tGoi+gMVBrq5xd20ZA447xChtJWaESiLQc5LB1c=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/homepage.css">
-    <link rel="stylesheet" type="text/css" href="css/homepage1.css">
+    <link rel="stylesheet" type="text/css" href="css/homepagenew.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage1new.css">
 
     <style>
     .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
@@ -79,8 +79,6 @@
 
 <body>
     <?php include 'navbar.php'?>
-
-
     <div id="carouselExampleIndicators" style="width:100%" class="carousel slide hero-carousel" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -356,29 +354,11 @@
                         </div>
 
                     </div>
-<<<<<<< HEAD
                     <span  class="carousel-control-previ fas fa-chevron-circle-left fa-2x" data-target="#inam"
                     data-slide="prev"></span>
                     <span  class="carousel-control-nexti fas fa-chevron-circle-right fa-2x" data-target="#inam"
                     data-slide="next"></span>
              
-                        
-                       
-                   
-                      
-                       
-                   
-
-=======
-                    <a class="carousel-control-prev " href="#inam" data-slide="prev" style="padding-right:20px">
-                        <i class="fas fa-chevron-circle-left fa-2x" style="color:black"></i>
-                        <span class="carousel-control-prev-icon" style="visibility:hidden"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#inam" data-slide="next" style="padding-left:20px">
-                        <i class="fas fa-chevron-circle-right fa-2x" style="color:black"></i>
-                        <span class="carousel-control-next-icon" style="visibility:hidden"></span>
-                    </a>
->>>>>>> 3905efc121bd4b4eb94e02689333f0053d37dfbb
                 </div>
 
             </div>

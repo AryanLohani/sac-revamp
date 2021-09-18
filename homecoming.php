@@ -11,25 +11,28 @@
    .img{
 	   background-image:url(img/homecoming_poster.jpg);
 	   background-size:100% 100%;
+	   height:700px
    }
    .padding{
 	   padding:0 9rem;
    }
    .section-2{
-	   margin-top:5%;
+	   margin-bottom:-350px;
    }
+
    @media only screen and (max-width:500px){
 	.padding{
-	   padding:0 3rem;
+	   padding:0 1rem;
    }
    .img{
 	  height:330px;
 	  margin-bottom:0px;
    }
- 
    .section-2{
-	   margin-top:-80%;
+	   margin-top:-250px;
+	   margin-bottom:-100px;
    }
+
    }
   </style>
 </head>
@@ -42,11 +45,11 @@
 	</header>
   </section>
   
-    <section class="section-2" style="padding-bottom:10rem;">
+    <section class="section-2" >
 	<div class="padding" >
 		<div class="row">
 			<div class="col-md-7">
-				<h2 class="one">ABOUT US</h2>
+				<h2 class="one" style="font-weight:800;">ABOUT US</h2>
 				<div class="row">
 					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left ">
 				        <p class="pt-2 x">
@@ -75,7 +78,7 @@
 	</div>
 </div>
 </section> 
-<section class="section-3 pt-3">
+<section class="section-3 pt-n5">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
