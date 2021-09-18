@@ -367,7 +367,7 @@
        </div> </div>
       </div>
   <?php include 'footer.php';?>
-<?php include 'preloader.php' ?>
+<!-- <?php include 'preloader.php' ?> -->
 <script type="text/javascript">
 for (var i = 1; i <22; i++) {
   gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});

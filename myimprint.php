@@ -148,7 +148,7 @@
   </div>
 </section>
     <?php include'footer.php'?>
-	<?php include 'preloader.php' ?>
+	<!-- <?php include 'preloader.php' ?> -->
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 
