@@ -3,7 +3,8 @@
       padding-left: 1rem;
     }
     header{
-      height: 90vh;
+      width: 100vw;
+      height: 50vh;
     }
     .section-1 .row .col-md-6 .panel {
       position: initial;

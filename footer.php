@@ -103,8 +103,8 @@
         <div class='container-fluid'>
             <div class='row'>
                 <div class='col-4 footer-top-left'>
-                    <h1> Get Social <br>With Us<br><span class='dots'>...</span>
-                    </h1>
+                    <h2> Get Social <br>With Us<br><span class='dots'>...</span>
+                    </h2>
                 </div>
                 <div class="col-2">
                 </div>

@@ -18,6 +18,23 @@
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <style>
+    .img{
+	   background-image:url(img/summit1.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+   
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+  }
+</style>
 </head>
 
 <body>
@@ -27,13 +44,7 @@
 
 
   <header>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          
-        </div>
-      </div>
-    </div>
+<div class="img"></div>
   </header>
 
   <main>

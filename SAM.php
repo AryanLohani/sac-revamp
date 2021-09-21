@@ -25,20 +25,31 @@
     crossorigin="anonymous"></script>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-</head>
+  <style>
+    .img{
+	   background-image:url(img/sam3.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+   
 
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+  }
+</style>
+</head>
+ 
 <body>
 
 <?php include 'navbar.php' ?>
 
 
-  <header>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          <h1 style="text-align: left;"></h1>
-          <h1 style="text-align: left;"></h1>
-</header>
+ <div class="img"></div>
   <main>
     <section class="section-1">
       <div class="container text-center">
@@ -46,8 +57,8 @@
           <div class="col-12">
             <div class="panel text-left">
           <div class="col-md-12 col-12">
-            <div class="panel text-center">
-              <h1>ABOUT THE MEET</h1>
+            <div class="text-center">
+              <h1 style="font-weight:800;">ABOUT THE MEET</h1>
               <div class="progress" style="height:0.4rem;">
                 <div id="two" class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.4rem;"></div>
@@ -70,7 +81,7 @@
         <div class="row">
           <div class="col-md-12 col-12">
             <div class="panel text-center">
-              <h1 class="x">SAM'20 KOLKATA</h1>
+              <h1>SAM'20 KOLKATA</h1>
               <div class="progress" style="height:0.4rem;">
                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.4rem;"></div>
