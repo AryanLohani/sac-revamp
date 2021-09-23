@@ -24,6 +24,14 @@
         color:  #00416d !important;
         border-color:  #00416d !important;
     }
+    .height{
+        height:500px;
+    }
+    @media only screen and (max-width:998px){
+        .height{
+        height:600px;
+     }
+    }
 </style>
 
 </head>
@@ -75,7 +83,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-6 col-12">
-                        <div class="panel text-left">
+                        <div class="panel text-left height">
                             <h1>Framework of the Programme</h1>
                             <div class="progress" style="height:0.4rem;">
                                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
@@ -92,7 +100,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
-                        <div class="panel text-left">
+                        <div class="panel text-left height">
                             <h1>Connecting with our Alumni</h1>
                             <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
