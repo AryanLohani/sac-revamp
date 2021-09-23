@@ -42,7 +42,7 @@
 						<div class="second"></div>
 						<div class="third">
 							<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-2 x">
-</div>							
+</div>						
 					</div>
 				</div>
 			</div>
@@ -56,7 +56,6 @@
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5">GRAND REUNION</h1>
-			</div>		
 			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">

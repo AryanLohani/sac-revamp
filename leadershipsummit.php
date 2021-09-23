@@ -195,7 +195,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/D5635AQFJY2mxlYUGGA/profile-framedphoto-shrink_400_400/0/1627621214609?e=1631732400&v=beta&t=EB2CNghnAkrliidseKypKwS87atDxQ5QRqe38blyhRg" class="card-img">
+                            <img src="https://images.yourstory.com/cs/images/people/jLpi2xb1400x400-1618684381439.jpg" class="card-img">
                             <div class="card-text">
                               <p >Ram Bhamidi</p>
 

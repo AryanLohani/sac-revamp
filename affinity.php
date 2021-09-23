@@ -124,7 +124,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -146,23 +145,23 @@
             <div class="row">
               <div class="col-sm-4">
                 <div class="service-card">
-                  <div class="card content" >
-                    <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap" style='height:13em;'>
-                    <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">
-                    <div class="content-details fadeIn-bottom">
-                      <p class="content-text">
-                        <b>The benefits of this association include:</b><br>
-                           Special Prices<br>
-                           Affordable EMIs<br>
-                           Free 3rd party accidental and liquid damage insurance<br>
-                           Easy Exchange<br>
-                           <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a>
-                      </p>
-                    </div>
+                   <div class="card content" >
+                      <div class="content-overlay"></div>
+                         <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap">
+                         <!--<img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">-->
+                           <div class="content-details fadeIn-bottom">
+                              <p class="content-text">
+                              <b>The benefits of this association include:</b><br>
+                                 Special Prices<br>
+                                 Affordable EMIs<br>
+                                 Free 3rd party accidental and liquid damage insurance<br>
+                                 Easy Exchange<br>
+                              <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a>
+                              </p>
+                           </div>
+                      </div>
                   </div>
-                </div>
-              </div>
+               </div>
               <div class="col-sm-4">
                 <div class="service-card">
                   <div class="card content" >
@@ -194,9 +193,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-2">
-
               </div>
             </div>
 
