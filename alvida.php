@@ -48,7 +48,7 @@
                             <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div></div>
-                            <p class="pt-3 x">
+                            <p class="pt-3 x" style="opacity: 1" align="justify">
                                 When we look back to our college days, we plunge into a pool of nostalgia and savour the
                                 sweet and salty taste of life that was offered to us then. The strangers who turned out
                                 be great friends, the unknown roads which became familiar and the experiences that would
