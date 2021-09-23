@@ -68,7 +68,6 @@ display: block;}
 </style>
   </head>
   <body>
-
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
 		<div class="container-fluid">

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Leadership Summit</title>
   <link rel="stylesheet" href="css/leadership.css">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <!-- CSS only -->
@@ -18,6 +18,23 @@
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <style>
+    .img{
+	   background-image:url(img/summit1.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+   
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+  }
+</style>
 </head>
 
 <body>
@@ -27,13 +44,7 @@
 
 
   <header>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          
-        </div>
-      </div>
-    </div>
+<div class="img"></div>
   </header>
 
   <main>
@@ -46,7 +57,7 @@
               <div class="progress" style="height:0.4rem;">
                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
-              <p class="pt-4">
+              <p class="pt-4" style="opacity: 1" align="justify">
                 <strong>Leadership Summit</strong>, organized
                 as a part of Guest Lectures, sees the participation of professionals and corporate tycoons sharing the same stage talking about their experiences and guiding the students to become future world leaders. With IIT Kharagpur’s
                 best minds converging at the this event, we weave together complex, seemingly diverse thoughts into an intricate tapestry and
@@ -67,10 +78,13 @@
                 <div class="col-md-12 col-12">
                   <div class="panel text-center">
                     <h1 class="x">Past Speakers</h1>
+                    
                     <div class="progress" style="height:0.4rem;">
                       <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
+
                     <br>
+                    <h4><i>Day 1 speakers of 2020 Leadership Summit</i></h4>
                     <!-- Photo Grid -->
                     <div id="gallery_row" class="row">
                       <div class="row justify-content-center px-4">
@@ -133,11 +147,10 @@
                               <p>Duvvuri Subbarao</p>
 
 
-                              <a href="https://en.wikipedia.org/wiki/Duvvuri_Subbarao"><i class="fab fa-wikipedia-w" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://en.wikipedia.org/wiki/Duvvuri_Subbarao"><i class="icon1 fab fa-wikipedia-w" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
-                        <h1 class="x">2020 | Day 1</h1>
                       </div>
 
                     </div>
@@ -157,6 +170,7 @@
                       <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
                     <br>
+                    <h4><i>Day 2 speakers of 2020 Leadership Summit</i></h4>
                     <!-- Photo Grid -->
                     <div id="gallery_row" class="row">
                       <div class="row justify-content-center px-4">
@@ -223,7 +237,6 @@
                             </div>
                           </div>
                         </div>
-                        <h1 class="x">2020 | Day 2</h1>
                       </div>
 
                     </div>
@@ -244,6 +257,7 @@
                     </div>
                     <br>
                     <!-- Photo Grid -->
+                    <h4><i>Speakers of 2019 Leadership Summit</i></h4>
                     <div id="gallery_row" class="row">
                       <div class="row justify-content-center px-4">
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
@@ -309,7 +323,6 @@
                             </div>
                           </div>
                         </div>
-                        <h1 class="x">2019</h1>
                       </div>
 
                     </div>
@@ -337,7 +350,7 @@
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	  <?php include 'preloader.php' ?>
+	  <!-- <?php include 'preloader.php' ?> -->
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>

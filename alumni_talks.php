@@ -44,7 +44,7 @@
                 aria-valuemax="100" style="height:0.4rem;"></div>
 
             </div>
-            <p class="pt-3 x">
+            <p class="pt-3 x" style="opacity: 1" align="justify">
               Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the
               history of the nation. The Alumni Talks provide a medium for the alumni to give back to the institute by
               imparting their experience to the students and preparing them for the real world. The topics of these
@@ -336,7 +336,7 @@
   </main>
 
  
-	<?php include 'preloader.php' ?>
+	<!-- <?php include 'preloader.php' ?> -->
     <?php include 'footer.php' ?>
 
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

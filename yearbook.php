@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yearbook</title>
     <link rel="stylesheet" href="css\yearbook.css">
     <link rel="stylesheet" href="css/SAM_mobile-style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -331,7 +331,7 @@
     </main>
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
-    <?php include 'preloader.php' ?>
+    <!-- <?php include 'preloader.php' ?> -->
     <!--        Footer end -->
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>

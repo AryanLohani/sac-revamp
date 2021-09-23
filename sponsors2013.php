@@ -200,7 +200,7 @@
   <br>
 
   <?php include 'footer.php';?>
-<?php include 'preloader.php' ?>
+<!-- <?php include 'preloader.php' ?> -->
 <script type="text/javascript">
 gsap.registerPlugin(ScrollTrigger);
 

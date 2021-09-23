@@ -4,10 +4,33 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>SAC</title>
+  <title>Annual Alumni Meet</title>
+  <link rel="icon" href="./img/SACLogo.png" sizes="32x32" type="image/gif"/>
   <link rel="stylesheet" type="text/css" href="css/AAM.css">
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
+  <style type="text/css">
+   .img{
+	   background-image:url(img/align.png);
+	   background-size:100% 100%;
+   }
+   .padding{
+	   padding:5rem 9rem;
+   }
+   @media only screen and (max-width:500px){
+	.padding{
+	   padding:0 2rem;
+   }
+   .img{
+	  height:350px;
+	  margin-bottom:0px;
+   }
+ 
+   .section-2{
+	   margin-top:-40%;
+   }
+   }
+  </style>
 </head>
 
 
@@ -16,20 +39,22 @@
 <section class="section-1 pb-0">
       <?php include'navbar.php' ?>
     <header>
-    <div class="header">
+    <div class="header"></div>
 
-	<div class="container-fluid img">
+	<div class="img">
 	</div>
 	</header>
   </section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
-	<div class="container-fluid">
+	<div class="padding">
 		<div class="row">
+
 			<div class="col-md-7 col-11">
 				<h1 class="one justify-content-left">ABOUT US</h1>
+
 				<div class="row">
 					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
-			           <p class="pt-2 x">
+			           <p class="pt-2 x" style="opacity: 1" align="justify">
 				       We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
 				       exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
 				       yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
@@ -59,8 +84,10 @@
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
+
 			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5 text-center">Arena</h1>
+
 			</div>
 			<div class="col-md-9">
 			<div class="container">
@@ -463,7 +490,7 @@
   </section>
 
 	<?php include'footer.php' ?>
-	<?php include'preloader.php' ?>
+	<!-- <?php include'preloader.php' ?> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

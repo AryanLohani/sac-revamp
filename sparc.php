@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SPARC</title>
     <link rel="stylesheet" href="css/sparc.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS only -->
@@ -36,7 +36,7 @@
                             <div class="progress" style="height:0.4rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" style="height:0.4rem;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="pt-4">
+                            <p class="pt-4" style="opacity: 1" align="justify">
                                 The vision of the Indian Institutes of Technology has been to contribute to India and the world
                                 by imrovising scientific and technical education in India, to generate enormous research
                                 opportunities and to remain a source of pride for all Indians. Students' Pan IIT Alumni Relation
@@ -184,7 +184,7 @@
 
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
-	  <?php include 'preloader.php' ?>
+	  <!-- <?php include 'preloader.php' ?> -->
     <!--        Footer start -->
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
