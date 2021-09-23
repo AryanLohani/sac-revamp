@@ -142,9 +142,9 @@ header a {
     font-weight: bold;
   }
 
-  main{
+  /* main{
 
-  }
+  } */
 	.progress-bar-purple {
 	      background-color: #00416d !important;
 		  height:0.7rem;
@@ -165,7 +165,7 @@ header a {
     position: relative;
     }
 
-		.section-1 .row .col-md-6 .panel {
+		.section-1 .row .col-md-12 .panel {
 
 	  background: white;
 	  border-radius: 3px;
