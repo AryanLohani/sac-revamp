@@ -125,17 +125,17 @@
     </div>
     <main>
         <section class="section-1" style="overflow:hidden">
-            <div class="container">
+            <div class="container" style="margin:18px">
                 <div class="row">
                     <div class="col-md-9 col-12">
                         <div class="panel text-left">
                             <h1>ABOUT US</h1>
-                            <div class="progress" style="height: 0.7rem;">
+                            <div class="progress" style="height: 0.4rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%"
-                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;">
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;">
                                 </div>
                             </div>
-                            <p class="pt-4">
+                            <p class="pt-4" style="opacity: 1" align="justify">
                                 The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the
                                 aegis of the Dean of Alumni Affairs and International Relations. It strives to bridge
                                 the gap between IIT Kharagpur and its esteemed alumni community.
@@ -156,7 +156,7 @@
                         <div class="pray">
                             <iframe
                                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkgp.alumnicell&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                width="500" height="600" style="border:none;overflow:hidden" scrolling="no"
+                                width="500" height="454px" style="border:none;overflow:hidden" scrolling="no"
                                 frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                         </div>
                     </div>

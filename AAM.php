@@ -52,7 +52,7 @@
 				<h2 class="one" style="font-weight:800;">ABOUT US</h2>
 				<div class="row">
 					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
-			           <p class="pt-2 x">
+			           <p class="pt-2 x" style="opacity: 1" align="justify">
 				       We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
 				       exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
 				       yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 

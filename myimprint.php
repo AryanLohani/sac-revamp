@@ -29,7 +29,7 @@
                 <div id="one" class="progress-bar" role="progressbar"  style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.4rem;" ></div>
               </div>
-            <p class="pt-3 one">
+            <p class="pt-3 one" style="opacity: 1" align="justify">
               Ever since its inception, IIT Kharagpur has given its students outstanding academic resources, a brand to
               identify and reckon with, lasting friendships and countless memories over the years they have spent in its
               colossal campus. And along the same lines, its alumni too have had a long and eventful history of giving

@@ -49,11 +49,11 @@
                 <div class="col-md-12 col-12">
                     <div class="panel text-center">
                         <h1 class="gsap1">ABOUT</h1>
-                        <div class="progress">
+                        <div class="progress" style="height: 0.4rem;">
                             <div id="two" class="progress-bar" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 0.4rem;"></div>
                         </div>
-                        <p class="pt-3 gsap1">
+                        <p class="pt-3 gsap1" style="opacity: 1" align="justify">
                             Phonathon is an initiative of Students’ Alumni Cell which helps in Institute development
                             under the Endowment Campaign while serving as a platform for the alumni to give back to
                             the alma mater. In various avenues like developing centers of excellence for innovative
@@ -87,9 +87,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x gsap2">Phonathon 4.0</h1>
-              <div class="progress gsap2">
+              <div class="progress gsap2" style="height: 0.4rem;">
                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                       aria-valuemin="0" aria-valuemax="100">
+                       aria-valuemin="0" aria-valuemax="100" style="height: 0.4rem;">
                 </div>
               </div>
               <br>
@@ -124,9 +124,9 @@
           <div class="col-md-12 col-12">
             <div class="panel text-center">
               <h1 class="x gsap2">Phonathon 3.0</h1>
-              <div class="progress gsap2">
+              <div class="progress gsap2" style="height: 0.4rem;">
                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                       aria-valuemin="0" aria-valuemax="100">
+                       aria-valuemin="0" aria-valuemax="100" style="height: 0.4rem;">
                 </div>
               </div>
               <br>
@@ -147,9 +147,9 @@
                 <div class="col-md-12 col-12">
                     <div class="panel text-center">
                         <h1 class="x">Testimonials</h1>
-                        <div class="progress" style="height:0.7rem;">
+                        <div class="progress" style="height:0.4rem;">
                             <div id="three" class="progress-bar" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.7rem;"></div>
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                         </div>
                         <br>
                         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
