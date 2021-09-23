@@ -22,7 +22,15 @@
   <style>
     	.section-1 .row .col-md-12 .panel {
         box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        background: whitesmoke;
       }
+      
+    .section-1 .row .col-md-12 .panel h1 {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em 0;
+    font-size: 3em;
+    }
   </style>
 </head>
 

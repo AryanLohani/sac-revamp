@@ -167,7 +167,7 @@ header a {
 
 		.section-1 .row .col-md-12 .panel {
 
-	  background: white;
+    background: whitesmoke;
 	  border-radius: 3px;
 	  text-align: left;
 	  padding:4vmin;
@@ -175,13 +175,13 @@ header a {
 	  font-family: var(--Rubik);
 	  z-index: 1;
 	  }
-
-    .section-1 .row .col-md-6 .panel h1 {
-    font-weight: bold;
+/* 
+    .section-1 .row .col-md-12 .panel h1 {
+    font-weight: 600;
     font-family: 'Raleway', sans-serif;
     padding: 0.4em 0;
     font-size: 3em;
-    }
+    } */
 
     .section-1 .row .col-md-6 .panel p {
     font-size: 0.9em;
