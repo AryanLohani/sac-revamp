@@ -856,8 +856,12 @@
           </h2>
 
         </div>
-        <div class="col-lg-12 col-md-6 col-sm-12" align="center"> <a href="https://www.thegrapevine.co.in/" target="_blank"> <br> <br>
-            <img class="spons" src="img/spons/2020LS/BS.PNG" width="170" height="140" />
+        <div class="col-lg-6 col-md-6 col-sm-6" align="center"> <a href="https://www.business-standard.com/" target="_blank"> <br> <br>
+            <img class="spons" src="img/spons/2020LS/BS.png" width="230" height="200" />
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6" align="center"> <a href="https://www.thegrapevine.co.in/" target="_blank"> <br> <br>
+            <img class="spons" src="img/spons/2020LS/grapewine.png" width="200" height="200" />
           </a>
         </div>
     
