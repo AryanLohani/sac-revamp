@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yearbook</title>
     <link rel="stylesheet" href="css\yearbook.css">
     <link rel="stylesheet" href="css/SAM_mobile-style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -93,16 +93,16 @@
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2020.jpg" class="h-img">
                                                     <div class="card-body">
-                                                        <h4 class="card-title">YearBook 2020...</h4>
+                                                        <h4 class="card-title">Yearbook 2020...</h4>
                                                         <div class="row ">
                                                             <div class="img-txt ">
-                                                                <h6>UG</h6>
+                                                               <a href="https://drive.google.com/file/d/1v8SiIwCqeIzERMoYXC9bxKQu7pPz3muP/view?usp=sharing"  target="_blank" style="color:black"> UG</a> 
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>PG</h6>
+                                                            <a href="https://drive.google.com/file/d/1qhRMxn9StnsPWs1C1-f6gfllCViSYlnB/view?usp=sharing "target="_blank" style="color:black"> PG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>RS</h6>
+                                                            <a href="https://drive.google.com/file/d/1jelTjKSsrS7LnZDniAiC4yqjeZ-yOjgb/view?usp=sharing "target="_blank" style="color:black"> RS</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -115,13 +115,13 @@
                                                         <h4 class="card-title">YearBook 2019...</h4>
                                                         <div class="row ">
                                                             <div class="img-txt ">
-                                                                <h6>UG</h6>
+                                                               <a href="https://drive.google.com/file/d/1h0Opa3GNGR20Hpiw71EwhwwjcDIwj7DJ/view?usp=sharing" target="_blank" style="color:black"> UG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>PG</h6>
+                                                            <a href="https://drive.google.com/file/d/1h0Opa3GNGR20Hpiw71EwhwwjcDIwj7DJ/view?usp=sharing" target="_blank" style="color:black"> PG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>RS</h6>
+                                                            <a href="https://drive.google.com/file/d/1h0Opa3GNGR20Hpiw71EwhwwjcDIwj7DJ/view?usp=sharing" target="_blank" style="color:black"> RS</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -140,13 +140,13 @@
                                                         <h4 class="card-title">YearBook 2018...</h4>
                                                         <div class="row ">
                                                             <div class="img-txt ">
-                                                                <h6>UG</h6>
+                                                               <a href="https://drive.google.com/file/d/1WvuLhTKNVHc-owJhFxJS5CWLjBfKDrC1/view?usp=sharing"target="_blank" style="color:black">UG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>PG</h6>
+                                                            <a href="https://drive.google.com/file/d/1WvuLhTKNVHc-owJhFxJS5CWLjBfKDrC1/view?usp=sharing"target="_blank" style="color:black">PG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>RS</h6>
+                                                            <a href="https://drive.google.com/file/d/1WvuLhTKNVHc-owJhFxJS5CWLjBfKDrC1/view?usp=sharing"target="_blank" style="color:black">RS</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -159,13 +159,13 @@
                                                         <h4 class="card-title">YearBook 2017...</h4>
                                                         <div class="row ">
                                                             <div class="img-txt ">
-                                                                <h6>UG</h6>
+                                                               <a href="https://drive.google.com/file/d/0ByPZPiiPCG8_aFFtN1VRRU5lb00/view?usp=sharing&resourcekey=0-wity-gekXThY6oNZ4Iya4A"target="_blank" style="color:black"> UG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>PG</h6>
+                                                            <a href="https://drive.google.com/file/d/0ByPZPiiPCG8_aC1kaHRyNDEtUG8/view?usp=sharing&resourcekey=0-gvQo-b-rsfrSRYFqpjM-ZA"target="_blank" style="color:black"> PG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>RS</h6>
+                                                           <a href="https://drive.google.com/file/d/0ByPZPiiPCG8_d2ZfVGw5TTNMekE/view?usp=sharing&resourcekey=0-QyxYHUpYEfDgNLi3txyZ1w" target="_blank" style="color:black">RS</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -178,13 +178,13 @@
                                                         <h4 class="card-title">YearBook 2016...</h4>
                                                         <div class="row ">
                                                             <div class="img-txt ">
-                                                                <h6>UG</h6>
+                                                               <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5&resourcekey=0-tv1hLGs35PN1uAhH8ZqvMQ" target="_blank" style="color:black">UG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>PG</h6>
+                                                            <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5&resourcekey=0-tv1hLGs35PN1uAhH8ZqvMQ" target="_blank" style="color:black">PG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>RS</h6>
+                                                            <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5&resourcekey=0-tv1hLGs35PN1uAhH8ZqvMQ" target="_blank" style="color:black">RS</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -203,13 +203,13 @@
                                                         <h4 class="card-title">YearBook 2015...</h4>
                                                         <div class="row ">
                                                             <div class="img-txt ">
-                                                                <h6>UG</h6>
+                                                              <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04&resourcekey=0-wfnygWgzFZqUTMIQCDcrnQ" target="_blank" style="color:black">UG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>PG</h6>
+                                                            <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04&resourcekey=0-wfnygWgzFZqUTMIQCDcrnQ"target="_blank" style="color:black">PG</a>
                                                             </div>
                                                             <div class="img-txt">
-                                                                <h6>RS</h6>
+                                                            <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04&resourcekey=0-wfnygWgzFZqUTMIQCDcrnQ"target="_blank" style="color:black">RS</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -331,7 +331,7 @@
     </main>
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
-    <?php include 'preloader.php' ?>
+    <!-- <?php include 'preloader.php' ?> -->
     <!--        Footer end -->
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>

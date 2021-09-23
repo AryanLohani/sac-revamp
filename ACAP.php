@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alumni Career Assistance Programme</title>
+    <title>ACAP</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -41,6 +41,20 @@
         border-color: #00416d !important;
         color:white !important;
     }
+    .img{
+	   background-image:url(img/dak.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+   }
     @media only screen and (max-width: 768px) {
     .panel img{
         padding-top: 30px;
@@ -56,15 +70,8 @@
     <?php include 'navbar.php' ?>
 
     <header>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12  text-white">
-
-                    <h1 style="text-align: left;"></h1>
-
-                </div>
-            </div>
-        </div>
+  
+    <div class="img"></div>
     </header>
 
     <main>
@@ -258,7 +265,7 @@
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	   <?php include 'preloader.php' ?>
+	   <!-- <?php include 'preloader.php' ?> -->
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>

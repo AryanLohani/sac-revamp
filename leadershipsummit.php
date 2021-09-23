@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Leadership Summit</title>
   <link rel="stylesheet" href="css/leadership.css">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <!-- CSS only -->
@@ -18,6 +18,23 @@
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <style>
+    .img{
+	   background-image:url(img/summit1.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+   
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+  }
+</style>
 </head>
 
 <body>
@@ -27,13 +44,7 @@
 
 
   <header>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-7 col-sm-12  text-white">
-          
-        </div>
-      </div>
-    </div>
+<div class="img"></div>
   </header>
 
   <main>
@@ -58,96 +69,288 @@
       </div>
     </section>
 
-    <section class="section-2">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12 col-12">
-            <div class="panel text-center">
-              <h1 class="x">Past Speakers</h1>
-              <div class="progress" style="height:0.4rem;">
-                <div id="two" class="progress-bar" role="progressbar" 
-				style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
-				aria-valuemax="100" style="height:0.4rem;"></div>
-              </div>
-              <br>
-              <!-- Photo Grid -->
-              <div id="gallery_row" class="row">
-                <div class="row justify-content-center px-4">
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
-                      <div class="card-text">
-                        <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
-                        <p>Arjun Malhotra</p>
-                        <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
-                      <div class="card-text">
-                        <p >Anjanrai Chaudhuri</p>
-                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
-                      <div class="card-text">
-                        <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
-                        Arunabh Kumar
-                        </a></p> -->
-                        <p >
-                        Arunabh Kumar
-                        </p>
-                        <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
-                      <div class="card-text">
-                        <p >Gopalraj Garhia</p>
 
-                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
-                      <div class="card-text">
-                          <p>Prasad Menon</p>
-                          <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                    <div class="card">
-                      <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
-                      <div class="card-text">
-                        <p>Sakyasinha Roy</p>
+                    <br>
+                    <h4><i>Day 1 speakers of 2020 Leadership Summit</i></h4>
+                    <!-- Photo Grid -->
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQF2_YtNmO73Qw/profile-displayphoto-shrink_400_400/0/1607399318866?e=1637193600&v=beta&t=rA0u1PLPD3-70bVHLuq3abouuLrS-R688hR-EYKp2eA" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Rahul Vishal Sinha</p>
+                              <a href="https://www.linkedin.com/in/rahul-vishal-sinha-9399a72/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFAWga40M7I8Q/profile-displayphoto-shrink_400_400/0/1554083443158?e=1637193600&v=beta&t=aryJ1GiLya3fQm5R1cTXJIa6PVYdhJVMX2Uv5N9lXCg" class="card-img">
+                            <div class="card-text">
+                              <p >Sudipto De</p>
+                              <a href="https://www.linkedin.com/in/sudipto-de-phd-cfa-45403214/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGjf1DldD6SCQ/profile-displayphoto-shrink_400_400/0/1609065660093?e=1637193600&v=beta&t=D9VHS0M2rLsDpbEv6aqKe5-GMf-Uqwsps5MPwwC6DJg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Animesh Saxena
+                              </p>
+                              <a href="https://www.linkedin.com/in/animeshsaxena83/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQF1QTb3BQevOA/profile-displayphoto-shrink_400_400/0/1592584402230?e=1637193600&v=beta&t=ZMvIV2DybGpSDbTP8ZN0emZs0BBv7XWuYmuENU8ZRXA" class="card-img">
+                            <div class="card-text">
+                              <p >Nitin Arora</p>
+
+                              <a href="https://www.linkedin.com/in/aroranitin78/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://assets.euromoneydigital.com/7b/5a/d1e30802cd77fe92548002c86814/socgen-sayan-das230px.jpg" class="card-img">
+                            <div class="card-text">
+                                <p>Sayan Das</p>
+                                <a href="https://www.linkedin.com/in/sayan-das-a4982b7/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Duvuri.jpg/338px-Duvuri.jpg" class="card-img">
+                            <div class="card-text">
+                              <p>Duvvuri Subbarao</p>
 
 
-                        <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://en.wikipedia.org/wiki/Duvvuri_Subbarao"><i class="icon1 fab fa-wikipedia-w" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
+          </section>
+        </div>
 
-              </div>
-            </div>
-          </div>
-    </section>
+        <div class="carousel-item">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                    <br>
+                    <h4><i>Day 2 speakers of 2020 Leadership Summit</i></h4>
+                    <!-- Photo Grid -->
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGYpSu4agq7TQ/profile-displayphoto-shrink_800_800/0/1533468512754?e=1637193600&v=beta&t=0lpJ0L0-6PELqzWiv9axhx-njUtKv05e07XwHCEev4w" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Apurva Kumar Sinha</p>
+                              <a href="https://www.linkedin.com/in/apurvaksinha/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHWr63bEGXm-A/profile-displayphoto-shrink_400_400/0/1602147084189?e=1637193600&v=beta&t=_4PIghf-ou1bvMvg1Qx5ZnjcFs0z0blObww4QEKuxrw" class="card-img">
+                            <div class="card-text">
+                              <p >Bhaskar Majumdar</p>
+                              <a href="https://www.linkedin.com/in/bmajumdar/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://www.jimsindia.org/techbyte/images/Speakers/Inderjeet%20Singh.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Inderjeet Singh
+                              </p>
+                              <a href="https://www.linkedin.com/in/inderbarara/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://images.yourstory.com/cs/images/people/jLpi2xb1400x400-1618684381439.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Ram Bhamidi</p>
+
+                              <a href="https://www.linkedin.com/in/bhamidi/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5103AQFYKa4SfPeh4g/profile-displayphoto-shrink_400_400/0/1556299859086?e=1637193600&v=beta&t=y2BKBeA8WSW72o7lURuX7-Eq77wnD1e_yweCL7axdm0" class="card-img">
+                            <div class="card-text">
+                                <p>Mohan Silaparasetty</p>
+                                <a href="https://www.linkedin.com/in/mohan-silaparasetty/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQEdkIPN3lN9Hw/profile-displayphoto-shrink_400_400/0/1517765600896?e=1637193600&v=beta&t=l-QJnQBC8DXJF2J8njPuyel_q1JHBEUeTOMtv5BufC0" class="card-img">
+                            <div class="card-text">
+                              <p>Joyjeet Maity</p>
+
+
+                              <a href="https://www.linkedin.com/in/joyjeetmaity/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+          </section>
+        </div>
+
+        <div class="carousel-item">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                    <br>
+                    <!-- Photo Grid -->
+                    <h4><i>Speakers of 2019 Leadership Summit</i></h4>
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Arjun Malhotra</p>
+                              <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Anjanrai Chaudhuri</p>
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Arunabh Kumar
+                              </p>
+                              <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Gopalraj Garhia</p>
+
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
+                            <div class="card-text">
+                                <p>Prasad Menon</p>
+                                <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
+                            <div class="card-text">
+                              <p>Sakyasinha Roy</p>
+
+
+                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+          </section>
+        </div>
+        
+      </div>
+      <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    
+
 
 
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	  <?php include 'preloader.php' ?>
+	  <!-- <?php include 'preloader.php' ?> -->
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>

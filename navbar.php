@@ -3,137 +3,139 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<style>
       .navbar{
-  font-size: 1.1rem;
+font-size: 1.1rem;
 }
 .nav-link{
-  padding-right: 20px !important;
-  padding-left: 20px !important;
+padding-right: 20px !important;
+padding-left: 20px !important;
 }
 .navbar-brand img{
-  height: 4.5rem;
-  width: 11rem;
+height: 4.5rem;
+width: 11rem;
 }
 .nav-item:hover .nav-link{
-  background-color: gray;
-  border-radius:  2px;
+background-color: gray;
+border-radius:  2px;
+}
+.dropdown-menu{
+    display: none;
+    transition: all 2s ease-in;
 }
 .dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
+display: block;
+animation-name: delay;
+animation-duration: 1.2s;
+transition: 2s ease-in;
+}
+.dropdown:hover{
+    transition: 2s ease-in;
+    transition-delay:2s ;
+   
 }
 .dropdown-item{
-  text-align: center !important;
-  padding-bottom: 20px !important;
+text-align: center !important;
+padding-bottom: 20px !important;
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
 }
-
 .dropdown-content a:hover {
-  background-color: #ddd;
+background-color: #ddd;
 }
-
 .dropdown:hover .dropdown-content {
-  display: block;
+display: block;}
+
+@keyframes delay{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
-      </style>
+</style>
   </head>
   <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="img/SACLogo.png"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="img/SACLogo.png"> </a>
+			<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+				aria-expanded="false" aria-label="Toggle navigation"> -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Events
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="SAM.php">Students Alumni Meet</a>
-            <a class="dropdown-item" href="AAM.php">Alumni Meet</a>
-            <a class="dropdown-item" href="homecoming.php">Homecoming</a>
-            <a class="dropdown-item" href="phonathon.php">Phonathon</a>
-            <a class="dropdown-item" href="leadershipsummit.php">Leadership Summit</a>
-            <a class="dropdown-item" href="alumni_talks.php">Alumni Talks</a>
-            <a class="dropdown-item" href="alvida.php">ALVIDA</a>
-          </div>
-        </li>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"> <a class="nav-link" href="index.php">Home </a> </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Events </a>
+						<div>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="SAM.php"> Students Alumni Meet </a></li>
+								<li><a class="dropdown-item" href="AAM.php"> Alumni Meet </a></li>
+								<li><a class="dropdown-item" href="homecoming.php"> Homecoming </a></li>
+								<li><a class="dropdown-item" href="phonathon.php"> Phonathon </a></li>
+								<li><a class="dropdown-item" href="leadershipsummit.php"> Leadership Summit </a></li>
+								<li><a class="dropdown-item" href="alumni_talks.php"> Alumni Talks </a></li>
+								<li><a class="dropdown-item" href="alvida.php"> ALVIDA </a></li>
+							</ul>
+						</div>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Initiatives
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="SAMP.php">SAMP</a>
-            <a class="dropdown-item" href="sparc.php">SPARC</a>
-            <a class="dropdown-item" href="myimprint.php">MYIMPRINT</a>
-            <a class="dropdown-item" href="acap.php">ACAP</a>
-            <a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/">Alumni Blog</a>
-            <a class="dropdown-item" href="affinity.php">Affinity Programme</a>
-          </div>
-        </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
-               Publications
-             </a>
-             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <a class="dropdown-item" href="yearbook.php">Yearbook</a>
-               <a class="dropdown-item" href="YOY.php">YOY</a>
-               <a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf">Tempo Shout</a>
-             </div>
-           </li>
-        <li class="nav-item">
-          <a class="nav-link" href="team.php">The Team</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Alumni-Reg</a>
-        </li>  -->
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Initiatives </a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="SAMP.php"> SAMP</a></li>
+							<li><a class="dropdown-item" href="sparc.php"> SPARC </a></li>
+							<li><a class="dropdown-item" href="myimprint.php"> MYIMPRINT </a></li>
+							<li><a class="dropdown-item" href="acap.php"> ACAP</a></li>
+							<li><a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/"> Alumni Blog </a></li>
+							<li><a class="dropdown-item" href="affinity.php"> Affinity Programme </a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Publications </a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="yearbook.php"> Yearbook </a></li>
+							<li><a class="dropdown-item" href="YOY.php"> YOY </a></li>
+							<li><a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf"> Tempo Shout </a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="team.php"> The Team </a></li>
+					<!-- <li class="nav-item"><a class="nav-link" href="#"> Alumni-Reg </a></li> -->
+					<li class="nav-item dropdown">
+						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Sponsors </a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="sponsors.php"> 2020 </a></li>
+							<li><a class="dropdown-item" href="sponsors2019.php"> 2019 </a></li>
+							<li><a class="dropdown-item" href="sponsors2018.php"> 2018 </a></li>
+							<li><a class="dropdown-item" href="sponsors2017.php"> 2017</a></li>
+							<li><a class="dropdown-item" href="sponsors2016.php"> 2016 </a></li>
+							<li><a class="dropdown-item" href="sponsors2015.php"> 2015 </a></li>
+							<li><a class="dropdown-item" href="sponsors2014.php"> 2014 </a></li>
+							<li><a class="dropdown-item" href="sponsors2013.php"> 2013 </a></li>
+							<li><a class="dropdown-item" href="sponsors2012.php"> 2012 </a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-        <li class="nav-item">
-          <a class="nav-link" href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg">Alumni-Reg</a>
-        </li>
-         <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Sponsors
-          </a>
-          <div class="dropdown-menu" style="padding-right: 50px !important;" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="sponsors.php">2020</a>
-            <a class="dropdown-item" href="sponsors2019.php">2019</a>
-            <a class="dropdown-item" href="sponsors2018.php">2018</a>
-            <a class="dropdown-item" href="sponsors2017.php">2017</a>
-            <a class="dropdown-item" href="sponsors2016.php">2016</a>
-            <a class="dropdown-item" href="sponsors2015.php">2015</a>
-            <a class="dropdown-item" href="sponsors2014.php">2014</a>
-            <a class="dropdown-item" href="sponsors2013.php">2013</a>
-            <a class="dropdown-item" href="sponsors2012.php">2012</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  </body>
+	</nav>
+</body>
+
 </html>

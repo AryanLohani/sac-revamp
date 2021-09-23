@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Student Alumni Mentorship Programme</title>
+    <title>SAMP</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -23,6 +23,14 @@
     .btn-outline-primary{
         color:  #00416d !important;
         border-color:  #00416d !important;
+    }
+    .height{
+        height:450px;
+    }
+    @media only screen and (max-width:998px){
+        .height{
+        height:600px;
+     }
     }
 </style>
 
@@ -75,7 +83,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-6 col-12">
-                        <div class="panel text-left">
+                        <div class="panel text-left height">
                             <h1>Framework of the Programme</h1>
                             <div class="progress" style="height:0.4rem;">
                                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
@@ -92,7 +100,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
-                        <div class="panel text-left">
+                        <div class="panel text-left height">
                             <h1>Connecting with our Alumni</h1>
                             <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
@@ -126,7 +134,7 @@
         </section>
 
         <?php include 'footer.php' ?>
-		<?php include 'preloader.php' ?>
+		<!-- <?php include 'preloader.php' ?> -->
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -378,7 +378,7 @@
               </div>
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2018</h4>
-                <ul class='team'>
+                <ul class='team' style="list-style:none;">
                   <li>Gautam Arya</li>
                   <li>Vasanta Majety</li>
                   <li>Akanksha Malhotra</li>
@@ -393,27 +393,28 @@
                   <li>Harsh Yadav</li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-4 former-team-text">
-                <h4>2017</h4>
-                <ul class='team'>
-                  <li>Bharat Chandra</li>
-                  <li>Vishal Kumar Singh</li>
-                  <li>Anmol Thakkar</li>
-                  <li>Daksh Thakkur</li>
-                  <li>Rohit Sonawane</li>
-                  <li>Sreelatha Challa</li>
-                  <li> Utkarsh Sinha</li>
-                  <li>Yash Patil</li>
-                  <li>Karan Pratap Singh</li>
-                  <li>Yugam</li>
-                  <li>Aman Kumar Aggarwal</li>
-                </ul>
-              </div>
+              
             </div>
             <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
+                  <h4>2017</h4>
+                  <ul class='team' style="list-style:none;">
+                    <li>Bharat Chandra</li>
+                    <li>Vishal Kumar Singh</li>
+                    <li>Anmol Thakkar</li>
+                    <li>Daksh Thakkur</li>
+                    <li>Rohit Sonawane</li>
+                    <li>Sreelatha Challa</li>
+                    <li> Utkarsh Sinha</li>
+                    <li>Yash Patil</li>
+                    <li>Karan Pratap Singh</li>
+                    <li>Yugam</li>
+                    <li>Aman Kumar Aggarwal</li>
+                  </ul>
+                </div>
+              <div class="col-12 col-sm-4 former-team-text">
                 <h4>2016</h4>
-                <ul class='team'>
+                <ul class='team' style="list-style:none;">
                   <li>Mridul Pant</li>
                   <li>Vaibhav Chauhan</li>
                   <li>Afzal Ahmed</li>
@@ -428,7 +429,7 @@
               </div>
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2015</h4>
-                <ul class='team'>
+                <ul class='team' style="list-style:none;">
                   <li>Pranshu Jain</li>
                   <li>Rohan Gupta</li>
                   <li>Akash Tulsani</li>
@@ -442,24 +443,25 @@
                   <li> Soumyadeep Ghosh</li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-4 former-team-text">
-                <h4>2014</h4>
-                <ul class='team'>
-                  <li>Arpit Gupta</li>
-                  <li>Manish Goyal</li>
-                  <li>Aditi Shrivastav</li>
-                  <li>Atal A. Agarwal</li>
-                  <li>Chandreyee Bhaumik</li>
-                  <li>Naman Nishesh</li>
-                  <li>Rahul Mishra</li>
-                  <li>Satyajit Kumar</li>
-                </ul>
-              </div>
             </div>
             <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
+                  <h4>2014</h4>
+                  <ul class='team' style="list-style:none;">
+                    <li>Arpit Gupta</li>
+                    <li>Manish Goyal</li>
+                    <li>Aditi Shrivastav</li>
+                    <li>Atal A. Agarwal</li>
+                    <li>Chandreyee Bhaumik</li>
+                    <li>Naman Nishesh</li>
+                    <li>Rahul Mishra</li>
+                    <li>Satyajit Kumar</li>
+                  </ul>
+                </div>
+
+              <div class="col-12 col-sm-4 former-team-text">
                 <h4>2013</h4>
-                <ul class='team'>
+                <ul class='team' style="list-style:none;">
                   <li>Aditi Sharma</li>
                   <li>Vedang Deshpande</li>
                   <li>Abhinay Vyas</li>
@@ -476,7 +478,7 @@
               </div>
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2012</h4>
-                <ul class='team'>
+                <ul class='team' style="list-style:none;">
                   <li>Apoorv Jain</li>
                   <li>Utkarsh Jain</li>
                   <li>Akshay Kumar</li>
@@ -487,24 +489,25 @@
                   <li>Tanya Mondal</li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-4 former-team-text">
-                <h4>2011</h4>
-                <ul class='team'>
-                  <li>Nikunj Mall</li>
-                  <li>Akshat Prakash</li>
-                  <li>Aditi Kadmawala</li>
-                  <li>Akshay Chalikwar</li>
-                  <li>Deepika Bajaj</li>
-                  <li>Rupinder Singh</li>
-                  <li>Sai Sachin</li>
-                  <li>Siddarth Mall</li>
-                </ul>
-              </div>
+              
             </div>
             <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
+                  <h4>2011</h4>
+                  <ul class='team' style="list-style:none;">
+                    <li>Nikunj Mall</li>
+                    <li>Akshat Prakash</li>
+                    <li>Aditi Kadmawala</li>
+                    <li>Akshay Chalikwar</li>
+                    <li>Deepika Bajaj</li>
+                    <li>Rupinder Singh</li>
+                    <li>Sai Sachin</li>
+                    <li>Siddarth Mall</li>
+                  </ul>
+                </div>
+              <div class="col-12 col-sm-4 former-team-text">
                 <h4>2010</h4>
-                <ul class='team'>
+                <ul class='team'style="list-style:none;">
                   <li>Drishti Guin </li>
                   <li>Vishnu Rajeev</li>
                   <li> Harshal Maniyar</li>
@@ -517,7 +520,7 @@
               </div>
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2009</h4>
-                <ul class='team'>
+                <ul class='team'style="list-style:none;">
                   <li>Chirag Fialoke</li>
                   <li>Abhishek Narain</li>
                   <li>Suruchi Prakash</li>
@@ -527,8 +530,8 @@
                   <li>Digvijay Singh</li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-4 former-team-text">
-              </div>
+              <!-- <div class="col-12 col-sm-4 former-team-text">
+              </div> -->
             </div>
           </div>
         </div>
@@ -536,7 +539,7 @@
     </div>
   </section>
   </main>
-  <?php include 'preloader.php' ?>
+  <!-- <?php include 'preloader.php' ?> -->
   <?php include 'footer.php' ?>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

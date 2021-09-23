@@ -150,9 +150,14 @@
                             <hr>
                         </h2>
                     </div>
-                    <div class="col-sm-12" align="center">
+                    <div class="col-md-6 col-lg-6 col-sm-12" align="center">
                         <a href="https://www.sbiyono.sbi/" target="_blank">
-                        <img class="spons" src="img/spons/2019/yop1.png" width="270px" height="210px"  />
+                        <img class="spons" src="img/spons/2020LS/the education tree" width="270px" height="210px"  />
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12" align="center">
+                        <a href="https://www.sbiyono.sbi/" target="_blank">
+                        <img class="spons" src="img/spons/2020LS/YKA Logo - Black (PNG)" width="270px" height="210px"  />
                         </a>
                     </div>
                 </div>
@@ -609,7 +614,7 @@
             </div>
         </div>
         <?php include 'footer.php';?>
-        <?php include 'preloader.php' ?>
+        <!-- <?php include 'preloader.php' ?> -->
         <script type="text/javascript">
         for (var i = 1; i <31; i++) {
           gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});

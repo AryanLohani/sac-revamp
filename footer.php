@@ -39,6 +39,7 @@
     }
 
     #footer {
+        margin-top:30px;
         background-color: #23232b;
          height: 19rem; 
     }
@@ -102,8 +103,8 @@
         <div class='container-fluid'>
             <div class='row'>
                 <div class='col-4 footer-top-left'>
-                    <h1> Get Social <br>With Us<br><span class='dots'>...</span>
-                    </h1>
+                    <h2> Get Social <br>With Us<br><span class='dots'>...</span>
+                    </h2>
                 </div>
                 <div class="col-2">
                 </div>
@@ -123,19 +124,19 @@
                     <span class='bar'>|</span>
                 </div>
                 <div class="col-2">
-                    <i class="icon fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/iitkgp.alumnicell"><i class="icon fab fa-facebook"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/sac.iitkgp/?hl=en"><i class="icon fab fa-instagram"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-twitter-square"></i>
+                    <a href="https://twitter.com/IITKgpAlumni"><i class="icon fab fa-twitter-square"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-medium"></i>
+                    <a href="https://studentsalumnicell-iitkgp.medium.com/"><i class="icon fab fa-medium"></i></a>
                 </div>
                 <div class='col-2'>
-                    <i class="icon fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/company-beta/13273135/"><i class="icon fab fa-linkedin"></i></a>
                 </div>
 
             </div>

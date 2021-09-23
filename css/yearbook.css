@@ -350,7 +350,9 @@ main{
   margin-right: 10px;
   margin-left: 10px;
 }
-
+.img-txt {
+  color: #111;
+}
 .section-3 .card:hover .card-text{
     top: 80px;
 }
