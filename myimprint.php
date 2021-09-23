@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>SAC</title>
+  <title>MYIMPRINT</title>
   <link rel="stylesheet" type="text/css" href="css/imprint.css">
    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
@@ -29,7 +29,7 @@
                 <div id="one" class="progress-bar" role="progressbar"  style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.4rem;" ></div>
               </div>
-            <p class="pt-3 one">
+            <p class="pt-3 one" style="opacity: 1" align="justify">
               Ever since its inception, IIT Kharagpur has given its students outstanding academic resources, a brand to
               identify and reckon with, lasting friendships and countless memories over the years they have spent in its
               colossal campus. And along the same lines, its alumni too have had a long and eventful history of giving
@@ -148,7 +148,7 @@
   </div>
 </section>
     <?php include'footer.php'?>
-	<?php include 'preloader.php' ?>
+	<!-- <?php include 'preloader.php' ?> -->
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 

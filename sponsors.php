@@ -21,10 +21,10 @@
 <body>
  <?php include 'navbar.php'; ?>
     <?php include 'register_spons.php'; ?>
-  <div class="_wrapper" style="overflow: hidden; background-color: white;">
-  <div class="buttonSpons" style="margin:80px auto; width: 290px;border:none">
-    <button class="btn btn-outline-secondary" onClick="alumniMeet()">Alumni meet</button>
-    <button class="btn btn-secondary" onClick="LeadershipSummit()">Leadership Summit</button>
+  <div class="_wrapper" style="overflow: hidden; background-color: white;font-family:Palatino Linotype;">
+  <div class="buttonSpons" style="margin:80px auto; width: 300px;border:none;">
+    <button class="btn btn-outline-secondary"  onClick="alumniMeet()">Alumni Meet</button>
+    <button class="btn btn-secondary"  onClick="LeadershipSummit()">Leadership Summit</button>
 
   </div>
   <div class="alumnimeetSpons">
@@ -856,8 +856,12 @@
           </h2>
 
         </div>
-        <div class="col-lg-12 col-md-6 col-sm-12" align="center"> <a href="https://www.thegrapevine.co.in/" target="_blank"> <br> <br>
-            <img class="spons" src="img/spons/2020LS/BS.PNG" width="170" height="140" />
+        <div class="col-lg-6 col-md-6 col-sm-6" align="center"> <a href="https://www.business-standard.com/" target="_blank"> <br> <br>
+            <img class="spons" src="img/spons/2020LS/BS.png" width="230" height="200" />
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6" align="center"> <a href="https://www.thegrapevine.co.in/" target="_blank"> <br> <br>
+            <img class="spons" src="img/spons/2020LS/grapewine.png" width="200" height="200" />
           </a>
         </div>
     
@@ -886,7 +890,7 @@
 </div>
 </div>
 <?php include 'footer.php';?>
-        <?php include 'preloader.php' ?>
+        <!-- <?php include 'preloader.php' ?> -->
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
@@ -902,11 +906,12 @@
          
             document.getElementsByClassName("LSspons")[0].style.display="none";
             document.getElementsByClassName("alumnimeetSpons")[0].style.display="block";
-            for (var i = 1; i < 29; i++) {
+            gsap.registerPlugin(ScrollTrigger);
+            for (var i = 1; i <=28; i++) {
               gsap.from(".s-" + i + " h2", { scrollTrigger: ".s-" + i + " h2", x: -300, duration: 1.5, opacity: 0.2 });
-              gsap.from(".s-" + i + " .col-sm-12", { scrollTrigger: ".s-" + i + " .col-sm-12", x: -300, duration: 1.5, opacity: 0.2 });
+              gsap.from(".s-" + i , { scrollTrigger: ".s-" + i , x: -300, duration: 1.5, opacity: 0.2 });
 
-      }
+            }
 
         }
         function LeadershipSummit() {

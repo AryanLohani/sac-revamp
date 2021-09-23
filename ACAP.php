@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alumni Career Assistance Programme</title>
+    <title>ACAP</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -41,6 +41,20 @@
         border-color: #00416d !important;
         color:white !important;
     }
+    .img{
+	   background-image:url(img/dak.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+   }
     @media only screen and (max-width: 768px) {
     .panel img{
         padding-top: 30px;
@@ -56,15 +70,8 @@
     <?php include 'navbar.php' ?>
 
     <header>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12  text-white">
-
-                    <h1 style="text-align: left;"></h1>
-
-                </div>
-            </div>
-        </div>
+  
+    <div class="img"></div>
     </header>
 
     <main>
@@ -79,7 +86,7 @@
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;" ></div>
                             </div>
-                            <p class="pt-4">
+                            <p class="pt-4" style="opacity: 1" align="justify">
                                 The most tedious, confusing and overwhelming time of your student life is the placement
                                 season and we here at Students’ Alumni Cell strive to ease the process for you. Through
                                 the Alumni Career Assistance Programme (ACAP) we connect you to alumni who have been
@@ -88,6 +95,30 @@
                                 that may arise.
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="overlay"></div>
+                <div class="content text-center">
+                    <h1>Our Statistics :</h1>
+                    <!-- <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+                    </p> -->
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>280</h1>
+                        <p>Alumni</p>
+                    </div>
+                    <div class="rect">
+                        <h1>600</h1>
+                        <p>Students</p>
                     </div>
                 </div>
             </div>
@@ -121,14 +152,16 @@
 
                                     An ice breaker session shall be organised for each cohort for initiating
                                     communication.<br><br>
-                                    <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
+									<div class = "diffHover">
+                                    <button type="button" id = "btn1" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
                                         data-target="#modal2">
                                         Student Registration
                                     </button><br>
-                                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal"
+                                    <button type="button" id = "btn2" class="btn btn-primary btn-lg btn-block" data-toggle="modal"
                                         data-target="#modal1">
                                         Alumni Registration
                                     </button>
+									</div>
 
                                 </div>
                                 <!-- Button trigger modal -->
@@ -256,7 +289,7 @@
     <!-- 		Footer start -->
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
-	   <?php include 'preloader.php' ?>
+	   <!-- <?php include 'preloader.php' ?> -->
 
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
