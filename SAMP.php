@@ -25,7 +25,7 @@
         border-color:  #00416d !important;
     }
     .height{
-        height:500px;
+        height:450px;
     }
     @media only screen and (max-width:998px){
         .height{
