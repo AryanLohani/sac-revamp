@@ -100,6 +100,30 @@
             </div>
         </section>
 
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="overlay"></div>
+                <div class="content text-center">
+                    <h1>Our Statistics :</h1>
+                    <!-- <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+                    </p> -->
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>280</h1>
+                        <p>Alumni</p>
+                    </div>
+                    <div class="rect">
+                        <h1>600</h1>
+                        <p>Students</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
