@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Alumni Talks</title>
+  <title>Affinity Programme</title>
 
   <!--CSS only-->
   <link rel="stylesheet" href="css/affinity.css">
@@ -19,7 +19,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-
+  <style>
+    	.section-1 .row .col-md-12 .panel {
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        background: whitesmoke;
+      }
+      
+    .section-1 .row .col-md-12 .panel h1 {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em 0;
+    font-size: 3em;
+    }
+  </style>
 </head>
 
 <body>
@@ -30,15 +42,15 @@
   <section class="section-1">
     <div class="container text-center">
       <div class="row">
-        <div class="col-md-6 col-12">
+        <div class="col-md-12 col-12 ">
           <br>
           <div class="panel text-left">
-            <h1 class="text-left">ABOUT</h1>
-            <div class="progress">
-              <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
-            </div>
-            <p class="pt-4">
+            <h1 class="text-center">ABOUT</h1>
+            <div class="progress px-5" style="height:0.4rem;">
+                <div id="two" class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+            <p class="py-5 px-5" align="justify">
               IIT Kharagpur's Affinity Programme, is an initiative
               undertaken by the Students' Alumni Cell to benefit the entire KGP community ie. alumni and
               students alike. We strive towards establishing strong and firm relations
@@ -48,11 +60,6 @@
               marketing. Thus, this initiative is an excellent way to help instigate a
               feeling of privilege and pride to be part of the IIT Kharagpur community.
             </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-12">
-          <div class="pray">
-            <img src="img/guest-lecture/alumnitalks-2019-2.jpg" class="img-fluid">
           </div>
         </div>
       </div>

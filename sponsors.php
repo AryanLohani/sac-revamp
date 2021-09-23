@@ -21,10 +21,10 @@
 <body>
  <?php include 'navbar.php'; ?>
     <?php include 'register_spons.php'; ?>
-  <div class="_wrapper" style="overflow: hidden; background-color: white;">
-  <div class="buttonSpons" style="margin:80px auto; width: 300px;border:none;font-family:Georgia">
-    <button class="btn btn-outline-secondary" onClick="alumniMeet()">Alumni Meet</button>
-    <button class="btn btn-secondary" onClick="LeadershipSummit()">Leadership Summit</button>
+  <div class="_wrapper" style="overflow: hidden; background-color: white;font-family:Palatino Linotype;">
+  <div class="buttonSpons" style="margin:80px auto; width: 300px;border:none;">
+    <button class="btn btn-outline-secondary"  onClick="alumniMeet()">Alumni Meet</button>
+    <button class="btn btn-secondary"  onClick="LeadershipSummit()">Leadership Summit</button>
 
   </div>
   <div class="alumnimeetSpons">

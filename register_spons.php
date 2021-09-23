@@ -9,7 +9,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="css/login.css">
-    <title>Document</title>
+    <title>Registration</title>
 </head>
       <body>
                   <nav class="navbar navbar-light "style="background-color: #bbbfca;position: fixed;top: 98px;width: 100%;z-index: 2;">
@@ -23,7 +23,7 @@
                 </nav>
       </body>
  </html>
- <div id="loginModal" class="modal fade" role="dialog" style="padding-left:5%;">
+ <div id="loginModal" class="modal" role="dialog" style="padding-left:5%;">
       <div class="modal-dialog modal-dialog-centered" style="min-width:400px;">
            <div class="modal-content">
              <div class="body">
