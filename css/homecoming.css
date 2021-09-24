@@ -209,7 +209,7 @@ font-size:2.5em;
 .image__description {
     font-size: 0.9em;
     margin-top: 0.25em;
-    padding:  0 1em;
+    padding:  0 2.25em;
 }
 @media (max-width: 500px){
     .image__title {
@@ -218,9 +218,16 @@ font-size:2.5em;
     }
     .image__overlay p{
         font-size: 0.7rem;
+        padding:  0 2rem;
     }
     .image{
         padding-bottom: 0.5em;
+    }
+    .section2 .container{
+     justify-content: center;
+    }
+    .section-2{
+        padding-left: 1rem;
     }
     
 }
