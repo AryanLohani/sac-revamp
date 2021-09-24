@@ -46,11 +46,11 @@
           <br>
           <div class="panel text-left">
             <h1 class="text-center">ABOUT</h1>
-            <div class="progress px-5" style="height:0.4rem;">
+            <div class="progress px-0" style="height:0.4rem;">
                 <div id="two" class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
-            <p class="py-5 px-5" align="justify">
+            <p class="py-4 px-0 " style="opacity:0.4" align="justify">
               IIT Kharagpur's Affinity Programme, is an initiative
               undertaken by the Students' Alumni Cell to benefit the entire KGP community ie. alumni and
               students alike. We strive towards establishing strong and firm relations

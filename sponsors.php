@@ -16,17 +16,18 @@
 	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <link rel="stylesheet" href="css/sponsors.css">
+
 </head>
 
 <body>
  <?php include 'navbar.php'; ?>
     <?php include 'register_spons.php'; ?>
   <div class="_wrapper" style="overflow: hidden; background-color: white;font-family:Palatino Linotype;">
-  <div class="buttonSpons" style="margin:80px auto; width: 300px;border:none;">
+  <!-- <div class="buttonSpons" style="margin:80px auto; width: 300px;border:none;">
     <button class="btn btn-outline-secondary"  onClick="alumniMeet()">Alumni Meet</button>
     <button class="btn btn-secondary"  onClick="LeadershipSummit()">Leadership Summit</button>
 
-  </div>
+  </div> -->
   <div class="alumnimeetSpons">
   <div class="container" align="center">
       <div class="s-1 row" style="margin-top:40px;">
@@ -546,7 +547,7 @@
     </div>
 
   </div>
-  <div class="LSspons" style="display:none">
+  <!-- <div class="LSspons" style="display:none">
   <div class="container" align="center">
       <div class="s-29 row" style="margin-top:40px;">
         <div class="col-lg-12" style="margin-bottom:20px;">
@@ -583,7 +584,7 @@
       <br><br>
                 <hr>
       <!-- new -->
-      <div class="s-31 row">
+      <!-- <div class="s-31 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
             Media Outreach Partners
@@ -606,9 +607,9 @@
           </a>
         </div>
    
-      </div>
+      </div> -->
       <br><br><br><br>
-                <hr>
+                <hr> -->
       <!-- new -->
       <!-- <div class="s-32 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
@@ -626,7 +627,7 @@
       <br><br>
                 <hr/> -->
      <!-- new -->
-     <div class="s-33 row">
+     <!-- <div class="s-33 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
             Digital Media Partner
@@ -687,7 +688,7 @@
       </div> -->
       <br><br>          <hr>
       <!-- new -->
-      <div class="s-36 row">
+      <!-- <div class="s-36 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
           Brought to you by
@@ -700,9 +701,9 @@
           </a>
         </div>
       </div>
-      <br><br><br>          <hr>
+      <br><br><br>          <hr> -->
       <!-- new -->
-      <div class="s-37 row">
+      <!-- <div class="s-37 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
             Magazine Partner
@@ -714,7 +715,7 @@
           <a href="https://nationalinsurance.nic.co.in/" target="_blank">
             <img class="spons" src="img/spons/2020LS/Curriculum Magazine.jpg" width="180px" height="180px" />
           </a>
-        </div>
+        </div> -->
         <!-- <div class=" col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="https://nationalinsurance.nic.co.in/" target="_blank">
             <img class="spons" src="img/spons/2020LS/NIC.jpg" width="180px" height="180px" />
@@ -734,7 +735,7 @@
       <br><br>          <hr>
 
       <!-- new -->
-      <div class="s-38 row">
+      <!-- <div class="s-38 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
             Student Outreach Partners
@@ -782,10 +783,10 @@
             <img class="spons" src="img/spons/2020LS/Smart Education Magazine_logo.jpg" width="170px" height="140px" />
           </a>
         </div>
-      </div><br><br><br>          <hr>
+      </div><br><br><br>          <hr> -->
 
       <!-- new -->
-      <div class="s-40 row">
+      <!-- <div class="s-40 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
            Print and Digital Media Partner
@@ -830,7 +831,7 @@
           </a>
         </div>
       </div>
-      <br><br>          <hr>
+      <br><br>          <hr> -->
 
       <!-- new -->
       <!-- <div class="s-43 row">
@@ -848,7 +849,7 @@
         </div>
       </div><br><br>          <hr> -->
       <!-- new -->
-      <div class="s-44 row">
+      <!-- <div class="s-44 row">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
            Corporate Media Partner
@@ -880,7 +881,7 @@
           </a>
         </div>
       </div>
-      <br><br>          <hr>
+      <br><br>          <hr> --> -->
 
       <!-- new -->
 
@@ -899,34 +900,7 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
             </script>
     <script type="text/javascript" src="js/sponsors.js" charset="utf-8"></script>
-    <script type="text/javascript" charset="utf-8">
-    
-  
-        function alumniMeet() {
-         
-            document.getElementsByClassName("LSspons")[0].style.display="none";
-            document.getElementsByClassName("alumnimeetSpons")[0].style.display="block";
-            gsap.registerPlugin(ScrollTrigger);
-            for (var i = 1; i <=28; i++) {
-              gsap.from(".s-" + i + " h2", { scrollTrigger: ".s-" + i + " h2", x: -300, duration: 1.5, opacity: 0.2 });
-              gsap.from(".s-" + i , { scrollTrigger: ".s-" + i , x: -300, duration: 1.5, opacity: 0.2 });
 
-            }
-
-        }
-        function LeadershipSummit() {
-          
-
-          document.getElementsByClassName("alumnimeetSpons")[0].style.display="none";
-          document.getElementsByClassName("LSspons")[0].style.display="block";
-          gsap.registerPlugin(ScrollTrigger);
-          for (var i = 29; i < 46; i++) {
-            gsap.from(".s-" + i + " h2", { scrollTrigger: ".s-" + i + " h2", x: -300, duration: 1.5, opacity: 0.2 });
-              gsap.from(".s-" + i , { scrollTrigger: ".s-" + i , x: -300, duration: 1.5, opacity: 0.2 });
-          }
-        }
-  </script>
-  
 </body>
 
 </html>
