@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>SAC</title>
+  <title>Annual Alumni Meet</title>
   <link rel="stylesheet" type="text/css" href="css/AAM.css">
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">

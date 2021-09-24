@@ -164,7 +164,7 @@ iframe{
         padding:0 2rem 0 0rem;
      }
      .image__overlay p{
-         font-size: 0.8rem;
+         font-size: 0.7rem;
          padding:  0  1.5em;
      }
   .image__title{
@@ -278,6 +278,11 @@ iframe{
     .image__title {
         font-size: 1.5em;
         font-weight: bold;
+    }
+}
+@media (max-width: 890px) and (min-width : 770px){
+    .image__description{
+        font-size: 0.7em;
     }
 }
 

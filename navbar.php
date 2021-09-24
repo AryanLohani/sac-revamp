@@ -86,13 +86,13 @@ display: block;}
 						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Events </a>
 						<div>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="SAM.php"> Students Alumni Meet </a></li>
-								<li><a class="dropdown-item" href="AAM.php"> Alumni Meet </a></li>
-								<li><a class="dropdown-item" href="homecoming.php"> Homecoming </a></li>
-								<li><a class="dropdown-item" href="phonathon.php"> Phonathon </a></li>
-								<li><a class="dropdown-item" href="leadershipsummit.php"> Leadership Summit </a></li>
-								<li><a class="dropdown-item" href="alumni_talks.php"> Alumni Talks </a></li>
-								<li><a class="dropdown-item" href="alvida.php"> ALVIDA </a></li>
+						     	<li><a class="dropdown-item" href="alumni_talks.php"> Alumni Talks </a></li>
+								 <li><a class="dropdown-item" href="alvida.php"> Alvida </a></li>
+								 <li><a class="dropdown-item" href="AAM.php">Annual Alumni Meet </a></li>
+								 <li><a class="dropdown-item" href="homecoming.php"> Homecoming </a></li>
+								 <li><a class="dropdown-item" href="leadershipsummit.php"> Leadership Summit </a></li>
+								 <li><a class="dropdown-item" href="phonathon.php"> Phonathon </a></li>
+								<li><a class="dropdown-item" href="SAM.php"> Students Alumni Meet </a></li>			
 							</ul>
 						</div>
 
@@ -100,20 +100,21 @@ display: block;}
 					<li class="nav-item dropdown">
 						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Initiatives </a>
 						<ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="acap.php"> ACAP</a></li>
+							<li><a class="dropdown-item" href="affinity.php"> Affinity Programme </a></li>
+							<li><a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/"> Alumni Blog </a></li>
+							<li><a class="dropdown-item" href="myimprint.php"> My Imprint </a></li>
 							<li><a class="dropdown-item" href="SAMP.php"> SAMP</a></li>
 							<li><a class="dropdown-item" href="sparc.php"> SPARC </a></li>
-							<li><a class="dropdown-item" href="myimprint.php"> MYIMPRINT </a></li>
-							<li><a class="dropdown-item" href="acap.php"> ACAP</a></li>
-							<li><a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/"> Alumni Blog </a></li>
-							<li><a class="dropdown-item" href="affinity.php"> Affinity Programme </a></li>
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Publications </a>
 						<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf"> Tempo Shout </a></li>
 							<li><a class="dropdown-item" href="yearbook.php"> Yearbook </a></li>
 							<li><a class="dropdown-item" href="YOY.php"> YOY </a></li>
-							<li><a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf"> Tempo Shout </a></li>
+							
 						</ul>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="team.php"> The Team </a></li>
