@@ -62,7 +62,7 @@
                             <div class="progress" style="height:0.4rem;">
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div></div>
-                            <p class="pt-4">
+                            <p class="pt-4" style="opacity: 1" align="justify">
                                 Student Alumni Mentorship Programme (SAMP) is a unique initiative undertaken by the
                                 Students' Alumni Cell, IIT Kharagpur.
                                 Through this programme students are connected with alumni who serve both as a guide and
@@ -79,6 +79,30 @@
             </div>
         </section>
 
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="overlay"></div>
+                <div class="content text-center">
+                    <h1>Our Statistics :</h1>
+                    <!-- <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+                    </p> -->
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>120</h1>
+                        <p>Mentors</p>
+                    </div>
+                    <div class="rect">
+                        <h1>400</h1>
+                        <p>Mentees</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section-1">
             <div class="container text-center">
                 <div class="row">
@@ -89,7 +113,7 @@
                                 <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;" ></div>
                             </div>
-                            <p class="pt-4">
+                            <p class="pt-4" style="opacity: 1" align="justify">
                                 Student Alumni Mentorship Programme facilitates a medium where the student connects with
                                 an Alumnus from a field he has a profound interest in. The Alumni share their vast
                                 repository of personal experiences and help students improve insight in many diverse
@@ -106,7 +130,7 @@
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
-                            <p class="pt-4">
+                            <p class="pt-4" style="opacity: 1" align="justify">
                                 The Student Alumni Mentorship Programme is an active step to keep the alumni in
                                 touch with all the happenings at IIT Kharagpur. The Institute has undergone many changes
                                 from time to time, while some are very evident there are also many subtle changes and

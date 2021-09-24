@@ -57,7 +57,7 @@
               <div class="progress" style="height:0.4rem;">
                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
-              <p class="pt-4">
+              <p class="pt-4" style="opacity: 1" align="justify">
                 <strong>Leadership Summit</strong>, organized
                 as a part of Guest Lectures, sees the participation of professionals and corporate tycoons sharing the same stage talking about their experiences and guiding the students to become future world leaders. With IIT Kharagpur’s
                 best minds converging at the this event, we weave together complex, seemingly diverse thoughts into an intricate tapestry and

@@ -63,7 +63,7 @@
                 <div id="two" class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
                   aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
-              <p class="pt-4">
+              <p class="pt-4" style="opacity: 1" align="justify">
                 Student Alumni Meets bring together the students and the alumni under one roof and encourage interactive
                 dialogue. They play a very important role in strengthening the bond with alumni.The aim of these meets
                 is to connect the alumni and the students at a very personal level and ensure long term interaction and
@@ -120,7 +120,7 @@
               <h1 class="x">SAM'18 SINGAPORE</h1>
               <div class="progress" style="height:0.4rem;">
                 <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="height:0.4rem;"></div>
               </div>
               <br>
 

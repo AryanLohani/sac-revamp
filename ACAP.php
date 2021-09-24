@@ -86,7 +86,7 @@
                                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
                                     aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;" ></div>
                             </div>
-                            <p class="pt-4">
+                            <p class="pt-4" style="opacity: 1" align="justify">
                                 The most tedious, confusing and overwhelming time of your student life is the placement
                                 season and we here at Students’ Alumni Cell strive to ease the process for you. Through
                                 the Alumni Career Assistance Programme (ACAP) we connect you to alumni who have been
@@ -95,6 +95,30 @@
                                 that may arise.
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="overlay"></div>
+                <div class="content text-center">
+                    <h1>Our Statistics :</h1>
+                    <!-- <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+                    </p> -->
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>280</h1>
+                        <p>Alumni</p>
+                    </div>
+                    <div class="rect">
+                        <h1>600</h1>
+                        <p>Students</p>
                     </div>
                 </div>
             </div>
@@ -128,14 +152,16 @@
 
                                     An ice breaker session shall be organised for each cohort for initiating
                                     communication.<br><br>
-                                    <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
+									<div class = "diffHover">
+                                    <button type="button" id = "btn1" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
                                         data-target="#modal2">
                                         Student Registration
                                     </button><br>
-                                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal"
+                                    <button type="button" id = "btn2" class="btn btn-primary btn-lg btn-block" data-toggle="modal"
                                         data-target="#modal1">
                                         Alumni Registration
                                     </button>
+									</div>
 
                                 </div>
                                 <!-- Button trigger modal -->
