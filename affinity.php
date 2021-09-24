@@ -65,7 +65,7 @@
       </div>
     </div>
   </section>
-  <section class="section-2">
+  <!-- <section class="section-2">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12 col-12">
@@ -76,66 +76,12 @@
                 aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="service-card">
-                  <div class="card content" >
-                    <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\headspace.jpeg" alt="Card image cap" style='height:18em;'>
-                    <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
-                    <div class="content-details fadeIn-bottom">
-                      <p class="content-text">
-                        <b>The benefits of this association include:</b><br>
-                           Six months of free subscription<br>
-                           Guided online meditation resources<br>
-                           Guided sessions on stress management, happiness, resilience and physical health<br>
-                           <a href='https://www.headspace.com/' target='_blank'>CLICK HERE</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="service-card">
-                  <div class="card content">
-                    <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\geek.png" alt="Card image cap">
-                    <div class="content-details fadeIn-bottom">
-                      <p class="content-text">
-                        <b>Avail the special offers now.</b><br>
-                          50% Discount on Amazon SDE Test series <br>
-
-                           25% Discount on Data Structures & Algorithm course<br>
-                           Use coupon code<br> KGPIAN_PERKS (For Amazon SDE) <br>& KGPIAN_PERKS_DSA (For DSA Course)<br>
-                       <a href=https://lm.facebook.com/l.php?u=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fcourses%2Fonline%3Ffbclid%3DIwAR1-zfhfePh_nbITuRw83AUrbhqUIAhxGG9dcqnACpcPd0yaI2yjpqhhumc&h=AT2_tlm-K4l51Fw7EpLlMArnoapR3WVYkpbrtNcp0u5cBv1ZxayQBK_eclqGcEI6X-KSRPJiBirv6iqno5b3OD78VmhqzvoZ7Abb3f21d6pc8diH8Qy2t0J6aZupLTp4CZfLlnVsuPoy42qknI4YcARAtbSJjGw7I11dQw>CLICK HERE</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="service-card">
-                  <div class="card content">
-                    <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
-                    <div class="content-details fadeIn-bottom">
-                      <p class="content-text">
-                        <b>The benefits of this association include:</b><br>
-                         Courses with discount coupons.<br>
-                         A chance to get internship for selected enrolled students.<br>
-                         Discounted passes for Annual data Science conference for selected students.<br>
-                         <a href='http://www.analyticsvidhya.com/' target='_blank'>CLICK HERE</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="section-2">
     <div class="container text-center">
@@ -148,7 +94,68 @@
                 aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
-            
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\headspace.jpeg" alt="Card image cap" style='height:18em;'>
+                    <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>The benefits of this association include:</b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li style="text-align: justify; text-justify: inter-word;">Six months of free subscription</li>
+                          <li>Guided online meditation resources</li>
+                          <li>Guided sessions on stress management, happiness, resilience and physical health</li>
+                        </ul>
+                           <a href='https://www.headspace.com/' target='_blank'>CLICK HERE</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content">
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\geek.png" alt="Card image cap">
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>Avail the special offers now.</b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li>50% Discount on Amazon SDE Test series </li>
+                          <li>25% Discount on Data Structures & Algorithm course</li>
+                          <li>Use coupon code KGPIAN_PERKS (For Amazon SDE) & KGPIAN_PERKS_DSA (For DSA Course)</li>
+                        </ul>
+                           
+                       <a href=https://lm.facebook.com/l.php?u=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fcourses%2Fonline%3Ffbclid%3DIwAR1-zfhfePh_nbITuRw83AUrbhqUIAhxGG9dcqnACpcPd0yaI2yjpqhhumc&h=AT2_tlm-K4l51Fw7EpLlMArnoapR3WVYkpbrtNcp0u5cBv1ZxayQBK_eclqGcEI6X-KSRPJiBirv6iqno5b3OD78VmhqzvoZ7Abb3f21d6pc8diH8Qy2t0J6aZupLTp4CZfLlnVsuPoy42qknI4YcARAtbSJjGw7I11dQw>CLICK HERE</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content">
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>The benefits of this association include:</b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li>Courses with discount coupons.</li>
+                          <li>A chance to get internship for selected enrolled students.</li>
+                          <li>Discounted passes for Annual data Science conference for selected students.</li>
+                        </ul>
+                         <a href='http://www.analyticsvidhya.com/' target='_blank'>CLICK HERE</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="row">
               <div class="col-sm-4">
                 <div class="service-card">
@@ -157,12 +164,14 @@
                          <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap">
                          <!--<img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">-->
                            <div class="content-details fadeIn-bottom">
-                              <p class="content-text">
-                              <b>The benefits of this association include:</b><br>
-                                 Special Prices<br>
-                                 Affordable EMIs<br>
-                                 Free 3rd party accidental and liquid damage insurance<br>
-                                 Easy Exchange<br>
+                              <p class="content-text" style="text-align: left; font-size:0.83em">
+                              <b>The benefits of this association include:</b>
+                              <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                                <li> Special Prices</li>
+                                <li>Affordable EMIs</li>
+                                <li>Free 3rd party accidental and liquid damage insurance</li>
+                                <li>Easy Exchange</li>
+                              </ul>
                               <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a>
                               </p>
                            </div>
@@ -175,12 +184,14 @@
                     <div class="content-overlay"></div>
                     <img class="card-img-top" src="img\affinity\hdfc.png" alt="Card image cap"  >
                     <div class="content-details fadeIn-bottom">
-                      <p class="content-text">
-                        <b>HDFC offering the following options: </b><br>
-                          The benefits of this association includes:
-                          New upgraded HDFC bank Diners Club Black Credit Card. (Annual Memberships, Monthly Milestone benefits and other added features).<br>
-                        <a href="Diners-Privilege.pdf">Life Time Free Diners Black Card</a> <br>
-                        <a href="Diners-Black-New.pdf">Priced Diners Black card</a><br>
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>HDFC offering the following options: </b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li>The benefits of this association includes:</li>
+                          <li>New upgraded HDFC bank Diners Club Black Credit Card. (Annual Memberships, Monthly Milestone benefits and other added features).</li>
+                          <li><a href="Diners-Privilege.pdf">Life Time Free Diners Black Card</a></li>
+                          <li><a href="Diners-Black-New.pdf">Priced Diners Black card</a></li>
+                        </ul>
                       </p>
                     </div>
                   </div>
@@ -193,9 +204,11 @@
                     <div class="content-overlay"></div>
                     <img class="card-img-top" src="img\affinity\Oyo.jpg" alt="Card image cap" >
                     <div class="content-details fadeIn-bottom">
-                      <p class="content-text"><b>Oyo offering the following stay options: </b><br>
-                           Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
-                           Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
+                      <p class="content-text" style="text-align: left; font-size:0.83em"><b>Oyo offering the following stay options: </b>
+                      <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                        <li>Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.</li>
+                        <li>Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. </li>
+                      </ul>
                       </p>
                     </div>
                   </div>
