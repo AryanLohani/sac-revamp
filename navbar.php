@@ -48,13 +48,18 @@ padding: 12px 16px;
 text-decoration: none;
 display: block;
 }
+.navi{
+	height: 70px;
+}
 .dropdown-content a:hover {
 background-color: #ddd;
 }
 .dropdown:hover .dropdown-content {
 display: block;}
-.xyz{
-	padding-bottom :10px;
+.loglog{
+	position:absolute;
+	top: -6px;
+	z-index: 1000;
 }
 @keyframes delay{
     0%{
@@ -71,17 +76,19 @@ display: block;}
 </style>
   </head>
   <body>
+  
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-
+	<img class ="loglog" src="img/latestlogo.jpeg" height="80px" width="140px">
 		<div class="container-fluid">
-			<a class="navbar-brand xyz" href="#"><img src="img/latestlogo.jpeg"></a>
+			
+			<!-- <a class="navbar-brand xyz" href="#"></a> -->
 			<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
 				aria-expanded="false" aria-label="Toggle navigation"> -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+			<div class="navbar-collapse collapse navi justify-content-end" id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"> <a class="nav-link" href="index.php">Home </a> </li>
 					<li class="nav-item dropdown">
