@@ -53,7 +53,9 @@ background-color: #ddd;
 }
 .dropdown:hover .dropdown-content {
 display: block;}
-
+.xyz{
+	padding-bottom :10px;
+}
 @keyframes delay{
     0%{
         opacity: 0;
@@ -64,15 +66,15 @@ display: block;}
     100%{
         opacity: 1;
     }
+	
 }
 </style>
   </head>
   <body>
-
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><img src="img/SACLogo.png"> </a>
+			<a class="navbar-brand xyz" href="#"><img src="img/latestlogo.jpeg"></a>
 			<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
 				aria-expanded="false" aria-label="Toggle navigation"> -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -83,7 +85,7 @@ display: block;}
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"> <a class="nav-link" href="index.php">Home </a> </li>
 					<li class="nav-item dropdown">
-						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Events </a>
+						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Events </a>
 						<div>
 							<ul class="dropdown-menu">
 						     	<li><a class="dropdown-item" href="alumni_talks.php"> Alumni Talks </a></li>
@@ -98,7 +100,7 @@ display: block;}
 
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Initiatives </a>
+						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Initiatives </a>
 						<ul class="dropdown-menu">
 						    <li><a class="dropdown-item" href="acap.php"> ACAP</a></li>
 							<li><a class="dropdown-item" href="affinity.php"> Affinity Programme </a></li>
@@ -109,7 +111,7 @@ display: block;}
 						</ul>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Publications </a>
+						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Publications </a>	
 						<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf"> Tempo Shout </a></li>
 							<li><a class="dropdown-item" href="yearbook.php"> Yearbook </a></li>
@@ -120,8 +122,9 @@ display: block;}
 					<li class="nav-item"><a class="nav-link" href="team.php"> The Team </a></li>
 					<!-- <li class="nav-item"><a class="nav-link" href="#"> Alumni-Reg </a></li> -->
 					<li class="nav-item dropdown">
-						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Sponsors </a>
+						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Sponsors </a>
 						<ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="sponsors2021.php"> 2021 </a></li>
 							<li><a class="dropdown-item" href="sponsors.php"> 2020 </a></li>
 							<li><a class="dropdown-item" href="sponsors2019.php"> 2019 </a></li>
 							<li><a class="dropdown-item" href="sponsors2018.php"> 2018 </a></li>

@@ -4,19 +4,48 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>SAC</title>
+  <title>Homecoming</title>
   <link rel="stylesheet" type="text/css" href="css/homecoming.css">
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
+  <style type="text/css">
+   .img{
+	   background-image:url(img/homecomingc/compressed homecoming_poster.jpg);
+	   background-size:100% 100%;
+	   height:700px
+   }
+   .padding{
+	   padding:0 9rem;
+   }
+   .section-2{
+	   margin-bottom:-350px;
+   }
+
+   @media only screen and (max-width:500px){
+	.padding{
+	   padding:0 1rem;
+   }
+   .img{
+	  height:330px;
+	  margin-bottom:0px;
+   }
+   .section-2{
+	   margin-top:-250px;
+	   margin-bottom:-100px;
+   }
+
+   }
+  </style>
 </head>
 <body>
 <section class="section-1">
       <?php include'navbar.php' ?>
     <header>
-	<div class="container-fluid img">
+	<div class="img">
 	</div>
 	</header>
   </section>
   
+
     <section class="section-2 pt-0 pe-1" style="padding-bottom:10rem;">
 	<div class="container-fluid" >
 		<div class="row">
@@ -33,6 +62,7 @@
             </p>
 			</div>
 			</div>
+
 			</div>
 			<div class="col-md-5">
 			<div class="container">
@@ -42,7 +72,9 @@
 						<div class="second"></div>
 						<div class="third">
 							<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-2 x">
+
 </div>						
+
 					</div>
 				</div>
 			</div>
@@ -50,7 +82,9 @@
 	</div>
 </div>
 </section> 
+
 <section class="section-3">
+
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
@@ -62,12 +96,14 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-8 x">
 					<div class="image pt-3 ">
+
 					<img src="img/homecomingc/compressed homecoming/netaji2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				</div>			
-			<div class="col-md-4 x">
+
 						<div class="image pt-3">
+
 					<img  src="img/homecomingc/compressed homecoming/award1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
@@ -289,7 +325,7 @@
   </section>
 
   <?php include'footer.php' ?>
-  <?php include 'preloader.php' ?>
+  <!-- <?php include 'preloader.php' ?> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
