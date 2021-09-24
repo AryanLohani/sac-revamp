@@ -45,22 +45,24 @@
 	</header>
   </section>
   
-    <section class="section-2" >
-	<div class="padding" >
+
+    <section class="section-2 pt-0 pe-1" style="padding-bottom:10rem;">
+	<div class="container-fluid" >
 		<div class="row">
 			<div class="col-md-7">
-				<h2 class="one" style="font-weight:800;">ABOUT US</h2>
+				<h1 class="one">ABOUT US</h1>
 				<div class="row">
-					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left ">
-				        <p class="pt-2 x" style="opacity: 1" align="justify">
-				        We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
-				        exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
-				        yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
-				        brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
-				        their college lives as they get a chance to visit all the locations they once frequented.
-                        </p>
-			        </div>
-			    </div>
+					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
+				<p class="pt-3 x">
+				We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
+				exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
+				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
+				brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
+				their college lives as they get a chance to visit all the locations they once frequented.
+            </p>
+			</div>
+			</div>
+
 			</div>
 			<div class="col-md-5">
 			<div class="container">
@@ -70,7 +72,9 @@
 						<div class="second"></div>
 						<div class="third">
 							<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-2 x">
-                        </div>							
+
+</div>						
+
 					</div>
 				</div>
 			</div>
@@ -78,24 +82,28 @@
 	</div>
 </div>
 </section> 
-<section class="section-3 pt-n5">
+
+<section class="section-3">
+
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">GRAND REUNION</h1>
-			</div>		
+				<h1 class="gallery-h3 pt-5 text-center">GRAND REUNION</h1>
+            </div>
 			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-8 x">
-					<div class="image">
+					<div class="image pt-3 ">
+
 					<img src="img/homecomingc/compressed homecoming/netaji2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				</div>			
-			<div class="col-md-4 x">
-						<div class="image">
+
+						<div class="image pt-3">
+
 					<img  src="img/homecomingc/compressed homecoming/award1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
@@ -110,7 +118,7 @@
 			</div>
 			</div>
 	</div>
-	</div>
+	<!-- </div> -->
 	</div>
 	</div>
   </section>
@@ -119,7 +127,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Musical Night</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Musical Night</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -160,7 +168,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Campus Tour</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Campus Tour</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -171,7 +179,7 @@
 					<img  src="img/homecomingc/compressed homecoming/group1.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
-							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
+							<p class="image__description more-text">Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
 </p>	
 				</div></div>
 				<div class="image pt-3">
@@ -188,7 +196,7 @@
 					<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
-							<p class="image__description">In the progressive world we live in, there are a lot of changes and yet a lot of constants and it’s a pleasure to see the 
+							<p class="image__description"> In the progressive world we live in, there are a lot of changes and yet a lot of constants and it’s a pleasure to see the 
 							newer developments in harmony with the same old roads.</p>	
 				</div></div>
 			</div>
@@ -204,7 +212,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Department Visit</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Department Visit</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -252,7 +260,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Entertania</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Entertania</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -294,7 +302,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Illumination</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Illumination</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
