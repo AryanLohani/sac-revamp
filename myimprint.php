@@ -77,7 +77,7 @@
                     aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
-                  <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel pt-3">
+                  <img src="img/latest programs/cg17.jpeg" class="img-fluid img-panel pt-3">
                 </div>
               </div>
 
@@ -94,7 +94,7 @@
                     aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
-                  <img src="img/latest programs/cg16.jpg" class="img-fluid img-panel pt-3">
+                  <img src="img/latest programs/cg16.jpeg" class="img-fluid img-panel pt-3">
                 </div>
               </div>
 
@@ -111,7 +111,7 @@
                     aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
-                  <img src="img/latest programs/CG15.jpg" class="img-fluid img-panel pt-3">
+                  <img src="img/latest programs/cg15.jpeg" class="img-fluid img-panel pt-3">
                 </div>
               </div>
 
@@ -128,7 +128,7 @@
                     aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
-                  <img src="img/latest programs/cg14.jpg" class="img-fluid img-panel pt-3">
+                  <img src="img/latest programs/cg14.jpeg" class="img-fluid img-panel pt-3">
                 </div>
               </div>
 

@@ -48,8 +48,10 @@
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
 	<div class="padding">
 		<div class="row">
-			<div class="col-md-7">
-				<h2 class="one" style="font-weight:800;">ABOUT US</h2>
+
+			<div class="col-md-7 col-11">
+				<h1 class="one justify-content-left">ABOUT US</h1>
+
 				<div class="row">
 					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
 			           <p class="pt-2 x" style="opacity: 1" align="justify">
@@ -82,8 +84,10 @@
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
-			<div class="col-md-3 d-flex justify-content-left">
-				<h1 class="gallery-h3 pt-5">Arena</h1>
+
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Arena</h1>
+
 			</div>
 			<div class="col-md-9">
 			<div class="container">
@@ -130,7 +134,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Grand Reunion</h1>
+				<h1 class="gallery-h3 pt-5 text-center text-center">Grand Reunion</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -171,7 +175,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class=" gallery-h3 pt-5">Department Visit</h1>
+				<h1 class=" gallery-h3 pt-5 text-center">Department Visit</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -210,7 +214,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Musical Night</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Musical Night</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -238,7 +242,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Hall Visit</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Hall Visit</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -286,7 +290,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Campus Tour</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Campus Tour</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -325,7 +329,7 @@
 					<img src="img/day2c/compressed day 2/football.jpg" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 					<div class="image__title">Campus Tour</div>
-							<p class="image__description">In the progressive world we live in, there are a lot of changes and yet a lot of constants 
+							<p class="image__description text-center">In the progressive world we live in, there are a lot of changes and yet a lot of constants 
 							and it’s a pleasure to see the newer developments in harmony with the same old roads.</p>
 				</div></div></div>
 				</div>
@@ -341,7 +345,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Entertania</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Entertania</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -380,7 +384,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">Illumination</h1>
+				<h1 class="gallery-h3 pt-5 text-center">Illumination</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -445,7 +449,7 @@
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5">2.2 marathon</h1>
+				<h1 class="gallery-h3 pt-5 text-center">2.2 marathon</h1>
 			</div>
 			<div class="col-md-9">
 			<div class="container">
