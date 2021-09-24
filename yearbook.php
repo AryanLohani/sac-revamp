@@ -77,7 +77,7 @@
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
                         <div class="progress" style="height:0.4rem;">
-                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            <div id="two" class="progress-bar-pink" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                         </div>
                     </div>
                 </div>
