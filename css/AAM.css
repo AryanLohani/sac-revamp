@@ -124,6 +124,7 @@ iframe{
 	padding: 0.4em 20px;
 	font-size: 3em;
 }
+
   
 .section-2 p{
 	font-size: 1.1em;
@@ -131,10 +132,12 @@ iframe{
 	font-weight:500;
 	font-family:sans-serif;
 }
-  
+.section-2 .container-fluid{
+    padding:0 5rem 0 5rem;
+ }
 .section-2 .one{
 	padding:0 1.5rem;
-	margin: 20px;
+	margin: 20px 20px 20px 0;
 }	
 	 
 	@media (max-width: 500px){
@@ -146,14 +149,30 @@ iframe{
 	  font-size: 0.8em;
 	 }
 	 .section-2 .one{
-	     padding:0 1.5rem;
+	     padding:0 1rem;
 		 margin: 10px;
      }	 
+     .section-2{
+        padding: 0  1rem 0 0;
+    }
 	 .section-2 h1 {
 		 padding: 0.15em 0;
 		 margin:0;
 	     font-size: 2.5em;
 	 }
+     .section-2 .container-fluid{
+        padding:0 2rem 0 0rem;
+     }
+     .image__overlay p{
+         font-size: 0.8rem;
+     }
+  .image__title{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+     .image{
+         padding-bottom: 0.5em;
+     }
   }
 	
 .first,.second{
@@ -244,14 +263,22 @@ iframe{
 }
 
 .image__title {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
 .image__description {
     font-size: 1.25em;
     margin-top: 0.25em;
+    padding:  0  1em;
 }
+@media (max-width: 500px){
+    .image__title {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
 .box{
 	padding-top:1rem; 
 	border-bottom:1px solid black;
