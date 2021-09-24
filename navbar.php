@@ -123,6 +123,7 @@ display: block;}
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Sponsors </a>
 						<ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="sponsors2021.php"> 2021 </a></li>
 							<li><a class="dropdown-item" href="sponsors.php"> 2020 </a></li>
 							<li><a class="dropdown-item" href="sponsors2019.php"> 2019 </a></li>
 							<li><a class="dropdown-item" href="sponsors2018.php"> 2018 </a></li>
