@@ -244,6 +244,7 @@ header a {
 
 	.card-img-top{
 		object-fit: cover;
+    object-position: top;
 	}
 
 .contact-icon{
@@ -260,7 +261,7 @@ header a {
 	}
 .former-team-text{
 	text-align:left;
-	postion:relative;
+	position:relative;
 	left:3.6rem;
 }
     #footer{
