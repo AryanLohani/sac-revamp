@@ -73,6 +73,12 @@
     }
 
     </style>
+	<script>
+	function resizeframe(obj)
+	{
+		obj.style.height = obj.contentWindow.document.body.scrollHeight + "px";
+	}
+	</script>
 
 </head>
 
@@ -124,7 +130,7 @@
     </div>
     </div>
     <main>
-        <section class="section-1" style="overflow:hidden">
+        <section class="section-1 justify-content-center" style="display:flex;overflow:hidden">
             <div class="container" style="margin:18px">
                 <div class="row">
                     <div class="col-md-9 col-12">
@@ -152,13 +158,12 @@
                         </div>
                     </div>
                     <br>
-                    <div id="x" class="col-md-3 col-12">
-                        <div class="pray">
+                    <div id="x" class="col-md-3 col-12" style="position:relative">
                             <iframe
                                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkgp.alumnicell&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                width="500" height="454px" style="border:none;overflow:hidden" scrolling="no"
-                                frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                        </div>
+                                style="border:none;position:absolute;top:0;right:0;left:0;bottom:0;height:100% !important;width:100% !important" scrolling="no"
+                                onload = "resizeframe(this)" frameborder="0" allowTransparency="true" allow="encrypted-media">
+							</iframe>
                     </div>
                 </div>
             </div>
