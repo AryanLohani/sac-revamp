@@ -171,6 +171,6 @@ body {
 }
 #x{
   visibility: hidden;
-  height: 5vmin;
+  /*height: 5vmin;*/
 }
 }
