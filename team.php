@@ -94,7 +94,7 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Satyam5.jpeg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2021\Satyam.jpg" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
                       <h6 class="x">Satyam Jha</h6>
@@ -152,7 +152,7 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Namya.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2021\Namya.jpg" height=300px; alt="Card image cap" style="object-position: left;">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
                       <h6 class="x">Namya Swarnkar</h6>
@@ -268,7 +268,7 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\SUMANTH.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2021\SUMANTH.jpg" height=300px; alt="Card image cap" style="object-position: center;">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
                       <h6 class="x">D Sumanth</h6>
