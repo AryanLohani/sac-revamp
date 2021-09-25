@@ -93,8 +93,8 @@ header {
   background: #ff512f;
   /* fallback for old browsers */
   background: url(../img/mentorship.jpg);
+  background-size: 100% 100%;
   background-position: center;
-  background-size: cover;
 }
 
 header .container .col-md-7 {
