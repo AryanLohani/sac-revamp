@@ -68,7 +68,8 @@
                             </p>
                             <div class="row text-center">
                                 <div class="col-12">
-                                    <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/yearbook/"><i class="fa fa-book"></i> YearBook</button>
+                                    <a href="https://sac.iitkgp.ac.in/yearbook/" target="blank">
+                                    <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/yearbook/"><i class="fa fa-book"></i> YearBook</button></a>
                                 </div>
                             </div>
                         </div>
