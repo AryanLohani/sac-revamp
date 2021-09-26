@@ -367,3 +367,8 @@ height:0.7rem;
   font-size: 1.5em;
   padding: 5px;
 }
+
+.carousel-control-prev,
+.carousel-control-next{
+	width:5%;
+}
