@@ -69,7 +69,7 @@
       </div>
     </section>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
       <div class="carousel-inner">
       <div class="carousel-item active">
         <section class="section-2">
@@ -94,7 +94,7 @@
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
                               <p>Rahul Vishal Sinha</p>
-                              <a href="https://www.linkedin.com/in/rahul-vishal-sinha-9399a72/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/rahul-vishal-sinha-9399a72/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -103,7 +103,7 @@
                             <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFAWga40M7I8Q/profile-displayphoto-shrink_400_400/0/1554083443158?e=1637193600&v=beta&t=aryJ1GiLya3fQm5R1cTXJIa6PVYdhJVMX2Uv5N9lXCg" class="card-img">
                             <div class="card-text">
                               <p >Sudipto De</p>
-                              <a href="https://www.linkedin.com/in/sudipto-de-phd-cfa-45403214/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/sudipto-de-phd-cfa-45403214/" target="_blank" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -117,7 +117,7 @@
                               <p >
                               Animesh Saxena
                               </p>
-                              <a href="https://www.linkedin.com/in/animeshsaxena83/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/animeshsaxena83/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -127,7 +127,7 @@
                             <div class="card-text">
                               <p >Nitin Arora</p>
 
-                              <a href="https://www.linkedin.com/in/aroranitin78/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/aroranitin78/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -136,7 +136,7 @@
                             <img src="https://assets.euromoneydigital.com/7b/5a/d1e30802cd77fe92548002c86814/socgen-sayan-das230px.jpg" class="card-img">
                             <div class="card-text">
                                 <p>Sayan Das</p>
-                                <a href="https://www.linkedin.com/in/sayan-das-a4982b7/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                                <a href="https://www.linkedin.com/in/sayan-das-a4982b7/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -180,7 +180,7 @@
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
                               <p>Apurva Kumar Sinha</p>
-                              <a href="https://www.linkedin.com/in/apurvaksinha/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/apurvaksinha/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -189,7 +189,7 @@
                             <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHWr63bEGXm-A/profile-displayphoto-shrink_400_400/0/1602147084189?e=1637193600&v=beta&t=_4PIghf-ou1bvMvg1Qx5ZnjcFs0z0blObww4QEKuxrw" class="card-img">
                             <div class="card-text">
                               <p >Bhaskar Majumdar</p>
-                              <a href="https://www.linkedin.com/in/bmajumdar/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/bmajumdar/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -203,7 +203,7 @@
                               <p >
                               Inderjeet Singh
                               </p>
-                              <a href="https://www.linkedin.com/in/inderbarara/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/inderbarara/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -213,7 +213,7 @@
                             <div class="card-text">
                               <p >Ram Bhamidi</p>
 
-                              <a href="https://www.linkedin.com/in/bhamidi/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/bhamidi/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -222,7 +222,7 @@
                             <img src="https://media-exp1.licdn.com/dms/image/C5103AQFYKa4SfPeh4g/profile-displayphoto-shrink_400_400/0/1556299859086?e=1637193600&v=beta&t=y2BKBeA8WSW72o7lURuX7-Eq77wnD1e_yweCL7axdm0" class="card-img">
                             <div class="card-text">
                                 <p>Mohan Silaparasetty</p>
-                                <a href="https://www.linkedin.com/in/mohan-silaparasetty/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                                <a href="https://www.linkedin.com/in/mohan-silaparasetty/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -233,7 +233,7 @@
                               <p>Joyjeet Maity</p>
 
 
-                              <a href="https://www.linkedin.com/in/joyjeetmaity/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/joyjeetmaity/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -266,7 +266,7 @@
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
                               <p>Arjun Malhotra</p>
-                              <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -275,7 +275,7 @@
                             <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
                             <div class="card-text">
                               <p >Anjanrai Chaudhuri</p>
-                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -289,7 +289,7 @@
                               <p >
                               Arunabh Kumar
                               </p>
-                              <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -299,7 +299,7 @@
                             <div class="card-text">
                               <p >Gopalraj Garhia</p>
 
-                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -308,7 +308,7 @@
                             <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
                             <div class="card-text">
                                 <p>Prasad Menon</p>
-                                <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                                <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
@@ -319,7 +319,7 @@
                               <p>Sakyasinha Roy</p>
 
 
-                              <a href="#"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
