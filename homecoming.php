@@ -16,9 +16,7 @@
    .padding{
 	   padding:0 9rem;
    }
-   .section-2{
-	   margin-bottom:-350px;
-   }
+  
 
    @media only screen and (max-width:500px){
 	.padding{
@@ -85,11 +83,11 @@
 
 <section class="section-3">
 
-	<div class="container-fluid p-0">
-	<div style="padding:0 3rem;">
+	<div class="container-fluid pt-3">
+	<div style="padding:0 2rem;">
 		<div class="row">
-			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5 text-center">GRAND REUNION</h1>
+		<div class="col-md-3 d-flex justify-content-center" style="padding:0 0rem;">
+				<h2 class="gallery-h3 pt-5 text-center">Grand Reunion</h2>
             </div>
 			<div class="col-md-9">
 			<div class="container">
@@ -101,7 +99,7 @@
 					<div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				</div>			
-
+				<div class="col-md-4 x align-items-center">
 						<div class="image pt-3">
 
 					<img  src="img/homecomingc/compressed homecoming/award1.jpg" class="img-fluid image__img">
@@ -124,10 +122,10 @@
   </section>
   <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
-	<div style="padding:0 3rem;">
+	<div style="padding:0 2.4rem;">
 		<div class="row">
-			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5 text-center">Musical Night</h1>
+			<div class="col-md-3 d-flex justify-content-center" style="padding:0 0rem;">
+				<h1 class="gallery-h3 pt-5 text-center" >Musical Night</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">

@@ -120,9 +120,9 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
-  height: 80vh  ;
+  height: 37vw;
   background: url(../img/sparc.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   
 }

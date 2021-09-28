@@ -46,7 +46,14 @@
 	   background-size:100% 100%;
        height:600px;
    }
-
+   .btns{
+       color:black ;
+       width:200px;
+      
+   }
+   .btns:hover{
+       color:white;
+   }
    @media only screen and (max-width:500px){
 
    .img{
@@ -155,11 +162,11 @@
 									<div class = "diffHover">
                                     <button type="button" id = "btn1" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
                                         data-target="#modal2">
-                                        Student Registration
+                                       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdQwqHECv4EdajU8eHWePfEUnKBBL88kmXDm6gMI9XgeJrng/viewform" target="blank" style="text-decoration:none;" class="btns"> Student Registration</a>
                                     </button><br>
-                                    <button type="button" id = "btn2" class="btn btn-primary btn-lg btn-block" data-toggle="modal"
+                                    <button type="button" id = "btn2" class="btn btn-primary btn-lg btn-block btns" data-toggle="modal"
                                         data-target="#modal1">
-                                        Alumni Registration
+                                       <a href="https://docs.google.com/forms/d/e/1FAIpQLSePSooN3RLn3XNigkFL0_4ophfEvrlzjqIPzX5hJP1M0XUZuA/viewform" target="blank" style="text-decoration:none;" class="btns"> Alumni Registration</a>
                                     </button>
 									</div>
 
@@ -175,7 +182,7 @@
                 </div>
             </div>
         </section>
-        <div id="modal1" class="modal fade" role="dialog" style="padding-left:5%;height:100vh;">
+        <!-- <div id="modal1" class="modal fade" role="dialog" style="padding-left:5%;height:100vh;">
              <div class="modal-dialog " style="max-width:50%;min-width:400px;margin-top:3%;margin-bottom:0;">
                   <div class="modal-content">
                     <div class="body" style="padding-left: 4%;padding-right:4%;">
@@ -183,8 +190,8 @@
                            <h4 class="modal-title" >Alumni Registration</h4>
                            <button  type="button" class="close" data-dismiss="modal">&times;</button>
 
-                      </div>
-                      <div class="modal-body" style="font-family: 'Montserrat', sans-serif;">
+                      </div> -->
+                      <!-- <div class="modal-body" style="font-family: 'Montserrat', sans-serif;">
                          <form class="form-horizontal" class="col-sm-12" id="form1">
                            <label for="name"style="margin-bottom:0;">Name</label>
                            <input placeholder="Name" name="name" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;" >
@@ -224,8 +231,8 @@
                         <br>
                            <button  type="button" name="login_button" id="login_button" class="btn btn-block btn-primary">Login</button>
                    </form>
-                      </div>
-                    </div>
+                      </div> -->
+                    <!-- </div>
                   </div>
              </div>
         </div>
@@ -235,10 +242,10 @@
                     <div class="body" style="padding-left: 4%;padding-right:4%;font-size:0.9rem;">
                       <div class="modal-header"style="padding-top:0;">
                            <h4 class="modal-title" >Students Registration</h4>
-                           <button  type="button" class="close" data-dismiss="modal">&times;</button>
+                           <button  type="button" class="close" data-dismiss="modal">&times;</button> -->
 
                       </div>
-                      <div class="modal-body" style="font-family: 'Montserrat', sans-serif;">
+                      <!-- <div class="modal-body" style="font-family: 'Montserrat', sans-serif;">
                            <form id="form2" >
                              <label for="name"style="margin-bottom:0;">Name</label>
                                     <input placeholder="Name" name="name" type="text" class="validate"style="padding:1% 2%;width:100%;border:0;background-color:#e8e8e8;font-size:0.9em;"  >
@@ -277,11 +284,11 @@
                          <br>
                         <button  type="button" name="login_button" id="login_button" class="btn btn-block btn-primary">Login</button>
                    </form>
-                      </div>
-                    </div>
+                      </div> -->
+                    <!-- </div>
                   </div>
              </div>
-        </div>
+        </div> -->
 
 
     </main>
@@ -290,7 +297,14 @@
     <?php include 'footer.php' ?>
     <!-- 	Footer end	 -->
 	   <!-- <?php include 'preloader.php' ?> -->
-
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+            </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+            </script>
+        <script src="js/ACAP.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>

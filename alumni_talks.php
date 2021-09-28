@@ -23,7 +23,7 @@
 
 <body>
 <?php include 'navbar.php' ?>
-  <div class="header" style="background-image: url(img/talks.jpg);">
+  <div class="header" style="background-image: url(img/talks.jpg);background-size: 100% 100%;background-position: center">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
