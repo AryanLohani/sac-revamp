@@ -1,0 +1,48 @@
+.wrapper{
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2%;
+}
+.form-input{
+    margin-bottom: 5px;
+    background-color: rgba(148, 145, 145, 0.1);
+    width: 100%;
+}
+
+.container{
+    margin-bottom: 15vh;
+}
+
+.heading{
+    width: 50%;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.p-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+label{
+    margin-bottom: 0px !important;
+}
+
+.section{
+    padding: 2%;
+}
+.btn{
+    margin-top: -10vh;
+}
+
+/*mobile css*/
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .heading{
+        width: 90%;
+    }
+}
