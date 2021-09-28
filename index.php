@@ -257,6 +257,7 @@
                                                 <h5 class="card-title">IIT-KGP Alumni hold online quiz to raise funds for campus workers</h5>
                                                 <p class="card-text">With the pandemic and lockdown raising question mark over the next semester, students and alumni got together to help alleviate the distress of informal workers on campus... <br><br><button type="button" class="btn btn-outline-primary"><a
                                                             href="https://indianexpress.com/article/cities/kolkata/rs-90-lakh-and-50-yrs-iit-kgp-alumni-hold-online-quiz-to-raise-funds-for-campus-workers-6480765/"
+                                                            target="_blank"
                                                             style="color:white">More...</a></button>
                                                 </p>
                                             </div>
@@ -272,6 +273,7 @@
                                                 <h5 class="card-title">Coronavirus: Startups by IIT-KGP alumni unveil tech to fight pandemic</h5>
                                                 <p class="card-text">IIT Kharagpur alumnus Debayan Saha has collaboratively developed Airlens Minus Corona, a device which may help sanitise large areas...<br><br><button type="button" class="btn btn-outline-primary"><a
                                                             href="https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/coronavirus-start-ups-by-iit-kgp-alumni-unveil-tech-to-fight-pandemic/articleshow/75179928.cms"
+                                                            target="_blank"
                                                             style="color:white">More...</a></button>
                                                 </p>
                                             </div>
@@ -288,6 +290,7 @@
                                                 <p class="card-text">As part of this campaign -- Mission 10K Khushiyaan, Anthill Creations seeks to deliver 10,000 underprivileged children with educational boxes. The educational boxes will provide the children an opportunity to learn via structured games...<br><br><button type="button"
                                                         class="btn btn-outline-primary"><a
                                                             href="https://www.ndtv.com/education/iit-alumnus-launches-mission-10k-khushiyan-10000-children-receive-educational-play-boxes"
+                                                            target="_blank"
                                                             style="color:white">More...</a></button></p>
                                             </div>
 
@@ -312,6 +315,7 @@
                                                 <h5 class="card-title">How an IIT Kharagpur alumnus, investment banker, and traveller started a trekking company</h5>
                                                 <p class="card-text">Trekmunk is a Delhi-NCR based bootstrapped startup. Apart from regular treks, it hosts trail cleaning treks and escorts doctors to high altitudes to treat the less fortunate...<br><br><button type="button" class="btn btn-outline-primary"><a
                                                             href="https://yourstory.com/2020/09/iit-kharagpur-alumnus-investment-banker-traveller-trekking-startup"
+                                                            target="_blank"
                                                             style="color:white">More...</a></button></p>
 
                                             </div>
@@ -327,6 +331,7 @@
                                                 <h5 class="card-title">IIT & Super30 alumni launch Uber-like study help app FILO for K12 students</h5>
                                                 <p class="card-text">FILO is a sachet education app that aims to bridge the foundational divide for millions of deserving students of India with a lifeline - a simple video call that connects students with expert teachers...<br><br><button type="button" class="btn btn-outline-primary"><a
                                                             href="https://www.livemint.com/brand-post/iit-super30-alumni-launch-uber-like-study-help-app-filo-for-k12-students-11606311047505.html"
+                                                            target="_blank"
                                                             style="color:white">More...</a></button></p>
 
                                             </div>
@@ -343,6 +348,7 @@
                                                 <p class="card-text">The beneficiaries, who will receive financial assistance for six months, include daily wagers in eateries, ward boys of the hostels, laundrymen, tea stall owners, rickshaw-pullers, domestic workers and labourers engaged in construction projects, it said...<br><br><button
                                                         type="button" class="btn btn-outline-primary"><a
                                                             href="https://www.hindustantimes.com/education/lockdown-iit-kharagpur-alumni-to-provide-financial-aid-to-10-500-unorganised-sector-workers/story-QBr2qCFZQ84qWgAaBM93rN.html"
+                                                            target="_blank"
                                                             style="color:white">More...</a></button></p>
 
                                             </div>

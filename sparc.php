@@ -47,7 +47,7 @@
                             </p>
                             <div class="row text-center">
                                 <div class="col-12">
-                                <a class="btn btn-outline-primary" href="https://drive.google.com/file/d/1d4vDZxrvvngwRaEpEGZkt0i4S90Dy3Yu/view?usp=drivesdk" role="button"><img src="img/scroll.png" height="21px" width="21px">SPARC</a>
+                                <a class="btn btn-outline-primary" href="https://drive.google.com/file/d/1d4vDZxrvvngwRaEpEGZkt0i4S90Dy3Yu/view?usp=drivesdk" target = "_blank" role="button"><img src="img/scroll.png" height="21px" width="21px">SPARC</a>
                                 </div>
                             </div>
                         </div>

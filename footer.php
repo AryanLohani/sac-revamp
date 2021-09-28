@@ -124,19 +124,19 @@
                     <span class='bar'>|</span>
                 </div>
                 <div class="col-2">
-                    <a href="https://www.facebook.com/iitkgp.alumnicell"><i class="icon fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/iitkgp.alumnicell"  target="_blank"><i class="icon fab fa-facebook"></i></a>
                 </div>
                 <div class='col-2'>
-                    <a href="https://www.instagram.com/sac.iitkgp/?hl=en"><i class="icon fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/sac.iitkgp/?hl=en" target="_blank"><i class="icon fab fa-instagram"></i></a>
                 </div>
                 <div class='col-2'>
-                    <a href="https://twitter.com/IITKgpAlumni"><i class="icon fab fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/IITKgpAlumni" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
                 </div>
                 <div class='col-2'>
-                    <a href="https://studentsalumnicell-iitkgp.medium.com/"><i class="icon fab fa-medium"></i></a>
+                    <a href="https://studentsalumnicell-iitkgp.medium.com/" target="_blank"><i class="icon fab fa-medium"></i></a>
                 </div>
                 <div class='col-2'>
-                    <a href="https://www.linkedin.com/company-beta/13273135/"><i class="icon fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company-beta/13273135/" target="_blank"><i class="icon fab fa-linkedin"></i></a>
                 </div>
 
             </div>
