@@ -88,6 +88,15 @@
                     <!-- Photo Grid -->
                     <div id="gallery_row" class="row">
                       <div class="row justify-content-center px-4">
+					  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Duvuri.jpg/338px-Duvuri.jpg" class="card-img">
+                            <div class="card-text">
+                              <p>Duvvuri Subbarao</p>
+                              <a href="https://en.wikipedia.org/wiki/Duvvuri_Subbarao"><i class="icon1 fab fa-wikipedia-w" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
                           <div class="card">
                             <img src="https://media-exp1.licdn.com/dms/image/C5603AQF2_YtNmO73Qw/profile-displayphoto-shrink_400_400/0/1607399318866?e=1637193600&v=beta&t=rA0u1PLPD3-70bVHLuq3abouuLrS-R688hR-EYKp2eA" class="card-img">
@@ -137,17 +146,6 @@
                             <div class="card-text">
                                 <p>Sayan Das</p>
                                 <a href="https://www.linkedin.com/in/sayan-das-a4982b7/"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
-                          <div class="card">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Duvuri.jpg/338px-Duvuri.jpg" class="card-img">
-                            <div class="card-text">
-                              <p>Duvvuri Subbarao</p>
-
-
-                              <a href="https://en.wikipedia.org/wiki/Duvvuri_Subbarao"><i class="icon1 fab fa-wikipedia-w" aria-hidden="true" id="l-icon"></i></a>
                             </div>
                           </div>
                         </div>
