@@ -14,7 +14,7 @@
 	   background-image:url(img/align.png);
 	   background-size:100% 100%;
    }
-   .padding{
+    .padding{
 	   padding:5rem 9rem;
    }
    @media only screen and (max-width:500px){
@@ -43,6 +43,11 @@
 
 	<div class="img">
 	</div>
+	<style>
+		.c{
+			margin-left:23px;
+		}
+	</style>
 	</header>
   </section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
@@ -63,6 +68,7 @@
                       </p>
 			        </div>
 			    </div>
+				<a class="btn btn-outline-primary c" align="justify" href="signup.php" role="button">18th Annual Meet</a>
 			</div>
 			<div class="col-md-5">
 			<div class="container" style="margin-left:0.5rem;">
