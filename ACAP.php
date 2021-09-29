@@ -47,7 +47,7 @@
        height:600px;
    }
    .btns{
-       color:black ;
+       color:black !important;
        width:200px;
       
    }
@@ -164,7 +164,7 @@
                                         data-target="#modal2">
                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdQwqHECv4EdajU8eHWePfEUnKBBL88kmXDm6gMI9XgeJrng/viewform" target="blank" style="text-decoration:none;" class="btns"> Student Registration</a>
                                     </button><br>
-                                    <button type="button" id = "btn2" class="btn btn-primary btn-lg btn-block btns" data-toggle="modal"
+                                    <button type="button" id = "btn2" class="btn btn-primary btn-lg btn-block " data-toggle="modal"
                                         data-target="#modal1">
                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSePSooN3RLn3XNigkFL0_4ophfEvrlzjqIPzX5hJP1M0XUZuA/viewform" target="blank" style="text-decoration:none;" class="btns"> Alumni Registration</a>
                                     </button>
