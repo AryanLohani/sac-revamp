@@ -76,6 +76,96 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
+                  <h4 class="x">Pursuit for Higher Education</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/LakshyaJain.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Lakshya Jain</h5>
+                      <h6 class="x">Mech. Enginner-Tesla</h6>
+                    </div>
+					<div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/VishalKumar.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Vishal Kumar</h5>
+                      <h6 class="x">Founder LearningWhileTraveling</h6>
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/SnehaBiswas.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Sneha Biswas</h5>
+                      <h6 class="x">Founder & CEO Early Step Academy</h6>
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/AnupamSahai.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Anupam Sahai</h5>
+                      <h6 class="x">VP & CTO,Unisys</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+				  <h4 class="x">Analytics</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/ManuveeranSinghSandhu.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Manuveeran Singh Sandhu</h5>
+                      <h6 class="x">Data Engineer JPMorgan Chase & Co.</h6>
+                    </div>
+					<div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/RituTak.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Ritu Tak</h5>
+                      <h6 class="x">Vice President JPMorgan Chase & Co.</h6>
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/HarsheelSinghSoin.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Harsheel Singh Soin</h5>
+                      <h6 class="x">Data Scientist Audible,Inc.</h6>
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/RujutaKulkarni.jpg" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Rujuta Kulkarni</h5>
+                      <h6 class="x">Data Engineer Facebook</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Alumni Talks</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
                   <h4 class="x">Speakers from McKinsey & Company:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
@@ -300,16 +390,24 @@
             </div>
             <br>
             <div class="row">
-              <div class="col-12 col-sm-4 align-items-center iframe-container">
-                <iframe class="image" width="100%" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0"
+			  <div class="col-12 col-sm-3 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/kfCtl0tazKE" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
-
+				  <iframe class="image" width="100%" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                
+              </div>
+              <div class="col-12 col-sm-3 align-items-center iframe-container">
+			    <iframe class="image" width="100%" src="https://drive.google.com/file/d/1H8wHV_sxPbIb8GZkmHULTXkVEtzeLtmN/preview?usp=sharing" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
                 <iframe class="image" width="100%" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
-              <div class="col-12 col-sm-4 align-items-center iframe-container">
+              <div class="col-12 col-sm-3 align-items-center iframe-container">
                 <iframe class="image" width="100%" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
@@ -318,7 +416,7 @@
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
-              <div class="col-12 col-sm-4 align-items-center iframe-container">
+              <div class="col-12 col-sm-3 align-items-center iframe-container">
                 <iframe class="image" width="100%" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
