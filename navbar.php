@@ -120,7 +120,7 @@ display: block;}
 						</ul>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="team.php"> The Team </a></li>
-					<li class="nav-item"><a class="nav-link" href="signup.php"> Alumni-Reg </a></li>
+					<!-- <li class="nav-item"><a class="nav-link" href="signup.php"> Alumni-Reg </a></li> -->
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Sponsors </a>
 						<ul class="dropdown-menu">
