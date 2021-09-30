@@ -104,7 +104,7 @@ display: block;}
 						<ul class="dropdown-menu">
 						    <li><a class="dropdown-item" href="ACAP.php"> ACAP</a></li>
 							<li><a class="dropdown-item" href="affinity.php"> Affinity Programme </a></li>
-							<li><a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/"> Alumni Blog </a></li>
+							<li><a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/" target = "_blank"> Alumni Blog </a></li>
 							<li><a class="dropdown-item" href="myimprint.php"> My Imprint </a></li>
 							<li><a class="dropdown-item" href="SAMP.php"> SAMP</a></li>
 							<li><a class="dropdown-item" href="sparc.php"> SPARC </a></li>
@@ -113,7 +113,7 @@ display: block;}
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Publications </a>	
 						<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf"> Tempo Shout </a></li>
+						<li><a class="dropdown-item" href="https://sac.iitkgp.ac.in/temposhout_final_6.pdf" target="_blank"> Tempo Shout </a></li>
 							<li><a class="dropdown-item" href="yearbook.php"> Yearbook </a></li>
 							<li><a class="dropdown-item" href="YOY.php"> YOY </a></li>
 							
