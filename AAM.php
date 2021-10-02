@@ -70,7 +70,7 @@
 					<div class="col-md-10 col-12 trailer " style="padding-right:2rem padding-left:2em; padding-top:3.5rem; padding-bottom:15rem;">
 						<div class="first"></div>
 						<div class="second"></div>
-						<div class="third">
+						<div class="third"> 
 							<iframe src="https://www.youtube.com/embed/BPaRgF4rTRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>	
 					</div>
