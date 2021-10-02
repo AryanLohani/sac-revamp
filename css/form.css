@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+form{
+    font-family: 'Scheherazade New', serif;
+}
+
+body{
+    background-image: linear-gradient(to right,#6c757d,black);
+}
+
+.progress-bar{
+    background-color: #394149 !important;
+}
+
 .wrapper{
+    margin-top: 4% !important;
+    background-color: white;
     margin: auto;
     width: 100%;
     max-width: 800px;
@@ -6,9 +23,9 @@
     border-radius: 10px;
     padding: 2%;
 }
-.form-input{
+.form-control{
     margin-bottom: 5px;
-    background-color: rgba(148, 145, 145, 0.1);
+    background-color: rgba(184, 170, 170, 0.1) !important;
     width: 100%;
 }
 
@@ -18,6 +35,8 @@
 
 .heading{
     width: 50%;
+    text-align: center;
+    margin: auto;
     padding-left: 15px;
     margin-bottom: 10px;
 }
@@ -26,6 +45,7 @@
     padding-right: 0 !important;
 }
 label{
+    font-weight: 600;
     margin-bottom: 0px !important;
 }
 

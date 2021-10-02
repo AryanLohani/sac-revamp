@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Annual Alumni Meet</title>
-  <link rel="icon" href="./img/SACLogo.png" sizes="32x32" type="image/gif"/>
+  <!-- <link rel="icon" href="./img/SACLogo.png" sizes="32x32" type="image/gif"/> -->
   <link rel="stylesheet" type="text/css" href="css/AAM.css">
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 	   background-image:url(img/align.png);
 	   background-size:100% 100%;
    }
-   .padding{
+    .padding{
 	   padding:5rem 9rem;
    }
    @media only screen and (max-width:500px){
@@ -43,6 +43,11 @@
 
 	<div class="img">
 	</div>
+	<style>
+		.c{
+			margin-left:23px;
+		}
+	</style>
 	</header>
   </section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
@@ -63,6 +68,7 @@
                       </p>
 			        </div>
 			    </div>
+				<a class="btn btn-outline-primary c" align="justify" href="signup.php" role="button">18th Annual Meet</a>
 			</div>
 			<div class="col-md-5">
 			<div class="container" style="margin-left:0.5rem;">

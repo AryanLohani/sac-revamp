@@ -81,7 +81,7 @@
 
         <section class="section-3">
             <div class="container-fluid">
-                <h1 class="text-center" style="color:white;">Exibition Corner...</h1>
+                <h1 class="text-center" style="color:white;">Exhibition Corner</h1>
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">

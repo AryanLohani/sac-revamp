@@ -183,7 +183,7 @@
                     <img class="card-img-top" src="img\team2021\Shikha3.jpeg" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Shikha Kumari</h6>
+                      <h6 class="x">Shikha Bagaria</h6>
                       <p class="x">(Coordinator, Web ,Networking)</p>
                       <div class='row'>
                         <div class="col-3">

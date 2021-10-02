@@ -10,6 +10,7 @@
 }
 html{
 	scroll-behavior: smooth;
+ 
 }
 body{
 	width:100%;
@@ -106,7 +107,7 @@ section {
     padding: 4.2vmin 1vmin;
   }
   
-  .
+
   .header .row .col-md-5 img {
     width: 90%;
   }

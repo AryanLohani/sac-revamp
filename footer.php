@@ -44,13 +44,13 @@
          height: 19rem; 
     }
 
-
+/* 
     .footer-top-left {
         height: 12rem;
-        background-image: linear-gradient(to bottom right, #283949, #342b2d);
+        background-image: linear-gradient(to bottom right,pink,pink);
         color: white;
         padding-top: 1.8rem;
-    }
+    } */
 
     .footer-top-right {
         padding: 1.8rem;
@@ -58,11 +58,11 @@
 
     }
 
-    .dots {
+    /* .dots {
         font-size: 2em;
         position: relative;
         bottom: 2.5rem;
-    }
+    } */
 
     .bar {
         font-size: 3em;
@@ -102,20 +102,17 @@
     <section id='footer'>
         <div class='container-fluid'>
             <div class='row'>
-                <div class='col-4 footer-top-left'>
-                    <h2> Get Social <br>With Us<br><span class='dots'>...</span>
-                    </h2>
+                <div class='col-4 ' style=" padding-top: 1.8rem;   color: white;  height: 12rem;">
+                    <h2> Get Social <br>With Us</h2>
                 </div>
-                <div class="col-2">
-                </div>
+                <div class="col-2"></div>
                 <div class='col-6 footer-top-right'>
                     <h5>Students' Alumni Cell, IIT Kharagpur</h5>
-                    <p>Office of Alumni Affairs & International Relations,<br>
+                    <p>Office of Alumni Affairs & Branding,<br>
                         Indian Institute of Technology, Kharagpur<br>
                         Pin-721302, West Bengal, India<br><br>
                         <em>Ph: 03222-281860</em> <br>
-                        <em>Email: aao@hijli.iitkgp.ernet.in</em>
-                    </p>
+                        <em>Email: aao@hijli.iitkgp.ac.in</em>
                     <hr>
                 </div>
             </div>
