@@ -21,12 +21,14 @@
     <?php include 'navbar.php' ?>
     <section>
         <div class="wrapper">
+           
             <center>
                 <h2 style="font-size: 300%; font-family: 'Raleway', sans-serif;">
                     Register
                 </h2>
             </center>
             <form id="register">
+            <div class="section1">
                 <div class="heading">
                     <h2>Personal Details</h2>
                     <div class="progress" style="height:0.4rem;">
@@ -48,7 +50,7 @@
                             </div>
                             
                         </div>
-                        <div class="col-sm-12 col-md-6 ">
+                        <!-- <div class="col-sm-12 col-md-6 ">
                             <label>
                                 Email ID
                                 <span style="color:red;">*</span>
@@ -66,7 +68,7 @@
                                 <input class="form-control" type="password" id="password" name="password" required>
                             </div>
                             
-                        </div>
+                        </div> -->
                         <div class="col-sm-12 ">
                             <label for="address">Address </label>
                             <div class="input-group mb-3">
@@ -103,18 +105,168 @@
                             <label for="dob">DOB <span style="color:red;">*</span></label>
                             <input class="form-control" type="date" name="dob" required id="dob">
                         </div>
-                        <div class="col-sm-12 col-md-6">
+                    </div>
+                </div>
+                <div class="row justify-content-around  justify-content-md-between guesth">
+                    <div class="col-1">  </div>
+                    <div class="col-1">     <button class="btn btn-dark" onclick="next1()">Next</button></div>
+                </div>
+        
+           </div>
+
+             <div class="section2">
+                <div class="heading">
+                    <h2>Accomodation</h2>
+                    <div class="progress" style="height:0.4rem;">
+                        <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                </div>
+                <!--jhjyh-->
+                <!-- <h1 class="text-center" >Registration Fees</h1> -->
+                <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
+
+
+                <th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Fixed charges</th>
+  <tr>
+    <td data-th="">Alumni </td>
+    <td data-th="No.of Rooms"></td>
+    <td style="text-align: center;" data-th="Cost for Alumni">7000</td>
+    <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
+  </tr>
+  <tr>
+    <td data-th="">Accompaniments </td>
+    <td data-th="No.of Rooms"></td>
+    <td style="text-align: center;" data-th="Cost for Alumni">4500</td>
+    <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
+  </tr>
+  <tr>
+</table>
+<table class="mb-3 border-light" >
+                    <!-- <caption>Room Charges</caption> -->
+                    <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accomodation charges</th></tr>
+  <tr>
+    <th> Guest House</th>
+    <!-- <th>No.of Rooms</th> -->
+    <th style="text-align: center;">Cost for Alumni(₹)</th>
+    <!-- <th style="text-align: center;">Cost for Accompaniaments(₹)</th> -->
+  </tr>
+  <tr>
+    <td data-th="">Technology Guest House - SO</td>
+    <!-- <td data-th="No.of Rooms">90</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">3000</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
+  </tr>
+  <tr>
+    <td data-th="">Technology Guest House - DO | Acc</td>
+    <!-- <td data-th="No.of Rooms">100</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments">2250</td> -->
+  </tr>
+  <tr>
+    <td data-th="">Technology Guest House - DO | Al</td>
+    <!-- <td data-th="No.of Rooms">29</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
+  </tr>
+  <tr>
+    <td data-th="">VGH/CEC - AC - SO</td>
+    <!-- <td data-th="No.of Rooms">7</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">1200</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
+  </tr>
+  <tr>
+    <td data-th="">VGH/CEC - AC - DO | Al</td>
+    <!-- <td data-th="No.of Rooms">19</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">900</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
+  </tr>
+  <tr>
+    <td data-th="">VGH/CEC - Non-AC - SO</td>
+    <!-- <td data-th="No.of Rooms">13</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">750</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
+  </tr>
+  <tr>
+    <td data-th="">VGH 3/4  bedded- DO | Al</td>
+    <!-- <td data-th="No.of Rooms">6</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">450</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
+  </tr>
+  <tr>
+    <td data-th="">AGH - DO | Acc</td>
+    <!-- <td data-th="No.of Rooms">5</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments">2250</td> -->
+  </tr>
+  <tr>
+    <td data-th="">SAM - DO | Al </td>
+    <!-- <td data-th="No.of Rooms">45</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">900</td>
+    <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
+  </tr>
+
+ 
+</table>
+<table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
+
+
+<th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accompaniment's charge</th>
+  <tr>
+    <td data-th="">Accomodation per person </td>
+    <!-- <td data-th="No.of Rooms">45</td> -->
+    <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
+    <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
+  </tr>
+</table>
+                <!-- <p style="margin-left: 15px; margin-bottom:0 !important; text-align:center;"><i>*Current or past work experiences as per relevance</i></p> -->
+                <div class="container">
+                    <div class="row">
+                    <div class="col-sm-12 col-md-6">
                             <label for="marital">Marital Status</label>
                             <input class="form-control" type="text" name="marital" id="marital">
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <label for="accompanyingNo">Accompaniments (Number of guests)<span style="color:red;">*</span></label>
-                            <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" required>
+                            <label for="accompanyingNo" >Accompaniments (Number of guests)<span style="color:red;">*</span></label>
+                            <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" required>
+                        </div>
+                        <div class="col-sm-12">
+                        <label for="room">Guest House <span style="color:red;">*</span></label>
+                        <div class="input-group mb-3">
+                          
+                            <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" required>
+                            <!-- <datalist id="room"> -->
+                            <option value=""></option> 
+                                 <option value="Technology Guest House - SO">Technology Guest House - SO(Single Occupancy)</option> 
+                                <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accomodation)</option>
+                                <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accomodation)"> -->
+                                <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option>
+                                 <option value="VGH/CEC - AC - SO">VGH/CEC - AC - SO</option>
+                                <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
+                                <option value="VGH/CEC - Non-AC - SO"> VGH/CEC - Non-AC - SO</option> 
+                                <option value="VGH 3/4  bedded- DO | Al"> VGH 3/4  bedded- DO | Al</option> 
+                                <option value="AGH - DO | Acc"> AGH - DO | Acc</option> 
+                                <option value="SAM - DO | Al "> SAM - DO | Al </option> 
+
+                            </select>
+                        </div >
+
+                            <!-- </datalist> -->
+                            <h4 id="cost" style="text-align: center;">Total cost = &#8377;0</h4>
                         </div>
                     </div>
+                    <!-- <div class="row justify-content-md-between justify-content-around">
+                    <div class=" col-md-2 col-3">  <button class="btn btn-dark" onclick="back1()">Back</button> </div>
+                    <div class=" col-md-2 col-3">     <button class="btn btn-dark" onclick="next2()">Next</button></div>
+                </div> -->
                 </div>
-
-
+                <div class="row justify-content-md-between justify-content-around guesth guesth">
+                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" onclick="back1()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" onclick="next2()">Next</button></div>
+                </div>
+                
+                <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
+            </div>
+            <div class="section3">
                 <div class="heading">
                     <h2>Work Experience</h2>
                     <div class="progress" style="height:0.4rem;">
@@ -174,8 +326,14 @@
                         </div>
                     </div>
                 </div>
-
-
+                <div class="row justify-content-md-between justify-content-around guesth">
+                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" onclick="back2()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" onclick="next3()">Next</button></div>
+                </div>
+                <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
+            </div>
+        
+            <div class="section4">
                 <div class="heading">
                     <h2>Nostalgic Section</h2>
                     <div class="progress" style="height:0.4rem;">
@@ -222,15 +380,114 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="row justify-content-md-between justify-content-around guesth">
+                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" onclick="back3()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button type="submit" class="btn btn-dark" onclick="next4()">Submit</button></div>
+                </div>
                 <center>
-                    <button type="submit" class="btn btn-dark" >Submit</button>
+
+                
               </center>
+              </div>
             </form>
         </div>
     </section>
     <?php include 'footer.php' ?>
     <script>
+       function next1(){
+           console.log("Im in");
+           let name = document.getElementById("name").value;
+           let city = document.getElementById("personal_city").value;
+           let country = document.getElementById("country").value;
+           let mobile = document.getElementById("mobile").value;
+           let dob = document.getElementById("dob").value;
+           console.log(dob.length);
+           if(name.length>0&&city.length>0&&country.length>0&&mobile.length>0&&dob.length>0){
+                document.getElementsByClassName("section1")[0].style.display = 'none';
+                document.getElementsByClassName("section2")[0].style.display = 'block';
+           }
+       }
+       function back1(){
+           console.log("Im in");
+           document.getElementsByClassName("section1")[0].style.display = 'block';
+           document.getElementsByClassName("section2")[0].style.display = 'none';
+       } 
+       function next2(){
+           console.log("Im in");
+           let nguests = document.getElementById("accompanyingNo").value;
+           let room = document.getElementById("room");
+
+           if(nguests.length>0 && room.length>0){
+                document.getElementsByClassName("section2")[0].style.display = 'none';
+                document.getElementsByClassName("section3")[0].style.display = 'block';
+           }
+       } 
+       function back2(){
+           console.log("Im in");
+           document.getElementsByClassName("section2")[0].style.display = 'block';
+           document.getElementsByClassName("section3")[0].style.display = 'none';
+       }
+       function next3(){
+           console.log("Im in");
+
+           let org = document.getElementById("org").value;
+           let designation = document.getElementById("desig").value;
+           if(org.length>0 && designation.length > 0){
+                document.getElementsByClassName("section3")[0].style.display = 'none';
+                document.getElementsByClassName("section4")[0].style.display = 'block';
+           }
+           
+       }
+       function back3(){
+           console.log("Im in");
+           document.getElementsByClassName("section3")[0].style.display = 'block';
+           document.getElementsByClassName("section4")[0].style.display = 'none';
+       } 
+
+
+
+       function calc_cost(){
+           let nguest = document.getElementById("accompanyingNo").value;
+           let choice = document.getElementById("room").value;
+           console.log(nguest,choice);
+
+           var cost = 0;
+
+           if(choice === "Technology Guest House - SO"){
+                cost = 3000 + 7000;
+           }
+           else if(choice === "Technology Guest House - DO | Acc"){
+               cost = 2250 + 2250*nguest + 7000 + 4500*nguest;
+           }
+           else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
+               cost = 2250 + 7000;
+           }
+           else if(choice === "VGH/CEC - AC - SO"){
+               cost = 1200 + 7000;
+           }
+           else if(choice === "VGH/CEC - AC - DO | Al"){
+               cost = 900 + 7000;
+           }
+           else if(choice === "VGH/CEC - Non-AC - SO"){
+               cost = 750 + 7000;
+           }
+           else if(choice === "VGH 3/4  bedded- DO | Al"){
+               cost = 450 + 7000;
+           }
+           else if(choice === "AGH - DO | Acc"){
+               cost = 2250 + 2250*nguest + 7000 + 4500*nguest; 
+           }
+           else{
+               cost = 900 + 7000;
+           }
+
+           document.getElementById("cost").innerHTML =  "Total Cost = &#8377;"+cost;
+
+           console.log(cost);
+       }
+
+
+       
         $(function() {
             $('#register').on('submit', function(e) {
                 e.preventDefault();
@@ -270,6 +527,7 @@
 
             });
 
+        });
         });
     </script>
 </body>
