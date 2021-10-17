@@ -33,7 +33,7 @@
 
                </div>
                <div class="modal-body">
-                    <form action = "back.php" method = "post">
+                    <form action = "back_spons.php" method = "post">
                     <label for="username" style="margin-bottom:0;">User Name</label>
                     <input type="text" name="username" id="username" class="form-control" autocomplete="none" placeholder="User Name"style="border:0;background-color:#e8e8e8;font-size:0.9em;"/>
                     <br />

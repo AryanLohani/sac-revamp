@@ -6,7 +6,7 @@ form{
 }
 
 body{
-    background-image: linear-gradient(to right,#6c757d,black);
+    background-image: linear-gradient(105deg, rgba(142, 247, 247, 0.651) 20%, rgb(228, 224, 216));
 }
 
 .progress-bar{
@@ -66,3 +66,33 @@ label{
         width: 90%;
     }
 }
+.section2, .section3, .section4, .section5, .section6{
+    display: none;
+}
+
+/* kvvh*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50%;
+    border: 2px solid black;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+.guesth{
+    margin-left:0.5rem !important;
+    margin-right:2rem !important;
+}
+  
+  
+
+  
+  
