@@ -215,7 +215,7 @@
 	</div>
 	</div>
   </section>
- <section class="section-3 ">
+ <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
