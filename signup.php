@@ -436,7 +436,7 @@
                             </select>
                             
                         </div >
-                        <div class="col-sm-12 col-md-12 mb-3">
+                        <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
                             <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
                             <input class="form-control" type="file" id="certificate" name="certificate">
                         </div>
@@ -610,6 +610,7 @@
                 
                 document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
+                document.getElementsByClassName("certification1")[0].style.display = 'block';
             }
         });
         $("#status").change(function(){
@@ -617,6 +618,8 @@
                 
                 document.getElementsByClassName("imp")[0].style.display = 'none';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
+                document.getElementsByClassName("certification1")[0].style.display = 'none';
+            }
             }
         });
         $("#status").change(function(){
@@ -624,6 +627,8 @@
                 
                 document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'none';
+                document.getElementsByClassName("certification1")[0].style.display = 'block';
+            }
             }
         });
        
