@@ -41,7 +41,7 @@
     #footer {
         margin-top:30px;
         background-color: #23232b;
-         height: 19rem; 
+        height: 19rem; 
     }
 
 /* 
@@ -117,9 +117,6 @@
                 </div>
             </div>
             <div class='row'>
-                <!--<div class='col-2 '>
-                    <span class='bar'>|</span>
-                </div>-->
                 <div class="col-2">
                     <a href="https://www.facebook.com/iitkgp.alumnicell"  target="_blank"><i class="icon fab fa-facebook"></i></a>
                 </div>
@@ -138,13 +135,11 @@
 				<div class='col-2'>
                     <a href="https://www.youtube.com/c/StudentsAlumniCellIITKharagpur" target="_blank"><i class="icon fab fa-youtube"></i></a>
                 </div>
-
             </div>
         </div>
         <!-- 	Footer end	 -->
-
-<!--    Copyright -->
   	</section>
+    <!--    Copyright -->
   	<section id='copyright'>
   		<p>&copy; 2020 Students' Alumni Cell</p>
   	</section>

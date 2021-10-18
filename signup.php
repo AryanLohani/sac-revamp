@@ -25,7 +25,10 @@
                     Register
                 </h2>
             </center>
+
             <form id="register" action = "back_signup.php" method = "post">
+
+
             <div class="section1">
                 <div class="heading">
                     <h2>Personal Details</h2>
@@ -46,7 +49,10 @@
                                 <input class="form-control" type="text" name="name" id="name" class="validate" required>
                             </div>
                         </div>
+
                          <div class="col-sm-12 col-md-12 ">
+
+
                             <label>
                                 Email ID
                                 <span style="color:red;">*</span>
@@ -337,13 +343,15 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="zip">Zip Code</label>
-                            <input class="form-control" type="text" id="zip" name="work_zipCode">
+                            <input class="form-control" type="text" id="zip" name="work_zipcode">
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
+
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back2()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next3()">Next</button></div>
+
                 </div>
                 <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
             </div>
@@ -396,6 +404,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
+
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
@@ -432,10 +441,9 @@
                         </div>
                         <label for="valid">Will you be able to get fully vaccinated by 10th january? </label>
                         <div>
-            
-                            <input type="radio" id="yes" name="status" value="yes"/>
+                            <input type="radio" id="yes" name="valid" value="yes"/>
                             <label for="yes">Yes</label><br/>
-                            <input type="radio" id="no" name="status" value="no"/>
+                            <input type="radio" id="no" name="valid" value="no"/>
                             <label for="no">No</label><br/>
                             <!-- <select  class="form-control form-select" type="list" id="valid" name="valid">
                                 <option value=""> </option>                                 
@@ -454,9 +462,10 @@
 
                 
               </center>
-            </div>
 
-         </form>
+              </div>
+            </form>
+
         </div>
     </section>
     <?php include 'footer.php' ?>
@@ -510,6 +519,7 @@
            
        }
        function back3(){
+
 
            document.getElementsByClassName("section4")[0].style.display = 'block';
            document.getElementsByClassName("section5")[0].style.display = 'none';
@@ -614,6 +624,7 @@
        
        
       /* $(function() {
+
             $('#register').on('submit', function(e) {
                 e.preventDefault();
                 console.log('a');
@@ -653,6 +664,8 @@
             });
 
         });
+
         });*/
+
     </script>
 </body>

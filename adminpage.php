@@ -19,7 +19,7 @@
 
 <body>
     <?php include 'navbar.php' ?>
-    <form>
+    <form action = "back_reciept.php" method = "post">
         <div class="wrapper">
                 
             <div class="container">
@@ -34,9 +34,6 @@
                         <li>MICR: 721240102</li>
                         <li>SWIFT CODE: HDFCINBBCAL</li>
                     </ul>
-
-
-
 
                     <div class="col-sm-12 col-md-12">
                         <label for="reciept">Fee Reciept <span style="color:red;">*</span></label>

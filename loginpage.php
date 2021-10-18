@@ -10,7 +10,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/loginpage.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
@@ -29,13 +29,12 @@
     <?php include 'navbar.php' ?>
     <section>
         <div class="wrappers">
-
             <center>
                 <h2 style="font-size: 300%; font-family: 'Raleway', sans-serif;">
                     Log In
                 </h2>
             </center>
-            <form id="login">
+            <form id="login" action = "validate.php" method = "post">
                 <div class="section1">
                     <div class="container">
                         <div class="row">
@@ -62,23 +61,17 @@
                     <!-- <div class="row justify-content-around  justify-content-md-between guesth"> -->
                 
                         <div class="text-center">
-                            <button class="btn btn-dark" type="submit">Log In</button>
+                            <button class="btn btn-dark" type="submit" value = "submit">Log In</button>
                         </div>
-
                 </div>
-
-
             </form>
             <!-- <div class="container"> -->
-            <div class="text-center">
-
-               
+            <div class="text-center">      
                 <hr />
-                <button class="btn btn-outline-dark" type="">Register</button>
+                <a class="btn btn-outline-dark " href="signup.php" role="button">Register</a>
             </div>
         <!-- </div> -->
         </div>
-
     </section>
     <?php include 'footer.php' ?>
 </body>

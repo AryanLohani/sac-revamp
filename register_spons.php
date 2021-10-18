@@ -33,7 +33,8 @@
 
                </div>
                <div class="modal-body">
-                 <label for="username" style="margin-bottom:0;">User Name</label>
+                    <form action = "back_spons.php" method = "post">
+                    <label for="username" style="margin-bottom:0;">User Name</label>
                     <input type="text" name="username" id="username" class="form-control" autocomplete="none" placeholder="User Name"style="border:0;background-color:#e8e8e8;font-size:0.9em;"/>
                     <br />
                     <label for="designation"style="margin-bottom:0;">Designation</label>
@@ -49,9 +50,10 @@
                     <input type="number" name="phonenumber" id="number" class="form-control"placeholder="Phone Number"autocomplete="none"style="border:0;background-color:#e8e8e8;font-size:0.9em;" />
                     <br />
                     <label for="Address"style="margin-bottom:0;">Address</label>
-                    <input type="text" name="Address" id="Address" class="form-control"placeholder="Address"style="border:0;background-color:#e8e8e8;font-size:0.9em;" />
+                    <input type="text" name="address" id="Address" class="form-control"placeholder="Address"style="border:0;background-color:#e8e8e8;font-size:0.9em;" />
                     <br />
-                    <button style="margin-left:45%;" type="button" name="login_button" id="login_button" class="btn btn-lg btn-primary">Login</button>
+                    <button style="margin-left:45%;" type="submit" value = "submit" name="login_button" id="login_button" class="btn btn-lg btn-primary">Login</button>
+                    </form>
                </div>
              </div>
            </div>
