@@ -438,7 +438,7 @@
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
                             <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate">
+                            <input class="form-control" type="file" id="certificate" name="certificate"/>
                         </div>
                         
                         <div class="valid1" style="display:none;">
@@ -607,28 +607,26 @@
 
        $("#status").change(function(){
             if($(this).val()=="Partially Vaccinated"){
-                
-                document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                // console.log("pv");
+                // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
-                document.getElementsByClassName("certification1")[0].style.display = 'block';
+                document.getElementsByClassName("certification1")[0].style.display='block';
             }
         });
         $("#status").change(function(){
             if($(this).val()=="Not Vaccinated Yet"){
-                
-                document.getElementsByClassName("imp")[0].style.display = 'none';
+                // console.log("nv");
+                // document.getElementsByClassName("imp")[0].style.display = 'none';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
-                document.getElementsByClassName("certification1")[0].style.display = 'none';
-            }
+                document.getElementsByClassName("certification1")[0].style.display='none';
             }
         });
         $("#status").change(function(){
             if($(this).val()=="Fully Vaccinated"){
-                
-                document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                // console.log("fv");
+                // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'none';
-                document.getElementsByClassName("certification1")[0].style.display = 'block';
-            }
+                document.getElementsByClassName("certification1")[0].style.display='block';
             }
         });
        
