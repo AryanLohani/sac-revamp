@@ -20,12 +20,16 @@
     <?php include 'navbar.php' ?>
     <section>
         <div class="wrapper">
+           
             <center>
                 <h2 style="font-size: 300%; font-family: 'Raleway', sans-serif;">
                     Register
                 </h2>
             </center>
+
             <form id="register" action = "back_signup.php" method = "post">
+
+
             <div class="section1">
                 <div class="heading">
                     <h2>Personal Details</h2>
@@ -46,7 +50,10 @@
                                 <input class="form-control" type="text" name="name" id="name" class="validate" required>
                             </div>
                         </div>
+
                          <div class="col-sm-12 col-md-12 ">
+
+
                             <label>
                                 Email ID
                                 <span style="color:red;">*</span>
@@ -103,6 +110,7 @@
                 </div>
                 <div class="row justify-content-around  justify-content-md-between guesth">
                     <div class="col-1">  </div>
+
                     <div class="col-1">     <button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
                 </div>
             </div>
@@ -342,12 +350,15 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
+
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back2()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next3()">Next</button></div>
+
                 </div>
                 <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
             </div>
         
+
             <div class="section5">
                 <div class="heading">
                     <h2>Nostalgic Section</h2>
@@ -396,6 +407,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
+
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
@@ -453,9 +465,10 @@
 
                 
               </center>
-            </div>
 
-         </form>
+              </div>
+            </form>
+
         </div>
     </section>
     <?php include 'footer.php' ?>
@@ -485,6 +498,7 @@
        function next2(){
            console.log("Im in");
            let nguests = document.getElementById("accompanyingNo").value;
+
            let room = document.getElementById("room").value;
 
            if(nguests.length>0 && room.length>0){
@@ -494,6 +508,7 @@
        } 
        function back2(){
            console.log("Im in");
+
            document.getElementsByClassName("section3")[0].style.display = 'block';
            document.getElementsByClassName("section4")[0].style.display = 'none';
        }
@@ -503,12 +518,14 @@
            let org = document.getElementById("org").value;
            let designation = document.getElementById("desig").value;
            if(org.length>0 && designation.length > 0){
+
                 document.getElementsByClassName("section4")[0].style.display = 'none';
                 document.getElementsByClassName("section5")[0].style.display = 'block';
            }
            
        }
        function back3(){
+
 
            document.getElementsByClassName("section4")[0].style.display = 'block';
            document.getElementsByClassName("section5")[0].style.display = 'none';
@@ -558,6 +575,7 @@
 
 
 
+
        function calc_cost(){
            let nguest = document.getElementById("accompanyingNo").value;
            let choice = document.getElementById("room").value;
@@ -566,6 +584,7 @@
            var cost = 0;
 
            if(choice === "Technology Guest House - SO"){
+
                 cost = 3000 + 7500;
            }
            else if(choice === "Technology Guest House - DO | Acc"){
@@ -598,6 +617,7 @@
            console.log(cost);
        }
 
+
        $("#status").change(function(){
             if($(this).val()=="Partially Vaccinated"||$(this).val()=="Fully Vaccinated"){
                 
@@ -613,6 +633,7 @@
        
        
       /* $(function() {
+
             $('#register').on('submit', function(e) {
                 e.preventDefault();
                 console.log('a');
@@ -652,6 +673,8 @@
             });
 
         });
+
         });*/
+
     </script>
 </body>
