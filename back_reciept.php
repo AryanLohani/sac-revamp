@@ -1,7 +1,11 @@
 <?php
+    session_start();
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $reciept = $_POST['reciept'];
-        $email = $_POST['email'];
+        //$email = $_POST['email'];
+
+        $email = $_SESSION['email'];
+        $password = $_SESSION['password'];
         
       // Connecting to the Database
       $servername = "localhost";
@@ -18,7 +22,7 @@
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $sql = "UPDATE `aam` SET (`reciept`) = ('$reciept') ";
+        $sql = "UPDATE `aam` SET `reciept` = '$reciept' WHERE `email` = '$email'";
         $result = mysqli_query($conn, $sql);
  
         if($result){
@@ -28,6 +32,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+        header("Location: registered.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
