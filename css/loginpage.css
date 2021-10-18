@@ -23,6 +23,16 @@ body{
     border-radius: 10px;
     padding: 2%;
 }
+.wrappers{
+    margin-top: 4% !important;
+    background-color: white;
+    margin: auto;
+    width: 94%;
+    max-width: 580px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2%;
+}
 .form-control{
     margin-bottom: 5px;
     background-color: rgba(184, 170, 170, 0.1) !important;
@@ -30,7 +40,7 @@ body{
 }
 
 .container{
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
 }
 
 .heading{
@@ -52,13 +62,17 @@ label{
 .section{
     padding: 2%;
 }
-.btn{
+ /* .btn{
     margin-top: -10vh;
-}
+}  */
 
 /*mobile css*/
 @media only screen and (max-width: 600px) {
     .wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wrappers{
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -67,32 +81,8 @@ label{
     }
 }
 
-.section2, .section3, .section4, .section5, .section6{
-    display: none;
-}
 
-/* kvvh*/
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 50%;
-    border: 2px solid black;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #D6EEEE;
-  }
 
-.guesth{
-    margin-left:0.5rem !important;
-    margin-right:2rem !important;
-}
-  
   
 
   

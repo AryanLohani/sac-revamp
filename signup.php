@@ -20,12 +20,16 @@
     <?php include 'navbar.php' ?>
     <section>
         <div class="wrapper">
+           
             <center>
                 <h2 style="font-size: 300%; font-family: 'Raleway', sans-serif;">
                     Register
                 </h2>
             </center>
+
             <form id="register" action = "back_signup.php" method = "post">
+
+
             <div class="section1">
                 <div class="heading">
                     <h2>Personal Details</h2>
@@ -46,7 +50,10 @@
                                 <input class="form-control" type="text" name="name" id="name" class="validate" required>
                             </div>
                         </div>
-                        <!-- <div class="col-sm-12 col-md-6 ">
+
+                         <div class="col-sm-12 col-md-12 ">
+
+
                             <label>
                                 Email ID
                                 <span style="color:red;">*</span>
@@ -57,7 +64,7 @@
                             </div>
                             
                         </div>
-                        <div class="col-sm-12 col-md-6">
+                        <!-- <div class="col-sm-12 col-md-6">
                             <label for="password">Password (For future login) <span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-lock"></i></span>
@@ -337,13 +344,15 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="zip">Zip Code</label>
-                            <input class="form-control" type="text" id="zip" name="work_zipCode">
+                            <input class="form-control" type="text" id="zip" name="work_zipcode">
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
+
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back2()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next3()">Next</button></div>
+
                 </div>
                 <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
             </div>
@@ -396,8 +405,9 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
+
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
                 <center>
 
@@ -430,19 +440,14 @@
                             <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
                             <input class="form-control" type="file" id="certificate" name="certificate">
                         </div>
-                        <label for="valid">Will you be able to get fully vaccinated by 10th january? </label>
-                        <div>
-            
-                            <input type="radio" id="yes" name="status" value="yes"/>
+                        
+                        <div class="valid1" style="display:none;">
+                            <label  for="valid">Will you be able to get fully vaccinated by 10th january? </label>
+                        <br/>
+                            <input type="radio" id="yes" name="valid" value="yes"/>
                             <label for="yes">Yes</label><br/>
-                            <input type="radio" id="no" name="status" value="no"/>
+                            <input type="radio" id="no" name="valid" value="no"/>
                             <label for="no">No</label><br/>
-                            <!-- <select  class="form-control form-select" type="list" id="valid" name="valid">
-                                <option value=""> </option>                                 
-                                <option value="Before 10th January">Before 10th January</option>
-                                <option value="After 10th January">After 10th January</option>
-                            </select> -->
-                            
                         </div >
                     </div>
                 </div>
@@ -454,39 +459,10 @@
 
                 
               </center>
-            </div>
 
-            <div class="section6">
-                
-                <div class="container">
-                    <div class="row">
-                        <h5 style="font-weight: 800; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
+              </div>
+            </form>
 
-                        <ul style="margin-left:1vw;">
-                            <li>ACCOUNT HOLDER NAME: IIT KGP AAIR EVENTS FUND</li>
-                            <li>BANK: HDFC BANK</li>
-                            <li>ACCOUNT NO: 50100217409918</li>
-                            <li>IFSC: HDFC0001065</li>
-                            <li>MICR: 721240102</li>
-                            <li>SWIFT CODE: HDFCINBBCAL</li>
-                        </ul>
-
-
-
-
-                        <div class="col-sm-12 col-md-12">
-                            <label for="reciept">Fee Reciept <span style="color:red;">*</span></label>
-                            <input class="form-control" type="file" id="reciept" name="reciept" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-md-between justify-content-around guesth">
-                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back5()">Back</button> </div>
-                    <div class=" col-md-1 col-3">  <button type="submit" value = "submit" class="btn btn-dark">Submit</button></div>
-                </div>
-            </div>
-         </form>
         </div>
     </section>
     <?php include 'footer.php' ?>
@@ -630,15 +606,24 @@
        }
 
        $("#status").change(function(){
-            if($(this).val()=="Partially Vaccinated"||$(this).val()=="Fully Vaccinated"){
+            if($(this).val()=="Partially Vaccinated"){
                 
                 document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                document.getElementsByClassName("valid1")[0].style.display = 'block';
             }
         });
         $("#status").change(function(){
             if($(this).val()=="Not Vaccinated Yet"){
                 
                 document.getElementsByClassName("imp")[0].style.display = 'none';
+                document.getElementsByClassName("valid1")[0].style.display = 'block';
+            }
+        });
+        $("#status").change(function(){
+            if($(this).val()=="Fully Vaccinated"){
+                
+                document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                document.getElementsByClassName("valid1")[0].style.display = 'none';
             }
         });
        
@@ -683,6 +668,8 @@
             });
 
         });
+
         });*/
+
     </script>
 </body>

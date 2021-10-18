@@ -68,7 +68,7 @@
                       </p>
 			        </div>
 			    </div>
-				<a class="btn btn-outline-primary c" align="justify" href="signup.php" role="button">18th Annual Meet</a>
+				<a class="btn btn-outline-primary c" align="justify" href="loginpage.php" role="button">18th Annual Meet</a>
 			</div>
 			<div class="col-md-5">
 			<div class="container" style="margin-left:0.5rem;">
@@ -76,7 +76,7 @@
 					<div class="col-md-10 col-12 trailer " style="padding-right:2rem padding-left:2em; padding-top:3.5rem; padding-bottom:15rem;">
 						<div class="first"></div>
 						<div class="second"></div>
-						<div class="third">
+						<div class="third"> 
 							<iframe src="https://www.youtube.com/embed/BPaRgF4rTRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>	
 					</div>
