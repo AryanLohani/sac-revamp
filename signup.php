@@ -110,7 +110,6 @@
                 </div>
                 <div class="row justify-content-around  justify-content-md-between guesth">
                     <div class="col-1">  </div>
-
                     <div class="col-1">     <button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
                 </div>
             </div>
@@ -358,7 +357,6 @@
                 <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
             </div>
         
-
             <div class="section5">
                 <div class="heading">
                     <h2>Nostalgic Section</h2>
@@ -438,22 +436,18 @@
                             </select>
                             
                         </div >
-                        <div class="col-sm-12 col-md-12 mb-3">
+                        <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
                             <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate">
+                            <input class="form-control" type="file" id="certificate" name="certificate"/>
                         </div>
-                        <label for="valid">Will you be able to get fully vaccinated by 10th january? </label>
-                        <div>
+                        
+                        <div class="valid1" style="display:none;">
+                            <label  for="valid">Will you be able to get fully vaccinated by 10th january? </label>
+                        <br/>
                             <input type="radio" id="yes" name="valid" value="yes"/>
                             <label for="yes">Yes</label><br/>
                             <input type="radio" id="no" name="valid" value="no"/>
                             <label for="no">No</label><br/>
-                            <!-- <select  class="form-control form-select" type="list" id="valid" name="valid">
-                                <option value=""> </option>                                 
-                                <option value="Before 10th January">Before 10th January</option>
-                                <option value="After 10th January">After 10th January</option>
-                            </select> -->
-                            
                         </div >
                     </div>
                 </div>
@@ -498,7 +492,6 @@
        function next2(){
            console.log("Im in");
            let nguests = document.getElementById("accompanyingNo").value;
-
            let room = document.getElementById("room").value;
 
            if(nguests.length>0 && room.length>0){
@@ -508,7 +501,6 @@
        } 
        function back2(){
            console.log("Im in");
-
            document.getElementsByClassName("section3")[0].style.display = 'block';
            document.getElementsByClassName("section4")[0].style.display = 'none';
        }
@@ -518,14 +510,12 @@
            let org = document.getElementById("org").value;
            let designation = document.getElementById("desig").value;
            if(org.length>0 && designation.length > 0){
-
                 document.getElementsByClassName("section4")[0].style.display = 'none';
                 document.getElementsByClassName("section5")[0].style.display = 'block';
            }
            
        }
        function back3(){
-
 
            document.getElementsByClassName("section4")[0].style.display = 'block';
            document.getElementsByClassName("section5")[0].style.display = 'none';
@@ -575,7 +565,6 @@
 
 
 
-
        function calc_cost(){
            let nguest = document.getElementById("accompanyingNo").value;
            let choice = document.getElementById("room").value;
@@ -584,7 +573,6 @@
            var cost = 0;
 
            if(choice === "Technology Guest House - SO"){
-
                 cost = 3000 + 7500;
            }
            else if(choice === "Technology Guest House - DO | Acc"){
@@ -617,23 +605,33 @@
            console.log(cost);
        }
 
-
        $("#status").change(function(){
-            if($(this).val()=="Partially Vaccinated"||$(this).val()=="Fully Vaccinated"){
-                
-                document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+            if($(this).val()=="Partially Vaccinated"){
+                // console.log("pv");
+                // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                document.getElementsByClassName("valid1")[0].style.display = 'block';
+                document.getElementsByClassName("certification1")[0].style.display='block';
             }
         });
         $("#status").change(function(){
             if($(this).val()=="Not Vaccinated Yet"){
-                
-                document.getElementsByClassName("imp")[0].style.display = 'none';
+                // console.log("nv");
+                // document.getElementsByClassName("imp")[0].style.display = 'none';
+                document.getElementsByClassName("valid1")[0].style.display = 'block';
+                document.getElementsByClassName("certification1")[0].style.display='none';
+            }
+        });
+        $("#status").change(function(){
+            if($(this).val()=="Fully Vaccinated"){
+                // console.log("fv");
+                // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                document.getElementsByClassName("valid1")[0].style.display = 'none';
+                document.getElementsByClassName("certification1")[0].style.display='block';
             }
         });
        
        
       /* $(function() {
-
             $('#register').on('submit', function(e) {
                 e.preventDefault();
                 console.log('a');
