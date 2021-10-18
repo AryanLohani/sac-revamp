@@ -33,8 +33,11 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                 $stmt->execute();
                // $recpt = $stmt->fetchAll();
 
-                if($user['reciept'] === NULL)  {       //($rpt['reciept'] === NULL) is_null($rpt['reciept']) empty($user['reciept'] )
+                if(!$user['reciept'])  {       //($rpt['reciept'] === NULL) is_null($rpt['reciept']) empty($user['reciept'] )
                     header("Location: adminpage.php");
+                    /*echo "<script language='javascript'>";
+                    echo "alert('WRONG INFORMATION')";
+                    echo "</script>";*/
                 }
                 else{
                     echo "<script language='javascript'>";
