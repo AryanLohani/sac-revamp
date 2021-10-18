@@ -46,7 +46,7 @@
                                 <input class="form-control" type="text" name="name" id="name" class="validate" required>
                             </div>
                         </div>
-                        <!-- <div class="col-sm-12 col-md-6 ">
+                         <div class="col-sm-12 col-md-12 ">
                             <label>
                                 Email ID
                                 <span style="color:red;">*</span>
@@ -57,7 +57,7 @@
                             </div>
                             
                         </div>
-                        <div class="col-sm-12 col-md-6">
+                        <!-- <div class="col-sm-12 col-md-6">
                             <label for="password">Password (For future login) <span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-lock"></i></span>
@@ -397,7 +397,7 @@
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
                 <center>
 
@@ -433,9 +433,9 @@
                         <label for="valid">Will you be able to get fully vaccinated by 10th january? </label>
                         <div>
             
-                            <input type="radio" id="yes" name="valid" value="yes"/>
+                            <input type="radio" id="yes" name="status" value="yes"/>
                             <label for="yes">Yes</label><br/>
-                            <input type="radio" id="no" name="valid" value="no"/>
+                            <input type="radio" id="no" name="status" value="no"/>
                             <label for="no">No</label><br/>
                             <!-- <select  class="form-control form-select" type="list" id="valid" name="valid">
                                 <option value=""> </option>                                 
@@ -456,36 +456,6 @@
               </center>
             </div>
 
-            <div class="section6">
-                
-                <div class="container">
-                    <div class="row">
-                        <h5 style="font-weight: 800; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
-
-                        <ul style="margin-left:1vw;">
-                            <li>ACCOUNT HOLDER NAME: IIT KGP AAIR EVENTS FUND</li>
-                            <li>BANK: HDFC BANK</li>
-                            <li>ACCOUNT NO: 50100217409918</li>
-                            <li>IFSC: HDFC0001065</li>
-                            <li>MICR: 721240102</li>
-                            <li>SWIFT CODE: HDFCINBBCAL</li>
-                        </ul>
-
-
-
-
-                        <div class="col-sm-12 col-md-12">
-                            <label for="reciept">Fee Reciept <span style="color:red;">*</span></label>
-                            <input class="form-control" type="file" id="reciept" name="reciept" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-md-between justify-content-around guesth">
-                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back5()">Back</button> </div>
-                    <div class=" col-md-1 col-3">  <button type="submit" value = "submit" class="btn btn-dark">Submit</button></div>
-                </div>
-            </div>
          </form>
         </div>
     </section>

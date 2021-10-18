@@ -1,6 +1,7 @@
 <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
+        $email = $_POST['email'];
         $address = $_POST['address'];
         $city = $_POST['city'];
         $state = $_POST['state'];
@@ -36,7 +37,7 @@
         $involvement = $_POST['involvements'];
         $hobbies = $_POST['hobbies'];
 
-        $reciept = $_POST['reciept'];
+        //$reciept = $_POST['reciept'];
              
       // Connecting to the Database
       $servername = "localhost";
@@ -54,16 +55,16 @@
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+        $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
-                 `rollno`, `joinyear` ,`degree`,`dept`,`hall`,`yog`,`involvement`,`hobbies`,`recipt`)
-                 VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob',
+                 `rollno`, `joinyear` ,`degree`,`dept`,`hall`,`yog`,`involvement`,`hobbies`)
+                 VALUES ('$name', '$email', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob',
                  '$status', '$certificate' ,'$dosedate',
                  '$marital', '$accompaniments' ,'$gh',
                  '$industry', '$profession' ,'$organisation','$designation','$waddress','$wcity','$wstate','$wcountry','$wzipcode',
-                 '$rollno', '$joinyear' ,'$degree','$dept','$hall','$yog','$involvement','$hobbies','$reciept')";
+                 '$rollno', '$joinyear' ,'$degree','$dept','$hall','$yog','$involvement','$hobbies')";
         $result = mysqli_query($conn, $sql);
  
         if($result){
@@ -73,6 +74,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+        header("Location: adminpage.php");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
