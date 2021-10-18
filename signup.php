@@ -20,7 +20,6 @@
     <?php include 'navbar.php' ?>
     <section>
         <div class="wrapper">
-           
             <center>
                 <h2 style="font-size: 300%; font-family: 'Raleway', sans-serif;">
                     Register
@@ -60,8 +59,9 @@
                             </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-envelope"></i></span>
-                                <input class="form-control" type="email" name="email" id="email" required>
+                                <input class="form-control" type="email" name="email" id="email" onBlur="checkemailAvailability()" required>
                             </div>
+                            <span id="user-email-availability-status" style="font-size:15px;"></span>
                             
                         </div>
                         <!-- <div class="col-sm-12 col-md-6">
@@ -407,7 +407,7 @@
                 <div class="row justify-content-md-between justify-content-around guesth">
 
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "submit">Submit</button></div>
+                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
                 <center>
 
@@ -675,4 +675,25 @@
         });*/
 
     </script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+//This function checks email-availability-status
+function checkemailAvailability() {
+jQuery.ajax({
+url: "check_username_availablity.php",
+data:'email='+$("#email").val(),
+type: "POST",
+success:function(data){
+$("#user-email-availability-status").html(data);
+},
+error:function (){}
+});
+}
+</script>
+<!-- JS -->
+<!--This will facilitate process of background tasks-->
+
+  
 </body>
