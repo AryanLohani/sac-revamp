@@ -1,3 +1,48 @@
+<?php
+    session_start();   
+        // CREATING SESSION  
+        $name    = $_SESSION['name']      ;
+        $email   = $_SESSION['email']     ;
+        $address = $_SESSION['address']   ;
+        $city    = $_SESSION['city']      ;
+        $state   = $_SESSION['state']     ;
+        $country = $_SESSION['country']   ;
+        $zipcode = $_SESSION['zipcode']   ;
+        $mobile  = $_SESSION['mobile']    ;
+        $dob     = $_SESSION['dob']       ;
+
+        $status      = $_SESSION['status']       ;
+        $certificate = $_SESSION['certificate']  ;
+        $dosedate    = $_SESSION['valid']        ;
+
+          $marital      = $_SESSION['marital']        ;
+        $accompaniments = $_SESSION['accompanyingNo'] ;
+          $gh           = $_SESSION['room']           ;
+          $cost         = $_SESSION['cost']           ;
+
+        $industry     = $_SESSION['industry']     ;
+        $profession   = $_SESSION['profession']   ;
+        $organisation = $_SESSION['orgName']      ;
+        $designation  = $_SESSION['designation']  ;
+        $waddress     = $_SESSION['work_address'] ;
+        $wcity        = $_SESSION['work_city']    ;
+        $wstate       = $_SESSION['work_state']   ;
+        $wcountry     = $_SESSION['work_country'] ;
+        $wzipcode     = $_SESSION['work_zipcode'] ;
+
+        $rollno      = $_SESSION['rollNum']         ;
+        $joinyear    = $_SESSION['joinYear']        ;
+        $degree      = $_SESSION['degree']          ;
+        $dept        = $_SESSION['department']      ;
+        $hall        = $_SESSION['hall']            ;
+        $yog         = $_SESSION['graduatingYear']  ;
+        $involvement = $_SESSION['involvements']    ;
+        $hobbies     = $_SESSION['hobbies']         ;
+
+        $reciept = $_SESSION['reciept'] ;  
+?>
+
+
 <html>
 
 <head>
@@ -27,8 +72,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_signup.php" method = "post">
-
+            <form id="register" action = "back_update.php" method = "post">
 
             <div class="section1">
                 <div class="heading">
@@ -47,7 +91,7 @@
                             </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1">@</span>
-                                <input class="form-control" type="text" name="name" id="name" class="validate" required>
+                                <input class="form-control" type="text" name="name" id="name" class="validate" value = "<?php echo "$name"?>" required>
                             </div>
                         </div>
 
@@ -60,7 +104,7 @@
                             </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-envelope"></i></span>
-                                <input class="form-control" type="email" name="email" id="email" required>
+                                <input class="form-control" type="email" name="email" id="email" value = "<?php echo "$email"?>" required>
                             </div>
                             
                         </div>
@@ -76,35 +120,35 @@
                             <label for="address">Address </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
-                                <input class="form-control" type="text" name="address" id="personal_address">
+                                <input class="form-control" type="text" name="address" id="personal_address" value = "<?php echo "$address"?>">
                             </div>  
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" id="personal_city" name="city" required>
+                            <input class="form-control" type="text" id="personal_city" name="city" value = "<?php echo "$city"?>" required>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="state">State </label>
-                            <input class="form-control" type="text" id="personal_state" name="state">
+                            <input class="form-control" type="text" id="personal_state" name="state" value = "<?php echo "$state"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="country">Country <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" name="country" id="country" required>
+                            <input class="form-control" type="text" name="country" id="country" value = "<?php echo "$country"?>" required>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="zipcode">Zip Code </label>
-                            <input class="form-control" type="text" id="zipcode" name="zipcode">
+                            <input class="form-control" type="text" id="zipcode" name="zipcode" value = "<?php echo "$zipcode"?>" >
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="mobile">Mobile <span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-phone"></i></span>
-                                <input class="form-control" type="text" name="mobile" id="mobile" required>
+                                <input class="form-control" type="text" name="mobile" id="mobile" value = "<?php echo "$mobile"?>" required>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="dob">DOB <span style="color:red;">*</span></label>
-                            <input class="form-control" type="date" name="dob" required id="dob">
+                            <input class="form-control" type="date" name="dob" required id="dob" value = "<?php echo "$dob"?>">
                         </div>
                     </div>
                 </div>
@@ -218,19 +262,19 @@
                     <div class="row">
                        <div class="col-sm-12 col-md-6">
                            <label for="marital">Marital Status</label>
-                           <input class="form-control" type="text" name="marital" id="marital">
+                           <input class="form-control" type="text" name="marital" id="marital" value = "<?php echo "$marital"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="accompanyingNo" >Accompaniments (Number of guests)<span style="color:red;">*</span></label>
-                            <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" required>
+                            <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" value = "<?php echo "$accompaniments"?>" required>
                         </div>
                         <div class="col-sm-12">
                             <label for="room">Guest House <span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
                               
-                                <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" required>
+                                <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" value = "<?php echo "$gh"?>" required>
                                 <!-- <datalist id="room"> -->
-                                <option value=""></option> 
+                                <!--<option value=""></option> -->
                                      <option value="Technology Guest House - SO">Technology Guest House - SO(Single Occupancy)</option> 
                                     <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accomodation)</option>
                                     <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accomodation)"> -->
@@ -245,41 +289,9 @@
                             </div >
     
                             <!-- </datalist> -->
-                            <!--<h4 id="cost" name = "cost" type="text" style="text-align: center;">Total cost = &#8377;0</h4>-->
-                            <input class="form-control" id="cost" name = "cost" type="text" value = "Total cost = &#8377;0">
+                            <input class="form-control" id="cost" name = "cost" type="text" value = "<?php echo "$cost"?>">
                         </div>
-                        <!-- <div class="col-sm-12 col-md-6">
-                            <label for="desig">Designation <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" id="desig" name="designation" required>
-                        </div>
-                        <div class="col-sm-12">
-                            <label for="address">Address</label>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
-                                <input class="form-control" type="text" id="address" name="work_address">
-                            </div>
-                            
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="city">City</label>
-                            <input class="form-control" type="text" id="city" name="work_city">
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="state">State</label>
-                            <input class="form-control" type="text" id="state" name="work_state">
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="Country">Country</label>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-globe"></i></i></span>
-                                <input class="form-control" type="text" id="Country" name="work_country">
-                            </div>
-                            
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="zip">Zip Code</label>
-                            <input class="form-control" type="text" id="zip" name="work_zipCode">
-                        </div> -->
+                        
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around">
@@ -302,51 +314,51 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
                             <label for="ind">Industry </label>
-                            <input class="form-control" type="text" id="ind" name="industry">
+                            <input class="form-control" type="text" id="ind" name="industry" value = "<?php echo "$industry"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="prof">Profession </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-briefcase"></i></span>
-                                <input class="form-control" type="text" id="prof" name="profession">
+                                <input class="form-control" type="text" id="prof" name="profession" value = "<?php echo "$profession"?>">
                             </div>
                             
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="org">Organisation Name <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" id="org" name="orgName" required>
+                            <input class="form-control" type="text" id="org" name="orgName" value = "<?php echo "$organisation"?>" required>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="desig">Designation <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" id="desig" name="designation" required>
+                            <input class="form-control" type="text" id="desig" name="designation" value = "<?php echo "$designation"?>" required>
                         </div>
                         <div class="col-sm-12">
                             <label for="address">Address</label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
-                                <input class="form-control" type="text" id="address" name="work_address">
+                                <input class="form-control" type="text" id="address" name="work_address" value = "<?php echo "$waddress"?>">
                             </div>
                             
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City</label>
-                            <input class="form-control" type="text" id="city" name="work_city">
+                            <input class="form-control" type="text" id="city" name="work_city" value = "<?php echo "$wcity"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="state">State</label>
-                            <input class="form-control" type="text" id="state" name="work_state">
+                            <input class="form-control" type="text" id="state" name="work_state" value = "<?php echo "$wstate"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="Country">Country</label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-globe"></i></i></span>
-                                <input class="form-control" type="text" id="Country" name="work_country">
+                                <input class="form-control" type="text" id="Country" name="work_country" value = "<?php echo "$wcountry"?>">
                             </div>
                             
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="zip">Zip Code</label>
-                            <input class="form-control" type="text" id="zip" name="work_zipcode">
+                            <input class="form-control" type="text" id="zip" name="work_zipcode" value = "<?php echo "$wzipcode"?>">
                         </div>
                     </div>
                 </div>
@@ -371,39 +383,39 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
                             <label for="roll">Roll Number</label>
-                            <input class="form-control" type="text" id="roll" name="rollNum">
+                            <input class="form-control" type="text" id="roll" name="rollNum" value = "<?php echo "$rollno"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="join">Join Year <span style="color:red;">*</span></label>
-                            <input class="form-control" type="number" min="1951" max="2010" id="join" name="joinYear">
+                            <input class="form-control" type="number" min="1951" max="2010" id="join" name="joinYear" value = "<?php echo "$joinyear"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="degree">Degree <span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-graduation-cap"></i></span>
-                                <input class="form-control" type="text" id="degree" name="degree" required>
+                                <input class="form-control" type="text" id="degree" name="degree" value = "<?php echo "$degree"?>" required>
                             </div>
                             
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="dept">Department <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" id="dept" name="department" required>
+                            <input class="form-control" type="text" id="dept" name="department" value = "<?php echo "$dept"?>" required>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="hall">Hall <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" id="hall" name="hall" required>
+                            <input class="form-control" type="text" id="hall" name="hall" value = "<?php echo "$hall"?>" required>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="yog">Year of Graduating <span style="color:red;">*</span></label>
-                            <input class="form-control" type="number" min="1955" max="2014" id="yog" name="graduatingYear">
+                            <input class="form-control" type="number" min="1955" max="2014" id="yog" name="graduatingYear" value = "<?php echo "$yog"?>">
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Involvements (Societies, Hall Events, etc) </label>
-                            <input class="form-control" type="text" id="involvements" name="involvements">
+                            <input class="form-control" type="text" id="involvements" name="involvements" value = "<?php echo "$involvement"?>">
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Hobbies</label>
-                            <input class="form-control" type="text" id="hobbies" name="hobbies">
+                            <input class="form-control" type="text" id="hobbies" name="hobbies" value = "<?php echo "$hobbies"?>">
                         </div>
                     </div>
                 </div>
@@ -431,8 +443,8 @@
                         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
                         <div class="input-group mb-3">
                             
-                            <select  class="form-control form-select" type="list" id="status" name="status">
-                                <option value=""> </option> 
+                            <select  class="form-control form-select" type="list" id="status" name="status" value = "<?php echo "$status"?>">
+                                <!--<option value=""> </option> -->
                                 <option value="Fully Vaccinated">Fully Vaccinated</option>
                                 <option value="Partially Vaccinated">Partially Vaccinated</option>
                                 <option value="Not Vaccinated Yet" >Not Vaccinated Yet</option>
@@ -441,7 +453,7 @@
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3">
                             <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate">
+                            <input class="form-control" type="file" id="certificate" name="certificate" value = "<?php echo "$certificate"?>">
                         </div>
                         <label for="valid">Will you be able to get fully vaccinated by 10th january? </label>
                         <div>
@@ -613,7 +625,7 @@
                cost = 900 + 7500;
            }
 
-           document.getElementById("cost").value =  "Total Cost = "+cost+ "Rupee";
+           document.getElementById("cost").innerHTML =  "Total Cost = &#8377;"+cost;
 
            console.log(cost);
        }
