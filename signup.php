@@ -437,12 +437,12 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-                            <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
+                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
                             <input class="form-control" type="file" id="certificate" name="certificate" >
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
-                            <label  for="valid">Will you be able to get fully vaccinated by 10th january? </label>
+                        <label  for="valid">Will you be able to get fully vaccinated by 10th january?<span style="color:red;">*</span></label>
                         <br/>
                             <input type="radio" id="yes" name="valid" />
                             <label for="yes">Yes</label><br/>
@@ -541,6 +541,7 @@
        } 
 
        function next5(){
+           console.log("next5");
             let status=document.getElementById("status").value;
             let certificate=document.getElementById("certificate").value;
             let yes=document.getElementById("yes").checked;
@@ -550,10 +551,10 @@
             if(status == "Fully Vaccinated"){
                 if(certificate !="") next5Allow=1;
             }
-            elseif(status=="Partially Vaccinated"){
+            else if(status == "Partially Vaccinated"){
                 if((yes || no) && certificate !="") next5Allow=1;
             }
-            elseif(status=="Not Vaccinated Yet"){
+            else if(status == "Not Vaccinated Yet"){
                 if(yes || no) next5Allow=1;
             }else{
                 next5Allow=0;
@@ -618,40 +619,31 @@
        }
 
        $("#status").change(function(){
-            if($(this).val()=="Partially Vaccinated"){
-                // console.log("pv");
+            if($(this).val() == "Partially Vaccinated"){
+                console.log("pv");
                 // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
                 document.getElementsByClassName("certification1")[0].style.display='block';
-                let certificate=document.getElementById("certificate").value;
-                console.log(certificate);
-                let yes=document.getElementById("yes").checked;
-                let no=document.getElementById("no").checked;
-                if((yes || no) && certificate !="") next5Allow=1;
-               
-                // document.getElementsByClassName("certification1")[0].removeAttribute("required");  
+                
             }
         });
         $("#status").change(function(){
-            if($(this).val()=="Not Vaccinated Yet"){
-                // console.log("nv");
+            if($(this).val() == "Not Vaccinated Yet"){
+                console.log("nv");
                 // document.getElementsByClassName("imp")[0].style.display = 'none';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
                 document.getElementsByClassName("certification1")[0].style.display='none';
-                let yes=document.getElementById("yes").checked;
-                let no=document.getElementById("no").checked;
-                if(yes || no) next5Allow=1;
+                
                
             }
         });
         $("#status").change(function(){
-            if($(this).val()=="Fully Vaccinated"){
-                // console.log("fv");
+            if($(this).val() == "Fully Vaccinated"){
+                console.log("fv");
                 // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'none';
                 document.getElementsByClassName("certification1")[0].style.display='block';
-                let certificate=document.getElementById("certificate").value;
-               if(certificate !="") next5Allow=1;
+           
                
             }
         });
