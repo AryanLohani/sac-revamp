@@ -2,7 +2,7 @@
     session_start();
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $reciept = $_POST['reciept'];
-        //$email = $_POST['email'];
+       
 
         $email = $_SESSION['email'];
         $password = $_SESSION['password'];
@@ -32,7 +32,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: registered.html");
+        header("Location: paymentSuccessful.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);

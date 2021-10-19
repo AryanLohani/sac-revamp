@@ -29,6 +29,8 @@
     <?php include 'navbar.php' ?>
     <section>
 
+        <div> Hello MR. ------------</div>
+        <h4>Email : --------------</h4>
         <div class="text-center">
             <a class="btn btn-dark" href="get_update.php" role="button">UPDATE</a>
         </div>

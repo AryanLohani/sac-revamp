@@ -1,4 +1,5 @@
 <?php
+session_start(); 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -39,6 +40,9 @@
         $hobbies = $_POST['hobbies'];
 
         //$reciept = $_POST['reciept'];
+
+      $_SESSION['email'] = $email;
+      $_SESSION['password'] = $dob;
 
       // Connecting to the Database
       $servername = "localhost";
