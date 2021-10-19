@@ -108,9 +108,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-around  justify-content-md-between guesth">
-                    <div class="col-1">  </div>
-                    <div class="col-1">     <button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
+                <div class="row justify-content-md-between justify-content-around guesth">
+                    <div class=" col-md-1 col-3"></div>
+                    <div class=" col-md-1 col-3"><button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
                 </div>
             </div>
 
@@ -427,8 +427,8 @@
                         <div class="col-12 mb-2"><label for="note" style="color:red;">Only fully vaccinated Alumnus/Alumna will be allowed in the 18th Annual Alumni Meet</label></div>
                         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
                         <div class="input-group mb-3">
-                            
-                            <select  class="form-control form-select" type="list" id="status" name="status">
+                           
+                            <select  class="form-control form-select" type="list" id="status" name="status" required>
                                 <option value=""> </option> 
                                 <option value="Fully Vaccinated">Fully Vaccinated</option>
                                 <option value="Partially Vaccinated">Partially Vaccinated</option>
@@ -437,16 +437,16 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-                            <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate"/>
+                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
+                            <input class="form-control" type="file" id="certificate" name="certificate" >
                         </div>
                         
-                        <div class="valid1" style="display:none;">
-                            <label  for="valid">Will you be able to get fully vaccinated by 10th january? </label>
+                        <div class="valid1" id="valid" style="display:none;">
+                        <label  for="valid">Will you be able to get fully vaccinated by 10th january?<span style="color:red;">*</span></label>
                         <br/>
-                            <input type="radio" id="yes" name="valid" value="yes"/>
+                            <input type="radio" id="yes" name="valid" />
                             <label for="yes">Yes</label><br/>
-                            <input type="radio" id="no" name="valid" value="no"/>
+                            <input type="radio" id="no" name="valid" />
                             <label for="no">No</label><br/>
                         </div >
                     </div>
@@ -467,12 +467,9 @@
     </section>
     <?php include 'footer.php' ?>
     <script>
-        function markImp(){
-            console.log("inside markImp");
-            document.getElementsByClassname("imp")[0].style.display="none";
-        }
+       let next5Allow=0;
+       
        function next1(){
-           console.log("Im in");
            let name = document.getElementById("name").value;
            let city = document.getElementById("personal_city").value;
            let country = document.getElementById("country").value;
@@ -485,12 +482,12 @@
            }
        }
        function back1(){
-           console.log("Im in");
+        //    console.log("Im in");
            document.getElementsByClassName("section2")[0].style.display = 'block';
            document.getElementsByClassName("section3")[0].style.display = 'none';
        } 
        function next2(){
-           console.log("Im in");
+        //    console.log("Im in");
            let nguests = document.getElementById("accompanyingNo").value;
            let room = document.getElementById("room").value;
 
@@ -500,12 +497,12 @@
            }
        } 
        function back2(){
-           console.log("Im in");
+        //    console.log("Im in");
            document.getElementsByClassName("section3")[0].style.display = 'block';
            document.getElementsByClassName("section4")[0].style.display = 'none';
        }
        function next3(){
-           console.log("Im in");
+        //    console.log("Im in");
 
            let org = document.getElementById("org").value;
            let designation = document.getElementById("desig").value;
@@ -540,13 +537,29 @@
 
            document.getElementsByClassName("section1")[0].style.display = 'block';
            document.getElementsByClassName("section2")[0].style.display = 'none';
+         
        } 
 
        function next5(){
+           console.log("next5");
+            let status=document.getElementById("status").value;
+            let certificate=document.getElementById("certificate").value;
+            let yes=document.getElementById("yes").checked;
+            let no=document.getElementById("no").checked;
+            
 
-            let status = document.getElementById("status").value;
-
-            if(status.length > 0){
+            if(status == "Fully Vaccinated"){
+                if(certificate !="") next5Allow=1;
+            }
+            else if(status == "Partially Vaccinated"){
+                if((yes || no) && certificate !="") next5Allow=1;
+            }
+            else if(status == "Not Vaccinated Yet"){
+                if(yes || no) next5Allow=1;
+            }else{
+                next5Allow=0;
+            }
+            if(next5Allow){
 
                 document.getElementsByClassName("section2")[0].style.display = 'none';
                 document.getElementsByClassName("section3")[0].style.display = 'block';
@@ -606,27 +619,32 @@
        }
 
        $("#status").change(function(){
-            if($(this).val()=="Partially Vaccinated"){
-                // console.log("pv");
+            if($(this).val() == "Partially Vaccinated"){
+                console.log("pv");
                 // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
                 document.getElementsByClassName("certification1")[0].style.display='block';
+                
             }
         });
         $("#status").change(function(){
-            if($(this).val()=="Not Vaccinated Yet"){
-                // console.log("nv");
+            if($(this).val() == "Not Vaccinated Yet"){
+                console.log("nv");
                 // document.getElementsByClassName("imp")[0].style.display = 'none';
                 document.getElementsByClassName("valid1")[0].style.display = 'block';
                 document.getElementsByClassName("certification1")[0].style.display='none';
+                
+               
             }
         });
         $("#status").change(function(){
-            if($(this).val()=="Fully Vaccinated"){
-                // console.log("fv");
+            if($(this).val() == "Fully Vaccinated"){
+                console.log("fv");
                 // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
                 document.getElementsByClassName("valid1")[0].style.display = 'none';
                 document.getElementsByClassName("certification1")[0].style.display='block';
+           
+               
             }
         });
        
