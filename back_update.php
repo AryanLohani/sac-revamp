@@ -1,5 +1,4 @@
-<?php
-session_start(); 
+<?php 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -40,10 +39,7 @@ session_start();
         $hobbies = $_POST['hobbies'];
 
         //$reciept = $_POST['reciept'];
-
-      $_SESSION['email'] = $email;
-      $_SESSION['password'] = $dob;
-
+    
       // Connecting to the Database
       $servername = "localhost";
       $username = "root";
@@ -60,16 +56,39 @@ session_start();
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
-                 `status`, `certificate` ,`dosedate`,
-                 `marital`, `accompaniments` ,`gh`,
-                 `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
-                 `rollno`, `joinyear` ,`degree`,`dept`,`hall`,`yog`,`involvement`,`hobbies`,`cost`)
-                 VALUES ('$name', '$email', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob',
-                 '$status', '$certificate' ,'$dosedate',
-                 '$marital', '$accompaniments' ,'$gh',
-                 '$industry', '$profession' ,'$organisation','$designation','$waddress','$wcity','$wstate','$wcountry','$wzipcode',
-                 '$rollno', '$joinyear' ,'$degree','$dept','$hall','$yog','$involvement','$hobbies','$cost')";
+        $sql = "UPDATE `aam` SET `name` = '$name',
+                                 `address` = '$address' ,
+                                 `city` = '$city',
+                                 `state`          = '$state',
+                                 `country`        = '$country',
+                                 `zipcode`        = '$zipcode',
+                                 `mobile`         = '$mobile',
+                                 `dob`            = '$dob',
+                                 `status`         = '$status',
+                                 `certificate`    = '$certificate',
+                                 `dosedate`       = '$dosedate',
+                                 `marital`        = '$marital', 
+                                 `accompaniments` = '$accompaniments' ,
+                                 `gh`             = '$gh',
+                                 `industry`       = '$industry', 
+                                 `profession`     = '$profession',
+                                 `organisation`   = '$organisation',
+                                 `designation`    = '$designation',
+                                 `waddress`       = '$waddress',
+                                 `wcity`          = '$wcity',
+                                 `wstate`         = '$wstate',
+                                 `wcountry`       = '$wcountry',
+                                 `wzipcode`       = '$wzipcode',
+                                 `rollno`         = '$rollno',
+                                 `joinyear`       = '$joinyear',
+                                 `degree`         = '$degree',
+                                 `dept`           = '$dept',
+                                 `hall`           = '$hall',
+                                 `yog`            = '$yog',
+                                 `involvement`    = '$involvement',
+                                 `hobbies`        = '$hobbies',
+                                 `cost` = '$cost' WHERE `email` = '$email'";
+
         $result = mysqli_query($conn, $sql);
  
         if($result){
@@ -79,7 +98,7 @@ session_start();
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: adminpage.php");
+        header("Location: updateSuccessfully.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
@@ -90,12 +109,6 @@ session_start();
           </button>
         </div>';
         }
-
-        /* $sql = "INSERT INTO `covid` (`status`, `certificate` ,`date`) VALUES ('$status', '$certificate' ,'$date')";
-        $result = mysqli_query($conn, $sql);
-
-        $sql = "INSERT INTO `accomodation` (`marital`, `accompaniments` ,`gh`) VALUES ('$status', '$certificate' ,'$date')";
-        $result = mysqli_query($conn, $sql);*/
       }
 
     }   
