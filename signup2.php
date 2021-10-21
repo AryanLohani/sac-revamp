@@ -34,17 +34,18 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                // $recpt = $stmt->fetchAll();
 
                 if(!$user['reciept'])  {       //($rpt['reciept'] === NULL) is_null($rpt['reciept']) empty($user['reciept'] )
-                    header("Location: adminpage.php");
+                    header("Location: update.php");
+                   // header("Location: adminpage.php");
                     /*echo "<script language='javascript'>";
                     echo "alert('WRONG INFORMATION')";
                     echo "</script>";*/
                 }
-                else{
+                /*else{
                     echo "<script language='javascript'>";
                     echo "alert('Successfully Resigter')";
                     echo "</script>";
                     header("Location: registered.html");
-                }
+                }*/
                 /* code reciept empty hogi adminpage me jaye 
                 ek page you are done set time 5 sec home page me bej dege */
                 //header("Location: adminpage.php");
@@ -59,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
 
     if($check == 1){
         echo "<script language='javascript'>";
-        echo "alert('WRONG INFORMATION'+'$email'+'$password')";
+        echo "alert('WRONG INFORMATION'+' $email'+' $password')";
         echo "</script>";
     }
     
