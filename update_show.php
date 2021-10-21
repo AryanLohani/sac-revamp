@@ -289,7 +289,7 @@
                             </div >
     
                             <!-- </datalist> -->
-                            <input class="form-control" id="cost" name = "cost" type="text" value = "<?php echo "$cost"?>">
+                            <input class="form-control" id="cost" name = "cost" type="hidden" value = "<?php echo "$cost"?>">
                         </div>
                         
                     </div>
