@@ -154,13 +154,13 @@
                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
                     <tr>
-                        <td data-th="">Technology Guest House - DO | Acc</td>
+                        <td data-th="">Technology Guest House - DO</td>
                         <!-- <td data-th="No.of Rooms">100</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments">2250</td> -->
                     </tr>
                     <tr>
-                        <td data-th="">Technology Guest House - DO | Al</td>
+                        <td data-th="">Technology Guest House - DO</td>
                         <!-- <td data-th="No.of Rooms">29</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
@@ -172,7 +172,7 @@
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
                     <tr>
-                        <td data-th="">VGH/CEC - AC - DO | Al</td>
+                        <td data-th="">VGH/CEC - AC - DO</td>
                         <!-- <td data-th="No.of Rooms">19</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
@@ -184,19 +184,19 @@
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
                     <tr>
-                        <td data-th="">VGH 3/4  bedded- DO | Al</td>
+                        <td data-th="">VGH 3/4  bedded- DO</td>
                         <!-- <td data-th="No.of Rooms">6</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">450</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
                     <tr>
-                        <td data-th="">AGH - DO | Acc</td>
+                        <td data-th="">AGH - DO</td>
                         <!-- <td data-th="No.of Rooms">5</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments">2250</td> -->
                     </tr>
                     <tr>
-                        <td data-th="">SAM - DO | Al </td>
+                        <td data-th="">SAM - DO</td>
                         <!-- <td data-th="No.of Rooms">45</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
@@ -410,10 +410,6 @@
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
-                <center>
-
-                
-              </center>
             </div>
 
             <div class="section2">
