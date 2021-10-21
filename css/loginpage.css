@@ -5,16 +5,13 @@ form{
     font-family: 'Scheherazade New', serif;
 }
 
-body{
-     background-image: linear-gradient(105deg, rgba(139, 9, 151, 0.651) 20%, rgb(228, 224, 216));}
-
 .progress-bar{
     background-color: #394149 !important;
 }
 
 .wrapper{
     margin-top: 4% !important;
-    background-color: white;
+    background-color: white; opacity: 0.8;
     margin: auto;
     width: 100%;
     max-width: 800px;
@@ -25,6 +22,7 @@ body{
 .wrappers{
     margin-top: 4% !important;
     background-color: white;
+    opacity: 0.8;
     margin: auto;
     width: 94%;
     max-width: 580px;

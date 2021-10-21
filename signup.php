@@ -21,7 +21,7 @@
     <section>
         <div class="wrapper">
             <center>
-                <h2 style="font-size: 300%; font-family: 'Raleway', sans-serif;">
+                <h2 style="font-size: 300%; color: black; font-family: 'Raleway', sans-serif;">
                     Register
                 </h2>
             </center>
@@ -144,74 +144,59 @@
                     <tr>
                        <th> Guest House</th>
                        <!-- <th>No.of Rooms</th> -->
-                       <th style="text-align: center;">Cost for Alumni(₹)</th>
+                       <th style="text-align: center;">Cost per person(₹)</th>
                        <!-- <th style="text-align: center;">Cost for Accompaniaments(₹)</th> -->
                     </tr>
-                    <tr>
+                    <!-- <tr>
                        <td data-th="">Technology Guest House - SO</td>
-                       <!-- <td data-th="No.of Rooms">90</td> -->
+                       
                        <td style="text-align: center;" data-th="Cost for Alumni">3000</td>
-                       <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
-                    </tr>
+                       </tr>
                     <tr>
                         <td data-th="">Technology Guest House - DO</td>
-                        <!-- <td data-th="No.of Rooms">100</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments">2250</td> -->
-                    </tr>
+                       </tr> -->
                     <tr>
-                        <td data-th="">Technology Guest House - DO</td>
-                        <!-- <td data-th="No.of Rooms">29</td> -->
+                        <td data-th="">Technology Guest House/ Alumni Guest House</td>
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
-                    </tr>
+                       </tr>
                     <tr>
-                        <td data-th="">VGH/CEC - AC - SO</td>
+                        <td data-th="">VGH/ SAM</td>
                         <!-- <td data-th="No.of Rooms">7</td> -->
-                        <td style="text-align: center;" data-th="Cost for Alumni">1200</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
-                    </tr>
-                    <tr>
-                        <td data-th="">VGH/CEC - AC - DO</td>
-                        <!-- <td data-th="No.of Rooms">19</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
+                    <!-- <tr>
+                        <td data-th="">VGH/CEC - AC - DO</td>
+                        <td style="text-align: center;" data-th="Cost for Alumni">900</td>
+                       </tr>
                     <tr>
                         <td data-th="">VGH/CEC - Non-AC - SO</td>
-                        <!-- <td data-th="No.of Rooms">13</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">750</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
-                    </tr>
+                       </tr>
                     <tr>
                         <td data-th="">VGH 3/4  bedded- DO</td>
-                        <!-- <td data-th="No.of Rooms">6</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">450</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
-                    </tr>
+                       </tr>
                     <tr>
                         <td data-th="">AGH - DO</td>
-                        <!-- <td data-th="No.of Rooms">5</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments">2250</td> -->
-                    </tr>
+                       </tr>
                     <tr>
                         <td data-th="">SAM - DO</td>
-                        <!-- <td data-th="No.of Rooms">45</td> -->
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
-                    </tr>
+                       </tr> -->
                 </table>
 
-                <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
+                <!-- <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
                 <th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accompaniment's charge</th>
                     <tr>
                         <td data-th="">Accomodation per person </td>
-                        <!-- <td data-th="No.of Rooms">45</td> -->
+        
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
                         <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
-                    </tr>
-                </table>
+                    </tr> 
+                </table> -->
                 <!-- <p style="margin-left: 15px; margin-bottom:0 !important; text-align:center;"><i>*Current or past work experiences as per relevance</i></p> -->
                 <div class="container">
                     <div class="row">
@@ -230,16 +215,16 @@
                                 <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" required>
                                 <!-- <datalist id="room"> -->
                                 <option value=""></option> 
-                                     <option value="Technology Guest House - SO">Technology Guest House - SO(Single Occupancy)</option> 
-                                    <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accomodation)</option>
+                                     <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
+                                    <!-- <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accomodation)</option> -->
                                     <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accomodation)"> -->
-                                    <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option>
-                                     <option value="VGH/CEC - AC - SO">VGH/CEC - AC - SO</option>
-                                    <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
+                                    <!-- <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option> -->
+                                     <option value="VGH/ SAM">VGH/ SAM</option>
+                                    <!-- <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
                                     <option value="VGH/CEC - Non-AC - SO"> VGH/CEC - Non-AC - SO</option> 
                                     <option value="VGH 3/4  bedded- DO | Al"> VGH 3/4  bedded- DO | Al</option> 
                                     <option value="AGH - DO | Acc"> AGH - DO | Acc</option> 
-                                    <option value="SAM - DO | Al "> SAM - DO | Al </option> 
+                                    <option value="SAM - DO | Al "> SAM - DO | Al </option>  -->
                                 </select>
                             </div >
     
@@ -581,33 +566,33 @@
 
            var cost = 0;
 
-           if(choice === "Technology Guest House - SO"){
-                cost = 3000 + 7500;
+           if(choice === "Technology Guest House/ Alumni Guest House"){
+                cost = 2250 + 7500 + 4500*nguest + 2250*nguest;
            }
-           else if(choice === "Technology Guest House - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
+        //    else if(choice === "Technology Guest House - DO | Acc"){
+        //        cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
+        //    }
+        //    else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
+        //        cost = 2250 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - AC - SO"){
+        //        cost = 1200 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - AC - DO | Al"){
+        //        cost = 900 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - Non-AC - SO"){
+        //        cost = 750 + 7500;
+        //    }
+        //    else if(choice === "VGH 3/4  bedded- DO | Al"){
+        //        cost = 450 + 7500;
+        //    }
+           else if(choice === "VGH/ SAM"){
+               cost = 900 + 900*nguest + 7500 + 4500*nguest; 
            }
-           else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
-               cost = 2250 + 7500;
-           }
-           else if(choice === "VGH/CEC - AC - SO"){
-               cost = 1200 + 7500;
-           }
-           else if(choice === "VGH/CEC - AC - DO | Al"){
-               cost = 900 + 7500;
-           }
-           else if(choice === "VGH/CEC - Non-AC - SO"){
-               cost = 750 + 7500;
-           }
-           else if(choice === "VGH 3/4  bedded- DO | Al"){
-               cost = 450 + 7500;
-           }
-           else if(choice === "AGH - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7500 + 4500*nguest; 
-           }
-           else{
-               cost = 900 + 7500;
-           }
+        //    else{
+        //        cost = 900 + 7500;
+        //    }
 
            document.getElementById("cost").innerHTML =  "Total Cost = &#8377;"+cost;
 
