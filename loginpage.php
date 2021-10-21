@@ -63,6 +63,7 @@
                         <div class="text-center">
                             <button class="btn btn-dark" type="submit" value = "submit">Log In</button>
                         </div>
+                        
                 </div>
             </form>
             <!-- <div class="container"> -->
@@ -70,7 +71,13 @@
                 <hr />
                 <a class="btn btn-outline-dark " href="signup.php" role="button">Register</a>
             </div>
-        <!-- </div> -->
+            <br>
+            <center>
+                        <h6>Need Help? Contact Us</h6>
+                        <h6><i class="contact-icon fas fa-envelope"></i> &nbsp;Mail: aao@hijli.iitkgp.ernet.in</h6>
+                        <h6><i class="contact-icon fas fa-phone"></i> &nbsp;Shikha Bagaria: 9876543210</h6>
+                        <h6> &nbsp;&nbsp;&nbsp;<i class="contact-icon fas fa-phone"></i> &nbsp;Namya Swarnkar: 9876543210</h6>             
+              </center>
         </div>
     </section>
     <?php include 'footer.php' ?>

@@ -76,6 +76,7 @@
                 <hr />
                 <button class="btn btn-outline-dark" type="">Register</button>
             </div>
+            
         <!-- </div> -->
         </div>
 
