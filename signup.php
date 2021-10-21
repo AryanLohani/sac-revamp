@@ -245,7 +245,7 @@
     
                             <!-- </datalist> -->
                             <!--<h4 id="cost" name = "cost" type="text" style="text-align: center;">Total cost = &#8377;0</h4>-->
-                            <input class="form-control" id="cost" name = "cost" type="text" value = "Total cost = &#8377;0" readonly>
+                            <input class="form-control" id="cost" name = "cost" type="text" value = "Total cost = &#8377; 0 " readonly>
                         </div>
                         <!-- <div class="col-sm-12 col-md-6">
                             <label for="desig">Designation <span style="color:red;">*</span></label>
