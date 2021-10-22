@@ -288,8 +288,8 @@
                                 </select>
                             </div >
     
-                            <!-- </datalist> -->
-                            <input class="form-control" id="cost" name = "cost" type="text" value = "<?php echo "$cost"?>">
+                            <!-- </datalist> --> 
+                            <input class="form-control" id="cost" name = "cost" type="text" value = "<?php echo "$cost"?>" readonly>
                         </div>
                         
                     </div>
@@ -442,8 +442,8 @@
                         <div class="col-12 mb-2"><label for="note" style="color:red;">Only fully vaccinated Alumnus/Alumna will be allowed in the 18th Annual Alumni Meet</label></div>
                         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
                         <div class="input-group mb-3">
-                            
-                            <select  class="form-control form-select" type="list" id="status" name="status" value = "<?php echo "$status"?>">
+                           
+                            <select  class="form-control form-select" type="list" id="status" name="status" value = "<?php echo "$gh"?>" required>
                                 <!--<option value=""> </option> -->
                                 <option value="Fully Vaccinated">Fully Vaccinated</option>
                                 <option value="Partially Vaccinated">Partially Vaccinated</option>
@@ -451,22 +451,18 @@
                             </select>
                             
                         </div >
-                        <div class="col-sm-12 col-md-12 mb-3">
-                            <label for="certificaten">Vaccination Certificate if vaccinated <span class="imp" style="color:red;display:none;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate" value = "<?php echo "$certificate"?>">
+                        <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
+                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
+                            <input class="form-control" type="file" id="certificate" name="certificate" >
                         </div>
-                        <label for="valid">Will you be able to get fully vaccinated by 10th january? </label>
-                        <div>
-                            <input type="radio" id="yes" name="valid" value="yes"/>
+                        
+                        <div class="valid1" id="valid" style="display:none;">
+                        <label  for="valid">Will you be able to get fully vaccinated by 10th january?<span style="color:red;">*</span></label>
+                        <br/>
+                            <input type="radio" id="yes" name="valid" />
                             <label for="yes">Yes</label><br/>
-                            <input type="radio" id="no" name="valid" value="no"/>
+                            <input type="radio" id="no" name="valid" />
                             <label for="no">No</label><br/>
-                            <!-- <select  class="form-control form-select" type="list" id="valid" name="valid">
-                                <option value=""> </option>                                 
-                                <option value="Before 10th January">Before 10th January</option>
-                                <option value="After 10th January">After 10th January</option>
-                            </select> -->
-                            
                         </div >
                     </div>
                 </div>
@@ -486,12 +482,9 @@
     </section>
     <?php include 'footer.php' ?>
     <script>
-        function markImp(){
-            console.log("inside markImp");
-            document.getElementsByClassname("imp")[0].style.display="none";
-        }
+       let next5Allow=0;
+       
        function next1(){
-           console.log("Im in");
            let name = document.getElementById("name").value;
            let city = document.getElementById("personal_city").value;
            let country = document.getElementById("country").value;
@@ -504,14 +497,13 @@
            }
        }
        function back1(){
-           console.log("Im in");
+        //    console.log("Im in");
            document.getElementsByClassName("section2")[0].style.display = 'block';
            document.getElementsByClassName("section3")[0].style.display = 'none';
        } 
        function next2(){
-           console.log("Im in");
+        //    console.log("Im in");
            let nguests = document.getElementById("accompanyingNo").value;
-
            let room = document.getElementById("room").value;
 
            if(nguests.length>0 && room.length>0){
@@ -520,25 +512,22 @@
            }
        } 
        function back2(){
-           console.log("Im in");
-
+        //    console.log("Im in");
            document.getElementsByClassName("section3")[0].style.display = 'block';
            document.getElementsByClassName("section4")[0].style.display = 'none';
        }
        function next3(){
-           console.log("Im in");
+        //    console.log("Im in");
 
            let org = document.getElementById("org").value;
            let designation = document.getElementById("desig").value;
            if(org.length>0 && designation.length > 0){
-
                 document.getElementsByClassName("section4")[0].style.display = 'none';
                 document.getElementsByClassName("section5")[0].style.display = 'block';
            }
            
        }
        function back3(){
-
 
            document.getElementsByClassName("section4")[0].style.display = 'block';
            document.getElementsByClassName("section5")[0].style.display = 'none';
@@ -563,13 +552,29 @@
 
            document.getElementsByClassName("section1")[0].style.display = 'block';
            document.getElementsByClassName("section2")[0].style.display = 'none';
+         
        } 
 
        function next5(){
+           console.log("next5");
+            let status=document.getElementById("status").value;
+            let certificate=document.getElementById("certificate").value;
+            let yes=document.getElementById("yes").checked;
+            let no=document.getElementById("no").checked;
+            
 
-            let status = document.getElementById("status").value;
-
-            if(status.length > 0){
+            if(status == "Fully Vaccinated"){
+                if(certificate !="") next5Allow=1;
+            }
+            else if(status == "Partially Vaccinated"){
+                if((yes || no) && certificate !="") next5Allow=1;
+            }
+            else if(status == "Not Vaccinated Yet"){
+                if(yes || no) next5Allow=1;
+            }else{
+                next5Allow=0;
+            }
+            if(next5Allow){
 
                 document.getElementsByClassName("section2")[0].style.display = 'none';
                 document.getElementsByClassName("section3")[0].style.display = 'block';
@@ -588,7 +593,6 @@
 
 
 
-
        function calc_cost(){
            let nguest = document.getElementById("accompanyingNo").value;
            let choice = document.getElementById("room").value;
@@ -597,7 +601,6 @@
            var cost = 0;
 
            if(choice === "Technology Guest House - SO"){
-
                 cost = 3000 + 7500;
            }
            else if(choice === "Technology Guest House - DO | Acc"){
@@ -625,22 +628,38 @@
                cost = 900 + 7500;
            }
 
-           document.getElementById("cost").innerHTML =  "Total Cost = &#8377;"+cost;
+           document.getElementById("cost").value =  "Total Cost = "+cost+ "Rupee";
 
            console.log(cost);
        }
 
-
        $("#status").change(function(){
-            if($(this).val()=="Partially Vaccinated"||$(this).val()=="Fully Vaccinated"){
+            if($(this).val() == "Partially Vaccinated"){
+                console.log("pv");
+                // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                document.getElementsByClassName("valid1")[0].style.display = 'block';
+                document.getElementsByClassName("certification1")[0].style.display='block';
                 
-                document.getElementsByClassName("imp")[0].style.display = 'inline-block';
             }
         });
         $("#status").change(function(){
-            if($(this).val()=="Not Vaccinated Yet"){
+            if($(this).val() == "Not Vaccinated Yet"){
+                console.log("nv");
+                // document.getElementsByClassName("imp")[0].style.display = 'none';
+                document.getElementsByClassName("valid1")[0].style.display = 'block';
+                document.getElementsByClassName("certification1")[0].style.display='none';
                 
-                document.getElementsByClassName("imp")[0].style.display = 'none';
+               
+            }
+        });
+        $("#status").change(function(){
+            if($(this).val() == "Fully Vaccinated"){
+                console.log("fv");
+                // document.getElementsByClassName("imp")[0].style.display = 'inline-block';
+                document.getElementsByClassName("valid1")[0].style.display = 'none';
+                document.getElementsByClassName("certification1")[0].style.display='block';
+           
+               
             }
         });
        
@@ -654,7 +673,6 @@
         });*/
        
       /* $(function() {
-
             $('#register').on('submit', function(e) {
                 e.preventDefault();
                 console.log('a');
@@ -698,4 +716,27 @@
         });*/
 
     </script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+//This function checks email-availability-status
+function checkemailAvailability() {
+jQuery.ajax({
+url: "check_username_availablity.php",
+data:'email='+$("#email").val(),
+type: "POST",
+success:function(data){
+$("#user-email-availability-status").html(data);
+},
+error:function (){}
+});
+}
+</script>
+<!-- JS -->
+<!--This will facilitate process of background tasks-->
+
+  
 </body>
+
+            

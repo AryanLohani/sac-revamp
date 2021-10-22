@@ -94,7 +94,7 @@ include_once('connection.php');
 
        $_SESSION['reciept'] = $reciept ;
         
-        header("Location: update_show.php");
+        header("Location: update.php");
     } 
 
 //}

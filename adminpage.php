@@ -1,3 +1,9 @@
+<?php
+    session_start();   
+        // CREATING SESSION  
+          $cost  = $_SESSION['cost']    ;
+?>
+
 <html>
 
 <head>
@@ -25,6 +31,7 @@
             <div class="container">
                 <div class="row">
                     <h5 style="font-weight: 800; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
+                    <h2 style = "color: #691313f5"><?php echo "$cost"?></h2>
 
                     <ul style="margin-left:1vw;">
                         <li>ACCOUNT HOLDER NAME: IIT KGP AAIR EVENTS FUND</li>
