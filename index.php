@@ -98,7 +98,8 @@
         </ol>
         <div class="carousel-inner" style="width:100%">
             <div class="carousel-item active">
-                <div class="carousel-image" style="background-image:url('img/indexslider/sac-logo.jpg');"></div>
+            <div class="carousel-image" style="background-image:url('img/indexslider/AAM-COVER-6.png');background-size:100% 100%"></div>
+               
             </div>
             <div class="carousel-item" style>
                 <div class="carousel-image" style="background-image:url('img/indexslider/phonathon2019.jpg');"></div>
@@ -113,7 +114,7 @@
                 <div class="carousel-image" style="background-image:url('img/indexslider/imprint.jpg');"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image:url('img/indexslider/17th_aam.jpg');background-size:100% 100%"></div>
+            <div class="carousel-image" style="background-image:url('img/indexslider/sac-logo.jpg');"></div>
             </div>
             <div class="carousel-item">
                 <div class="carousel-image" style="background-image:url('img/indexslider/homecoming.jpg')"></div>
